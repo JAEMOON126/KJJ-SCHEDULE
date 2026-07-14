@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIM JAE JOONG</title>
+  <style>
+    :root {
+      --bg:        #0e100f;
+      --surface:   #161a18;
+      --surface-2: #1b201d;
+      --border:    rgba(255,255,255,0.07);
+      --text:      #eaefec;
+      --muted:     #8b938f;
+      --faint:     #5c645f;
+      --accent:    #34d399;
+      --accent-dim:#0e2b20;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-font-smoothing: antialiased; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg); color: var(--text); margin: 0;
+      padding: 48px 20px 64px;
+      background-image: radial-gradient(1200px 400px at 50% -120px, rgba(52,211,153,0.10), transparent 70%);
+    }
+    .container { max-width: 640px; margin: 0 auto; }
+
+    /* Hero */
+    .hero { text-align: center; margin-bottom: 20px; }
+    .hero .eyebrow { font-size: 11px; letter-spacing: 4px; color: var(--accent);
+      text-transform: uppercase; margin-bottom: 14px; font-weight: 600; }
+    .hero h1 { font-family: "Georgia", "Songti SC", "Times New Roman", serif;
+      font-weight: 500; font-size: 46px; line-height: 1.05; margin: 0; letter-spacing: 0.5px; }
+    .hero .zh { display: block; font-size: 15px; letter-spacing: 8px;
+      color: var(--muted); margin-top: 14px; font-family: "PingFang SC", sans-serif; }
+
+    /* 顶部一行监测说明 */
+    .statusbar { text-align: center; font-size: 12px; color: var(--faint);
+      margin-bottom: 40px; letter-spacing: 0.5px; }
+    .statusbar b { color: var(--accent); font-weight: 600; }
+
+    .section { margin-bottom: 30px; }
+    .section .label { font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase;
+      color: var(--muted); font-weight: 600; margin: 0 4px 14px; display: block; }
+
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .chip {
+      position: relative;
+      display: flex; align-items: center; gap: 12px;
+      padding: 13px 15px; background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; text-decoration: none; color: var(--text);
+      transition: border-color .18s, transform .18s;
+    }
+    .chip:hover { border-color: var(--accent); transform: translateY(-1px); }
+    /* 有更新：整卡描边 + 角标 */
+    .chip.new { border-color: rgba(52,211,153,0.55); }
+    .mono { width: 30px; height: 30px; border-radius: 9px; flex-shrink: 0;
+      display: grid; place-items: center; font-size: 12px; font-weight: 700;
+      background: var(--surface-2); color: var(--accent); }
+    .chip .t { font-size: 14px; flex: 1; min-width: 0; }
+    .chip .t small { display: block; color: var(--faint); font-size: 11px; margin-top: 1px;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    /* NEW 角标：亮绿实心 + 微光，醒目 */
+    .badge { display: none; font-size: 10px; font-weight: 800; letter-spacing: 0.8px;
+      color: #06210f; background: var(--accent); padding: 3px 8px; border-radius: 999px;
+      flex-shrink: 0; box-shadow: 0 0 10px rgba(52,211,153,0.6);
+      animation: newpulse 1.6s ease-in-out infinite; }
+    @keyframes newpulse { 0%,100%{ box-shadow:0 0 6px rgba(52,211,153,0.45);} 50%{ box-shadow:0 0 14px rgba(52,211,153,0.85);} }
+    .chip.new .badge { display: block; }
+    /* 监测中但无更新：不显示任何东西（保持干净），有更新才亮 NEW */
+    .watch-dot { display: none; }
+
+    /* ===== 日历 ===== */
+    .cal { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 18px; }
+    .cal-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .cal-title { font-size: 16px; font-weight: 600; letter-spacing: 1px; }
+    .cal-nav { display: flex; gap: 6px; }
+    .cal-nav button { width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--surface-2); color: var(--text); cursor: pointer; font-size: 15px; line-height: 1;
+      transition: border-color .15s, color .15s; }
+    .cal-nav button:hover { border-color: var(--accent); color: var(--accent); }
+    .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+    .cal-dow { text-align: center; font-size: 11px; color: var(--faint); padding: 4px 0; letter-spacing: 1px; }
+    .cal-cell { position: relative; height: 34px; border-radius: 7px; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; font-size: 12px; color: var(--text);
+      border: 1px solid transparent; }
+    .cal-cell.blank { background: transparent; }
+    .cal-cell.today { border-color: var(--faint); }
+    .cal-cell.has { cursor: pointer; background: var(--surface-2); }
+    .cal-cell.has:hover { border-color: var(--accent); }
+    .cal-cell.has .evdot { width: 4px; height: 4px; border-radius: 50%; background: var(--dc, var(--accent));
+      position: absolute; bottom: 3px; box-shadow: 0 0 6px var(--dc, rgba(52,211,153,0.7)); }
+    .evdot.t-concert { --dc: #ff6b9d; } .evdot.t-release { --dc: #ffd43b; }
+    .evdot.t-fanmeeting { --dc: #4dabf7; } .evdot.t-birthday { --dc: #f783ac; }
+    .evdot.t-event { --dc: #34d399; } .evdot.t-broadcast { --dc: #868e96; } .evdot.t-rerun { --dc: #495057; }
+    /* 事件详情列表 */
+    .cal-filter { display: flex; gap: 6px; margin: 14px 0 4px; flex-wrap: wrap; }
+    .rtab { font-size: 12px; padding: 4px 12px; border-radius: 999px; cursor: pointer;
+      background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); transition: all .15s; }
+    .rtab:hover { color: var(--text); }
+    .rtab.on { background: var(--accent); color: #06210f; border-color: var(--accent); font-weight: 700; }
+    .cal-events { margin-top: 10px; display: flex; flex-direction: column; gap: 8px; }
+    .ev-head { font-size: 12px; color: var(--muted); padding: 2px 2px 4px; }
+    .ev-head a { color: var(--accent); text-decoration: none; }
+    .ev-empty { color: var(--faint); font-size: 13px; padding: 6px 2px; }
+    .ev-more { margin-top: 4px; background: var(--surface-2); border: 1px solid var(--border); color: var(--muted);
+      border-radius: 8px; padding: 8px; cursor: pointer; font-size: 12px; letter-spacing: 1px; transition: all .15s; }
+    .ev-more:hover { border-color: var(--accent); color: var(--accent); }
+    .ev { display: flex; gap: 11px; align-items: center; padding: 11px 13px; background: var(--surface-2);
+      border-radius: 10px; border-left: 3px solid var(--evc, var(--accent)); }
+    /* 每种类型的主题色（用 CSS 变量 --evc 驱动左边框 / 图标 / 标签）*/
+    .ev.t-concert    { --evc: #ff6b9d; }   /* 演唱会 · 粉红 */
+    .ev.t-release    { --evc: #ffd43b; }   /* 专辑发行 · 金黄 */
+    .ev.t-fanmeeting { --evc: #4dabf7; }   /* 见面会 · 蓝 */
+    .ev.t-event      { --evc: #34d399; }   /* 活动 · 绿 */
+    .ev.t-birthday   { --evc: #f783ac; }   /* 生日 · 桃 */
+    .ev.t-broadcast  { --evc: #868e96; }   /* 节目 · 灰 */
+    .ev.t-rerun      { --evc: #495057; }   /* 重播 · 深灰 */
+    .ev .ic { font-size: 16px; width: 20px; text-align: center; flex-shrink: 0; }
+    .ev .d { font-size: 12px; color: var(--evc, var(--accent)); font-weight: 700; white-space: nowrap; min-width: 42px; }
+    .ev .c { flex: 1; min-width: 0; }
+    .ev .c .tt { font-size: 14px; font-weight: 500; }
+    .ev .c .nn { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .ev .tag { font-size: 10px; padding: 2px 8px; border-radius: 999px; margin-left: auto; white-space: nowrap;
+      background: color-mix(in srgb, var(--evc) 18%, transparent); color: var(--evc);
+      align-self: center; display: flex; gap: 5px; align-items: center; font-weight: 600; }
+    .ev .tag .rg { color: var(--muted); font-weight: 400; }
+    /* 次要类型（节目/重播）更紧凑、更淡，减少冗长感 */
+    .ev.minor { padding: 7px 13px; opacity: 0.72; background: transparent; border-left-width: 2px; }
+    .ev.minor .c .tt { font-size: 13px; font-weight: 400; color: var(--muted); }
+    .ev.minor .ic { font-size: 13px; }
+    /* 当月汇总：紧凑单行 */
+    .sum-head { font-size: 11px; letter-spacing: 1px; color: var(--faint); text-transform: uppercase;
+      margin: 16px 2px 8px; border-top: 1px solid var(--border); padding-top: 14px; }
+    .sum-list { display: flex; flex-direction: column; }
+    .sum-row { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 8px;
+      text-decoration: none; color: var(--text); border-left: 2px solid var(--evc, var(--accent)); margin-bottom: 3px;
+      transition: background .15s; }
+    .sum-row:hover { background: var(--surface-2); }
+    .sum-row.on { background: color-mix(in srgb, var(--evc) 14%, transparent); }
+    .sum-row.t-concert{--evc:#ff6b9d} .sum-row.t-release{--evc:#ffd43b} .sum-row.t-fanmeeting{--evc:#4dabf7}
+    .sum-row.t-event{--evc:#34d399} .sum-row.t-birthday{--evc:#f783ac} .sum-row.t-broadcast{--evc:#868e96} .sum-row.t-rerun{--evc:#495057}
+    .sum-row .sd { font-size: 12px; color: var(--evc, var(--accent)); font-weight: 700; min-width: 40px; }
+    .sum-row .si { font-size: 13px; width: 16px; text-align: center; }
+    .sum-row .st { font-size: 13px; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .sum-row .sr { font-size: 10px; color: var(--muted); background: var(--surface-2); padding: 1px 6px; border-radius: 999px; }
+    .sum-row.minor { opacity: 0.62; }
+    .sum-row.minor .st { color: var(--muted); }
+    /* 聚合：系列 + 场次数量 */
+    .sum-group { margin-bottom: 3px; }
+    .sum-row .cnt { font-size: 12px; font-weight: 700; color: var(--evc, var(--accent)); white-space: nowrap; margin-left: auto; }
+    .sum-row .sr { margin-left: 8px; }
+    .sum-row .exp { font-size: 9px; color: var(--muted); width: 12px; text-align: center; }
+    .sub-list { margin: 2px 0 6px 26px; display: flex; flex-direction: column; border-left: 1px solid var(--border); }
+    .sub-row { display: flex; gap: 10px; align-items: center; padding: 6px 10px; text-decoration: none;
+      color: var(--muted); border-radius: 6px; transition: background .15s; }
+    .sub-row:hover { background: var(--surface-2); color: var(--text); }
+    .sub-row.on { color: var(--text); background: var(--surface-2); }
+    .sub-row .sd { font-size: 12px; font-weight: 600; min-width: 40px; color: var(--accent); }
+    .sub-row .st { font-size: 13px; }
+    .ev .tag { font-size: 10px; padding: 2px 7px; border-radius: 999px; margin-left: auto; white-space: nowrap;
+      background: var(--accent-dim); color: var(--accent); align-self: center; display: flex; gap: 5px; align-items: center; }
+    .ev .tag .rg { color: var(--muted); }
+
+    .tip { font-size: 12.5px; color: var(--muted); line-height: 1.8; padding: 0 4px; margin-top: 8px; }
+    .tip code { background: var(--surface-2); color: var(--accent); padding: 2px 7px; border-radius: 5px; font-size: 12px; }
+    .foot { text-align: center; color: var(--faint); font-size: 11px; letter-spacing: 3px;
+      text-transform: uppercase; margin-top: 40px; }
+    @media (max-width: 520px){ .grid { grid-template-columns: 1fr; } .hero h1 { font-size: 38px; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header class="hero">
+      <div class="eyebrow">Only for KJJ</div>
+      <h1>Kim Jae Joong</h1>
+      <span class="zh">金 在 中</span>
+    </header>
+
+    <div class="statusbar" id="statusbar"><b>NEW</b> 角标 = 有新动态 · 尚未检查</div>
+
+    <!-- 日程日历 -->
+    <section class="section">
+      <span class="label">日程日历</span>
+      <div class="cal">
+        <div class="cal-head">
+          <span class="cal-title" id="calTitle">—</span>
+          <div class="cal-nav">
+            <button id="calPrev">‹</button>
+            <button id="calToday">·</button>
+            <button id="calNext">›</button>
+          </div>
+        </div>
+        <div class="cal-grid" id="calDow"></div>
+        <div class="cal-grid" id="calBody"></div>
+        <div class="cal-filter" id="calFilter"></div>
+        <div class="cal-events" id="calEvents"></div>
+      </div>
+    </section>
+
+    <!-- 官方账号 -->
+    <section class="section">
+      <span class="label">官方账号</span>
+      <div class="grid">
+        <a class="chip" data-id="jj_weibo" href="https://weibo.com/n/JJ860126JJ" target="_blank"><span class="mono">微</span><span class="t">微博<small>JJ860126JJ</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="jj_bili" href="https://space.bilibili.com/693071922" target="_blank"><span class="mono">B</span><span class="t">B站<small>个人主页</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="jj_japan" href="https://jaefans.com/" target="_blank"><span class="mono">日</span><span class="t">日本官咖<small>jaefans</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="jj_instagram" href="https://www.instagram.com/jj_1986_jj" target="_blank"><span class="mono">IG</span><span class="t">Instagram<small>jj_1986_jj</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="jj_weverse" href="https://weverse.io/kimjaejoong" target="_blank"><span class="mono">W</span><span class="t">Weverse<small>kimjaejoong</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+      </div>
+    </section>
+
+    <!-- 资源站 -->
+    <section class="section">
+      <span class="label">资源站 · 粉丝站</span>
+      <div class="grid">
+        <a class="chip" data-id="dreamyroad_weibo" href="https://weibo.com/u/7830607498" target="_blank"><span class="mono">梦</span><span class="t">梦露<small>微博</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="dreamyroad_bili" href="https://space.bilibili.com/3493284984916609" target="_blank"><span class="mono">梦</span><span class="t">梦露<small>B站</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="jj_chaohua" href="https://weibo.com/p/1008082305a3c8b1ac58847a4ef6ee27f1a2f0?k=%E9%87%91%E5%9C%A8%E4%B8%AD&_from_=huati_thread" target="_blank"><span class="mono">超</span><span class="t">金在中<small>超话社区</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" href="https://www.in-kode.com/" target="_blank"><span class="mono">in</span><span class="t">iNKODE<small>经纪公司官网</small></span></a>
+      </div>
+    </section>
+
+    <p class="tip">
+      每天由 <code>node monitor.mjs</code> 自动检查（用你登录的账号，只读不下载）。
+      有 <b style="color:var(--accent)">NEW</b> 的点进去看，没有的略过即可。
+    </p>
+
+    <p class="foot">Green · Forever</p>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="schedule.js"></script>
+  <script>
+    function fmt(iso){ if(!iso) return ""; const d=new Date(iso);
+      const p=n=>String(n).padStart(2,"0");
+      return `${d.getFullYear()}.${p(d.getMonth()+1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`; }
+    const data = window.YT_DATA || { monitored: [] };
+    // 顶部状态条
+    document.getElementById("statusbar").innerHTML =
+      `<b>NEW</b> 角标 = 有新动态` + (data.checkedAt ? ` · 上次检查 ${fmt(data.checkedAt)}` : " · 尚未检查");
+    // 把监测状态标到对应链接上
+    const byId = {};
+    for (const s of (data.monitored||[])) byId[s.id] = s;
+    document.querySelectorAll(".chip[data-id]").forEach(chip => {
+      const s = byId[chip.dataset.id];
+      if (!s || s.status === "pending") return;      // 未接入的：普通链接，不标
+      if (s.hasNew) chip.classList.add("new");        // 有新动态才显示 NEW 角标 + 描边
+      if (s.latest) chip.title = s.latest + (s.latestTime ? "  ·  "+fmt(s.latestTime) : "");
+    });
+
+    // ===== 日历 =====
+    const TYPE_LABEL = { concert:"演唱会", fanmeeting:"见面会", release:"专辑", broadcast:"节目", rerun:"重播", event:"活动", birthday:"生日" };
+    const TYPE_ICON  = { concert:"🎤", fanmeeting:"🤝", release:"💿", broadcast:"📺", rerun:"🔁", event:"✨", birthday:"🎂" };
+    const MINOR = new Set(["broadcast","rerun"]);              // 次要类型：弱化显示
+    const IMPORTANCE = { concert:5, fanmeeting:4, release:4, birthday:3, event:2, broadcast:1, rerun:0 };
+    const SCHED = (window.JJ_SCHEDULE || []).slice().sort((a,b)=>a.date.localeCompare(b.date));
+    const byDate = {};
+    for (const e of SCHED) (byDate[e.date] = byDate[e.date] || []).push(e);
+
+    const now0 = new Date();
+    let curY = now0.getFullYear(), curM = now0.getMonth();  // 0-based month
+    const pad = n => String(n).padStart(2,"0");
+    const key = (y,m,d) => `${y}-${pad(m+1)}-${pad(d)}`;
+
+    // 星期头
+    document.getElementById("calDow").innerHTML =
+      ["日","一","二","三","四","五","六"].map(d=>`<div class="cal-dow">${d}</div>`).join("");
+
+    function renderCal() {
+      document.getElementById("calTitle").textContent = `${curY} 年 ${curM+1} 月`;
+      const first = new Date(curY, curM, 1).getDay();     // 当月1号星期几
+      const days = new Date(curY, curM+1, 0).getDate();    // 当月天数
+      let html = "";
+      for (let i=0;i<first;i++) html += `<div class="cal-cell blank"></div>`;
+      for (let d=1; d<=days; d++) {
+        const k = key(curY,curM,d);
+        const dayEvents = byDate[k];
+        const has = !!dayEvents;
+        const isToday = (curY===now0.getFullYear() && curM===now0.getMonth() && d===now0.getDate());
+        // 当天最重要的事件决定圆点颜色
+        let dot = "";
+        if (has) {
+          const top = dayEvents.slice().sort((a,b)=>(IMPORTANCE[b.type]||0)-(IMPORTANCE[a.type]||0))[0];
+          dot = `<span class="evdot t-${top.type}"></span>`;
+        }
+        html += `<div class="cal-cell ${has?'has':''} ${isToday?'today':''}" ${has?`data-date="${k}"`:''}>
+                   ${d}${dot}
+                 </div>`;
+      }
+      document.getElementById("calBody").innerHTML = html;
+      document.querySelectorAll(".cal-cell.has").forEach(c=>{
+        c.onclick = ()=>{ selectedDate = c.dataset.date; renderEvents(); };
+      });
+      renderEvents();
+    }
+
+    function evHtml(e){
+      const [y,m,d] = e.date.split("-");
+      const regionTag = e.region ? `<span class="rg">${e.region}</span>` : "";
+      const minor = MINOR.has(e.type) ? " minor" : "";
+      const icon = TYPE_ICON[e.type] || "•";
+      return `<div class="ev t-${e.type}${minor}">
+        <span class="ic">${icon}</span>
+        <span class="d">${m}.${d}</span>
+        <span class="c"><div class="tt">${e.title}</div>${e.note?`<div class="nn">${e.note}</div>`:''}</span>
+        <span class="tag">${regionTag}${TYPE_LABEL[e.type]||"活动"}</span>
+      </div>`;
+    }
+
+    let curRegion = "全部";      // 地区筛选
+    let expanded = false;        // 节目/放送是否展开
+    let selectedDate = null;     // 点选了某一天
+    const openGroups = new Set(); // 展开了哪些系列（看具体场次）
+
+    function passRegion(e){
+      if (curRegion === "全部") return true;
+      if (curRegion === "海外") return e.region && !["中国"].includes(e.region);
+      return e.region === curRegion;
+    }
+
+    function renderEvents(){
+      const box = document.getElementById("calEvents");
+      const todayKey = key(now0.getFullYear(), now0.getMonth(), now0.getDate());
+      // 主区展示的日期：点选的那天，否则今天
+      const showKey = selectedDate || todayKey;
+      const [sy, sm, sd] = showKey.split("-");
+      const dayList = (byDate[showKey] || []).filter(passRegion)
+        .sort((a,b)=>(IMPORTANCE[b.type]||0)-(IMPORTANCE[a.type]||0));
+
+      const isToday = showKey === todayKey;
+      const headLabel = isToday ? `今日 ${sm}.${sd}` : `${sm}.${sd}`;
+      const backLink = selectedDate ? ` · <a href="#" id="clearDay">回到今天</a>` : "";
+
+      let html = `<div class="ev-head">${headLabel}${backLink}</div>`;
+      html += dayList.length
+        ? dayList.map(evHtml).join("")
+        : `<div class="ev-empty">无公开日程</div>`;
+
+      // ===== 当月汇总（按"系列/标题"聚合，显示场次数量）=====
+      const prefix = `${curY}-${pad(curM+1)}`;
+      const monthAll = SCHED.filter(e=>e.date.startsWith(prefix)).filter(passRegion)
+        .sort((a,b)=>a.date.localeCompare(b.date));
+
+      // 归并同一系列：去掉"· 城市 / D1 D2 / – 86% – 百分比 / 场次尾巴"，得到系列名
+      function seriesKey(e){
+        let s = e.title
+          .replace(/\s*[·・]\s*[^·・]*$/,"")          // 去掉末尾"· 城市/D1"
+          .replace(/\s*[–—-]\s*\d+%\s*[–—-]?\s*$/,"") // 去掉"– 86% –"
+          .replace(/\s*D\d+\s*$/i,"")
+          .trim();
+        return (e.type + "|" + (s || e.title));
+      }
+      // 分组
+      const groups = {};
+      for (const e of monthAll){
+        const k = seriesKey(e);
+        (groups[k] = groups[k] || { type:e.type, title:e.title, items:[] }).items.push(e);
+      }
+      const groupList = Object.values(groups).sort((a,b)=>{
+        const imp=(IMPORTANCE[b.type]||0)-(IMPORTANCE[a.type]||0);
+        return imp!==0?imp:a.items[0].date.localeCompare(b.items[0].date);
+      });
+      const keyGroups   = groupList.filter(g=>!MINOR.has(g.type));
+      const minorGroups = groupList.filter(g=> MINOR.has(g.type));
+
+      // 系列名（用于展示，去掉城市/场次尾巴）
+      function seriesName(g){
+        return g.title
+          .replace(/\s*[·・]\s*[^·・]*$/,"")
+          .replace(/\s*[–—-]\s*\d+%\s*[–—-]?\s*$/,"")
+          .replace(/\s*D\d+\s*$/i,"").trim() || g.title;
+      }
+      // 聚合行：一行代表一个系列，右侧显示"N 场/次"
+      function groupHtml(g){
+        const icon = TYPE_ICON[g.type] || "•";
+        const n = g.items.length;
+        const dates = g.items.map(e=>e.date.slice(5).replace("-",".")); // MM.DD
+        const range = n===1 ? dates[0] : `${dates[0]}–${dates[n-1]}`;
+        const unit = (g.type==="concert"||g.type==="fanmeeting") ? "场" : (g.type==="broadcast"||g.type==="rerun") ? "次" : "项";
+        const regions=[...new Set(g.items.map(e=>e.region).filter(Boolean))].join("/");
+        const expandedNow = openGroups.has(seriesName(g)+g.type);
+        const single = n===1;
+        let h = `<div class="sum-group t-${g.type}">
+          <a href="#" class="sum-row t-${g.type}" ${single?`data-date="${g.items[0].date}"`:`data-g="${seriesName(g)+g.type}"`}>
+            <span class="si">${icon}</span>
+            <span class="st">${seriesName(g)}</span>
+            ${regions?`<span class="sr">${regions}</span>`:''}
+            <span class="cnt">${n>1?`${n} ${unit}`:range}</span>
+            ${n>1?`<span class="exp">${expandedNow?'▲':'▼'}</span>`:''}
+          </a>`;
+        if (n>1 && expandedNow){
+          h += `<div class="sub-list">` + g.items.map(e=>{
+            const [y,m,d]=e.date.split("-"); const on=(e.date===showKey)?" on":"";
+            const city=(e.title.match(/[·・]\s*([^·・]+)$/)||[])[1]||"";
+            return `<a href="#" class="sub-row${on}" data-date="${e.date}"><span class="sd">${m}.${d}</span><span class="st">${city||e.title}</span></a>`;
+          }).join("") + `</div>`;
+        }
+        h += `</div>`;
+        return h;
+      }
+
+      html += `<div class="sum-head">本月关键行程 · ${keyGroups.length} 项</div>`;
+      if (!keyGroups.length && !minorGroups.length){
+        html += `<div class="ev-empty">本月暂无（当前筛选）日程</div>`;
+      } else {
+        html += `<div class="sum-list">`;
+        html += keyGroups.length ? keyGroups.map(groupHtml).join("")
+                                 : `<div class="ev-empty">本月无演唱会/专辑等关键行程</div>`;
+        if (expanded) html += minorGroups.map(groupHtml).join("");
+        html += `</div>`;
+        if (minorGroups.length){
+          const minorTotal = minorGroups.reduce((s,g)=>s+g.items.length,0);
+          html += `<button class="ev-more" id="evMore">${expanded ? "收起节目/放送 ▲" : `另有节目/放送 ${minorTotal} 次 ▼`}</button>`;
+        }
+      }
+
+      box.innerHTML = html;
+      // 绑定：回到今天
+      const cd = document.getElementById("clearDay");
+      if (cd) cd.onclick = (ev)=>{ ev.preventDefault(); selectedDate=null; renderEvents(); };
+      // 绑定：展开/收起节目
+      const mb = document.getElementById("evMore");
+      if (mb) mb.onclick = ()=>{ expanded = !expanded; renderEvents(); };
+      // 多场系列 → 展开/收起看场次
+      box.querySelectorAll(".sum-row[data-g]").forEach(r=> r.onclick = (ev)=>{
+        ev.preventDefault();
+        const g = r.dataset.g;
+        if (openGroups.has(g)) openGroups.delete(g); else openGroups.add(g);
+        renderEvents();
+      });
+      // 单场系列 / 展开后的具体场次 → 跳到那天
+      box.querySelectorAll(".sum-row[data-date], .sub-row[data-date]").forEach(r=> r.onclick = (ev)=>{
+        ev.preventDefault(); selectedDate = r.dataset.date; renderEvents();
+      });
+    }
+
+    // 地区筛选按钮
+    function renderRegionTabs(){
+      const regions = ["全部","韩国","日本","中国","海外"];
+      document.getElementById("calFilter").innerHTML = regions.map(r=>
+        `<button class="rtab ${r===curRegion?'on':''}" data-r="${r}">${r}</button>`).join("");
+      document.querySelectorAll(".rtab").forEach(b=> b.onclick = ()=>{
+        curRegion = b.dataset.r; expanded=false; renderRegionTabs(); renderEvents();
+      });
+    }
+
+    function renderCalWrap(){ renderCal(); }
+
+    document.getElementById("calPrev").onclick = ()=>{ curM--; if(curM<0){curM=11;curY--;} expanded=false; selectedDate=null; renderCal(); };
+    document.getElementById("calNext").onclick = ()=>{ curM++; if(curM>11){curM=0;curY++;} expanded=false; selectedDate=null; renderCal(); };
+    document.getElementById("calToday").onclick = ()=>{ curY=now0.getFullYear(); curM=now0.getMonth(); expanded=false; selectedDate=null; renderCal(); };
+    renderRegionTabs();
+    renderCal();
+  </script>
+</body>
+</html>

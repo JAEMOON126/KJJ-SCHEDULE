@@ -1,0 +1,26 @@
+# ===== 绝对不能上传的敏感文件 =====
+# 浏览器登录数据（含微博/B站/ins 账号登录态）—— 泄露=账号被盗
+.browser-data/
+.browser-data-test/
+
+# 抓取脚本与账号相关逻辑（留在本地，不公开）
+login.mjs
+login-bili.mjs
+login-ig.mjs
+login-weverse.mjs
+monitor.mjs
+sources.mjs
+run-monitor.sh
+
+# 内部状态与日志
+state.json
+*.log
+pending.json
+
+# 依赖与临时
+node_modules/
+_*.mjs
+.DS_Store
+package.json
+package-lock.json
+publish.sh
