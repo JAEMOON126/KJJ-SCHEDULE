@@ -329,5 +329,12 @@ window.JJ_SCHEDULE = [
     "title": "CS衛星劇場「ジェチング シーズン5 ～Jae friends Village～」",
     "region": "日本",
     "note": ""
+  },
+  {
+    "date": "2026-10-01",
+    "type": "fanmeeting",
+    "title": "粉丝见面会 · 上海",
+    "region": "中国",
+    "note": ""
   }
 ];

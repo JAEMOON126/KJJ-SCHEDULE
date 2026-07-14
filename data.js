@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-14T09:25:18.107Z",
+  "checkedAt": "2026-07-14T09:39:37.848Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,9 +15,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中💚#金在中# 260714 cu_official ins： 乘着微风而来、充满感性的高级浊酒 🍃 CU × ",
-      "latestTime": "刚刚"
+      "latestTime": "15分钟前"
     },
     {
       "id": "yinfu_weibo",
