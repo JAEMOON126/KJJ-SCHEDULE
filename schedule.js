@@ -1,5 +1,5 @@
-// schedule.js —— 自动生成（monitor.mjs）。数据源：日本官咖 jaefans.com + manual-schedule.js
-// 不要手改此文件；要加行程请改 manual-schedule.js。
+// schedule.js —— 自动生成（monitor.mjs）。数据源：日本官咖 jaefans.com + manual-schedule.mjs
+// 不要手改此文件；要加行程请改 manual-schedule.mjs。
 window.JJ_SCHEDULE = [
   {
     "date": "2026-01-26",
@@ -328,13 +328,6 @@ window.JJ_SCHEDULE = [
     "type": "rerun",
     "title": "CS衛星劇場「ジェチング シーズン5 ～Jae friends Village～」",
     "region": "日本",
-    "note": ""
-  },
-  {
-    "date": "2026-10-01",
-    "type": "fanmeeting",
-    "title": "粉丝见面会 · 上海",
-    "region": "中国",
     "note": ""
   }
 ];

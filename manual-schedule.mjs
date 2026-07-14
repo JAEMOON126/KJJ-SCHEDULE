@@ -11,6 +11,4 @@ export const MANUAL_EVENTS = [
   // THE WAVE 韩国场（多家媒体确证）
   { date: "2026-08-29", type: "concert", title: "CONCERT [THE WAVE] · 首尔 D1", region: "韩国", note: "KBS Arena 首尔江西区" },
   { date: "2026-08-30", type: "concert", title: "CONCERT [THE WAVE] · 首尔 D2", region: "韩国", note: "KBS Arena 首尔江西区" },
-  // 粉丝见面会（手动添加）
-  { date: "2026-10-01", type: "fanmeeting", title: "粉丝见面会 · 上海", region: "中国", note: "" },
 ];
