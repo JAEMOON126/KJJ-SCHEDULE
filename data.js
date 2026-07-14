@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-14T08:54:49.780Z",
+  "checkedAt": "2026-07-14T09:25:18.107Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,9 +15,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 260714 #金在中# ins & ins story： Liza, Princess 我们以后一定要再",
-      "latestTime": "4小时前"
+      "hasNew": true,
+      "latest": "金在中💚#金在中# 260714 cu_official ins： 乘着微风而来、充满感性的高级浊酒 🍃 CU × ",
+      "latestTime": "刚刚"
     },
     {
       "id": "yinfu_weibo",
