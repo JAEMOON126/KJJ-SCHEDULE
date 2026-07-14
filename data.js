@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-14T09:39:37.848Z",
+  "checkedAt": "2026-07-14T10:06:04.456Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,7 +17,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "金在中💚#金在中# 260714 cu_official ins： 乘着微风而来、充满感性的高级浊酒 🍃 CU × ",
-      "latestTime": "15分钟前"
+      "latestTime": "42分钟前"
     },
     {
       "id": "yinfu_weibo",
