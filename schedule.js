@@ -261,6 +261,13 @@ window.JJ_SCHEDULE = [
     "note": ""
   },
   {
+    "date": "2026-08-16",
+    "type": "fanmeeting",
+    "title": "FAN MEETING · 深圳",
+    "region": "中国",
+    "note": "特别的爱 深情予你 [音符/星羽]"
+  },
+  {
     "date": "2026-08-18",
     "type": "rerun",
     "title": "CS衛星劇場「ジェチング シーズン5 ～Jae friends Village～」",
