@@ -61,6 +61,7 @@
     .chip .t { font-size: 14px; flex: 1; min-width: 0; }
     .chip .t small { display: block; color: var(--faint); font-size: 11px; margin-top: 1px;
       overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .chip .t .rgn { font-size: 10px; color: var(--muted); font-weight: 400; margin-left: 2px; }
     /* NEW 角标：亮绿实心 + 微光，醒目 */
     .badge { display: none; font-size: 10px; font-weight: 800; letter-spacing: 0.8px;
       color: #06210f; background: var(--accent); padding: 3px 8px; border-radius: 999px;
@@ -166,7 +167,9 @@
     .tip { font-size: 12.5px; color: var(--muted); line-height: 1.8; padding: 0 4px; margin-top: 8px; }
     .tip code { background: var(--surface-2); color: var(--accent); padding: 2px 7px; border-radius: 5px; font-size: 12px; }
     .foot { text-align: center; color: var(--faint); font-size: 11px; letter-spacing: 3px;
-      text-transform: uppercase; margin-top: 40px; }
+      text-transform: uppercase; margin-top: 24px; }
+    .disclaimer { text-align: center; color: var(--faint); font-size: 11px; line-height: 1.7;
+      margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); }
     @media (max-width: 520px){ .grid { grid-template-columns: 1fr; } .hero h1 { font-size: 38px; } }
   </style>
 </head>
@@ -204,28 +207,40 @@
     <section class="section">
       <span class="label">官方账号</span>
       <div class="grid">
+        <!-- 第一行：Instagram + X -->
+        <a class="chip" data-id="jj_instagram" href="https://www.instagram.com/jj_1986_jj" target="_blank"><span class="mono">IG</span><span class="t">Instagram<small>jj_1986_jj</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" href="https://twitter.com/bornfreeonekiss" target="_blank"><span class="mono">X</span><span class="t">X (Twitter)<small>bornfreeonekiss</small></span></a>
+        <!-- 第二行：微博 + B站 -->
         <a class="chip" data-id="jj_weibo" href="https://weibo.com/n/JJ860126JJ" target="_blank"><span class="mono">微</span><span class="t">微博<small>JJ860126JJ</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
         <a class="chip" data-id="jj_bili" href="https://space.bilibili.com/693071922" target="_blank"><span class="mono">B</span><span class="t">B站<small>个人主页</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
-        <a class="chip" data-id="jj_japan" href="https://jaefans.com/" target="_blank"><span class="mono">日</span><span class="t">日本官咖<small>jaefans</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
-        <a class="chip" data-id="jj_instagram" href="https://www.instagram.com/jj_1986_jj" target="_blank"><span class="mono">IG</span><span class="t">Instagram<small>jj_1986_jj</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
-        <a class="chip" data-id="jj_weverse" href="https://weverse.io/kimjaejoong" target="_blank"><span class="mono">W</span><span class="t">Weverse<small>kimjaejoong</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <!-- 第三行：iNKODE 官网 -->
+        <a class="chip" href="https://www.in-kode.com/" target="_blank"><span class="mono">in</span><span class="t">iNKODE 官网<small>经纪公司</small></span></a>
       </div>
     </section>
 
-    <!-- 资源站 -->
+    <!-- 官方粉丝网站 -->
+    <section class="section">
+      <span class="label">官方粉丝网站</span>
+      <div class="grid">
+        <a class="chip" data-id="jj_weverse" href="https://weverse.io/kimjaejoong" target="_blank"><span class="mono">W</span><span class="t">Weverse <span class="rgn">🌐 全球</span><small>kimjaejoong</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="jj_japan" href="https://jaefans.com/" target="_blank"><span class="mono">日</span><span class="t">日本官咖 <span class="rgn">🇯🇵 日本</span><small>jaefans</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+      </div>
+    </section>
+
+    <!-- 资源站 · 粉丝站 -->
     <section class="section">
       <span class="label">资源站 · 粉丝站</span>
       <div class="grid">
-        <a class="chip" data-id="dreamyroad_weibo" href="https://weibo.com/u/7830607498" target="_blank"><span class="mono">梦</span><span class="t">梦露<small>微博</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
-        <a class="chip" data-id="dreamyroad_bili" href="https://space.bilibili.com/3493284984916609" target="_blank"><span class="mono">梦</span><span class="t">梦露<small>B站</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
         <a class="chip" data-id="jj_chaohua" href="https://weibo.com/p/1008082305a3c8b1ac58847a4ef6ee27f1a2f0?k=%E9%87%91%E5%9C%A8%E4%B8%AD&_from_=huati_thread" target="_blank"><span class="mono">超</span><span class="t">金在中<small>超话社区</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
-        <a class="chip" href="https://www.in-kode.com/" target="_blank"><span class="mono">in</span><span class="t">iNKODE<small>经纪公司官网</small></span></a>
+        <a class="chip" data-id="dreamyroad_weibo" href="https://weibo.com/u/7830607498" target="_blank"><span class="mono">梦</span><span class="t">梦路<small>微博</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="dreamyroad_bili" href="https://space.bilibili.com/3493284984916609" target="_blank"><span class="mono">梦</span><span class="t">梦路<small>B站</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
+        <a class="chip" data-id="yinfu_weibo" href="https://weibo.com/u/7740641098" target="_blank"><span class="mono">音</span><span class="t">音符<small>微博</small></span><span class="watch-dot"></span><span class="badge">NEW</span></a>
       </div>
     </section>
 
-    <p class="tip">
-      每天由 <code>node monitor.mjs</code> 自动检查（用你登录的账号，只读不下载）。
-      有 <b style="color:var(--accent)">NEW</b> 的点进去看，没有的略过即可。
+    <p class="disclaimer">
+      本页信息均搬运自各官方及粉丝站公开内容，仅供粉丝交流参考，不作任何商业用途。<br>
+      如有疏漏或出入，请以官方发布为准。
     </p>
 
     <p class="foot">Green · Forever</p>
