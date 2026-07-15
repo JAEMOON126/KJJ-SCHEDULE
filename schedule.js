@@ -1,5 +1,5 @@
-// schedule.js —— 自动生成（monitor.mjs）。数据源：日本官咖 jaefans.com + manual-schedule.js
-// 不要手改此文件；要加行程请改 manual-schedule.js。
+// schedule.js —— 自动生成（monitor.mjs）。数据源：日本官咖 + manual-schedule + 音符自动
+// 不要手改此文件；要加行程请改 manual-schedule.mjs。
 window.JJ_SCHEDULE = [
   {
     "date": "2026-01-26",
