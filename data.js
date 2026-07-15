@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-15T04:06:02.835Z",
+  "checkedAt": "2026-07-15T06:21:38.011Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,16 +16,16 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 260715 iNKODE Official X： 📢[#公告][#Notice] 2026 ",
-      "latestTime": "59分钟前"
+      "latest": "金在中 💚 #金在中# 260715 2026 KIM JAE JOONG CONCERT [THE WAVE] in",
+      "latestTime": "1小时前"
     },
     {
       "id": "yinfu_weibo",
-      "name": "音符 · 微博",
+      "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 幕后花絮来啦",
+      "hasNew": true,
+      "latest": "金在中 幕后花絮来啦 @iNKODEofficial: 🎞[#在tube#][#Jaetube#] J-Party 里",
       "latestTime": "7-11 12:56"
     },
     {
@@ -33,8 +33,8 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026 KIM JAE JOONG FAN MEETING Babies 深圳见～金在中",
+      "hasNew": true,
+      "latest": "2026 KIM JAE JOONG FAN MEETING Babies 深圳见～金在中 @星羽娱乐: 2026 KI",
       "latestTime": "7-13 14:13"
     },
     {
@@ -71,7 +71,7 @@ window.YT_DATA = {
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
       "hasNew": false,
-      "latest": "最新帖 DawnX40OiCV",
+      "latest": "最新帖 DaxA0dTkkeL",
       "latestTime": null
     },
     {
