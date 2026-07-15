@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-15T09:05:54.476Z",
+  "checkedAt": "2026-07-15T10:06:08.076Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,7 +17,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "金在中 💚 260715 #金在中# ins story @金在中_Official @JJ860126JJ 金在中_",
-      "latestTime": "4小时前"
+      "latestTime": "5小时前"
     },
     {
       "id": "yinfu_weibo",
