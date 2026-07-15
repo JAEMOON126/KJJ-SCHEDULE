@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-14T10:06:04.456Z",
+  "checkedAt": "2026-07-15T04:06:02.835Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,9 +15,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中💚#金在中# 260714 cu_official ins： 乘着微风而来、充满感性的高级浊酒 🍃 CU × ",
-      "latestTime": "42分钟前"
+      "hasNew": true,
+      "latest": "金在中 💚#金在中# 260715 iNKODE Official X： 📢[#公告][#Notice] 2026 ",
+      "latestTime": "59分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -54,7 +54,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "24:40 【金在中】J-Party 里～是谁回来啦～💚｜J-Party｜金在中生日粉丝演唱会幕后花絮 #金在中 #K",
-      "latestTime": "3天前 · 投稿了视频"
+      "latestTime": "07月11日 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
