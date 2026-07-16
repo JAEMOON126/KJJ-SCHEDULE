@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-15T10:06:08.076Z",
+  "checkedAt": "2026-07-16T04:06:15.740Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,9 +15,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 260715 #金在中# ins story @金在中_Official @JJ860126JJ 金在中_",
-      "latestTime": "5小时前"
+      "hasNew": true,
+      "latest": "金在中 💚 260716 #金在中# X更新： 今天也辛苦了，晚安^^ @金在中_Official @JJ860126",
+      "latestTime": "11小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -89,8 +89,8 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.07.09LIVE 【JAEJOONG × スカルプDボーテ】 ツアー会場にブースが登場 ！",
+      "hasNew": true,
+      "latest": "2026.07.15MEDIA テレビ出演情報⇒フジテレビ『真剣遊戯！THEバトルSHOW』に出演決定！",
       "latestTime": null
     }
   ]
