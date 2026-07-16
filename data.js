@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-16T04:06:15.740Z",
+  "checkedAt": "2026-07-16T10:06:08.566Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260716 #金在中# X更新： 今天也辛苦了，晚安^^ @金在中_Official @JJ860126",
-      "latestTime": "11小时前"
+      "latest": "金在中 💚 260716 #金在中# Weverse 更新： 《神社：恶鬼的低语》舞台问候 Behind Photo ",
+      "latestTime": "1小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -33,9 +33,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026 KIM JAE JOONG FAN MEETING Babies 深圳见～金在中 @星羽娱乐: 2026 KI",
-      "latestTime": "7-13 14:13"
+      "hasNew": true,
+      "latest": "📸[#幕后花絮照#][#BehindCut#] <神社: 恶鬼的低语> 舞台问候 Behind Photo 🔗 网页",
+      "latestTime": "58分钟前"
     },
     {
       "id": "jj_chaohua",
@@ -89,7 +89,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.07.15MEDIA テレビ出演情報⇒フジテレビ『真剣遊戯！THEバトルSHOW』に出演決定！",
       "latestTime": null
     }
