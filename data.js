@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-17T04:06:09.632Z",
+  "checkedAt": "2026-07-17T10:06:09.070Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,9 +15,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 260716 #金在中# X更新： 今天也辛苦了，晚安^^ @金在中_Official @JJ860126",
-      "latestTime": "7-16 00:46"
+      "hasNew": true,
+      "latest": "金在中 💚 260717 #金在中# X更新： 下着雨又湿湿黏黏的，不过还是得出门去开会啊！ 昨天也是，像手工面疙瘩一",
+      "latestTime": "1小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -33,9 +33,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026 KIM JAE JOONG FAN MEETING Babies 深圳见～金在中 @星羽娱乐: 2026 KI",
-      "latestTime": "7-13 14:13"
+      "hasNew": true,
+      "latest": "📸[#幕后花絮照#][#BehindCut#] <神社: 恶鬼的低语> 舞台问候 Behind Photo 🔗 网页",
+      "latestTime": "7-16 17:07"
     },
     {
       "id": "jj_chaohua",
