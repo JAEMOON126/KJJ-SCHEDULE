@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-16T10:06:08.566Z",
+  "checkedAt": "2026-07-17T01:40:05.332Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260716 #金在中# Weverse 更新： 《神社：恶鬼的低语》舞台问候 Behind Photo ",
-      "latestTime": "1小时前"
+      "latest": "金在中 💚 260716 #金在中# X更新： 今天也辛苦了，晚安^^ @金在中_Official @JJ860126",
+      "latestTime": "7-16 00:46"
     },
     {
       "id": "yinfu_weibo",
@@ -34,8 +34,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📸[#幕后花絮照#][#BehindCut#] <神社: 恶鬼的低语> 舞台问候 Behind Photo 🔗 网页",
-      "latestTime": "58分钟前"
+      "latest": "2026 KIM JAE JOONG FAN MEETING Babies 深圳见～金在中 @星羽娱乐: 2026 KI",
+      "latestTime": "7-13 14:13"
     },
     {
       "id": "jj_chaohua",
