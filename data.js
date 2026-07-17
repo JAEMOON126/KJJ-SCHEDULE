@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-17T01:40:05.332Z",
+  "checkedAt": "2026-07-17T04:06:09.632Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,7 +15,7 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 260716 #金在中# X更新： 今天也辛苦了，晚安^^ @金在中_Official @JJ860126",
       "latestTime": "7-16 00:46"
     },
@@ -33,7 +33,7 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026 KIM JAE JOONG FAN MEETING Babies 深圳见～金在中 @星羽娱乐: 2026 KI",
       "latestTime": "7-13 14:13"
     },
