@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-18T04:06:06.700Z",
+  "checkedAt": "2026-07-18T10:06:13.645Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,9 +15,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 260717 S Cawaii! ME X更新： （KEYVITUP提及#金在中#相关） Q. KEYVI",
-      "latestTime": "1小时前"
+      "latestTime": "7小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -33,9 +33,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "🎞[#在tube#][#Jaetube#] 休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG 中",
-      "latestTime": "1小时前"
+      "latestTime": "7小时前"
     },
     {
       "id": "jj_chaohua",
@@ -52,9 +52,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "23:48 【金在中】休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG #金在中 #KIMJAEJ",
-      "latestTime": "1小时前 · 投稿了视频"
+      "latestTime": "7小时前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
