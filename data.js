@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-17T10:06:09.070Z",
+  "checkedAt": "2026-07-18T04:06:06.700Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,7 +16,7 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260717 #金在中# X更新： 下着雨又湿湿黏黏的，不过还是得出门去开会啊！ 昨天也是，像手工面疙瘩一",
+      "latest": "金在中 💚 260717 S Cawaii! ME X更新： （KEYVITUP提及#金在中#相关） Q. KEYVI",
       "latestTime": "1小时前"
     },
     {
@@ -34,8 +34,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📸[#幕后花絮照#][#BehindCut#] <神社: 恶鬼的低语> 舞台问候 Behind Photo 🔗 网页",
-      "latestTime": "7-16 17:07"
+      "latest": "🎞[#在tube#][#Jaetube#] 休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG 中",
+      "latestTime": "1小时前"
     },
     {
       "id": "jj_chaohua",
@@ -52,9 +52,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "24:40 【金在中】J-Party 里～是谁回来啦～💚｜J-Party｜金在中生日粉丝演唱会幕后花絮 #金在中 #K",
-      "latestTime": "07月11日 · 投稿了视频"
+      "hasNew": true,
+      "latest": "23:48 【金在中】休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG #金在中 #KIMJAEJ",
+      "latestTime": "1小时前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
