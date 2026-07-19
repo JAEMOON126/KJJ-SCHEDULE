@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-19T04:05:56.631Z",
+  "checkedAt": "2026-07-19T10:05:58.342Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 【梦路中字】260704 Tzuyang几顿 EP.6 @金在中_Official @JJ86",
-      "latestTime": "9分钟前"
+      "latest": "金在中 💚 金在中【梦路中字】260703 The Scout 油管： [HIDDEN SCOUT] 记录下最耀眼的决",
+      "latestTime": "6小时前"
     },
     {
       "id": "yinfu_weibo",
