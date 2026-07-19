@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-18T10:06:13.645Z",
+  "checkedAt": "2026-07-19T04:05:56.631Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,9 +15,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 260717 S Cawaii! ME X更新： （KEYVITUP提及#金在中#相关） Q. KEYVI",
-      "latestTime": "7小时前"
+      "hasNew": true,
+      "latest": "金在中 💚 #金在中# 【梦路中字】260704 Tzuyang几顿 EP.6 @金在中_Official @JJ86",
+      "latestTime": "9分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "🎞[#在tube#][#Jaetube#] 休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG 中",
-      "latestTime": "7小时前"
+      "latestTime": "7-18 11:02"
     },
     {
       "id": "jj_chaohua",
@@ -54,7 +54,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "23:48 【金在中】休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG #金在中 #KIMJAEJ",
-      "latestTime": "7小时前 · 投稿了视频"
+      "latestTime": "昨天 11:00 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -88,9 +88,10 @@ window.YT_DATA = {
       "id": "jj_japan",
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
-      "status": "ok",
+      "status": "pending",
+      "note": "打开页面出错：page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jaefans.com/information/news\nCall log:\n  - navigating to \"https://jaefans.com/information/news\", waiting until \"domcontentloaded\"\n",
       "hasNew": false,
-      "latest": "2026.07.15MEDIA テレビ出演情報⇒フジテレビ『真剣遊戯！THEバトルSHOW』に出演決定！",
+      "latest": "打开页面出错：page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jaefans.com/information/news\nCall log:\n  - navigating to \"https://jaefans.com/information/news\", waiting until \"domcontentloaded\"\n",
       "latestTime": null
     }
   ]
