@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-20T04:06:06.433Z",
+  "checkedAt": "2026-07-20T10:06:09.504Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,26 +16,26 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 【梦路中字】260704 Tzuyang几顿 EP.6 @金在中_Official @JJ86",
-      "latestTime": "7-19 11:56"
+      "latest": "金在中 💚 260720 #金在中# X更新： 每个人都全力以赴，玩得非常开心，真的很令人感动⭐️ @金在中_Offi",
+      "latestTime": "1小时前"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": false,
-      "latest": "好期待 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE JOONG C",
-      "latestTime": "7-10 11:12"
+      "hasNew": true,
+      "latest": "金在中 明晚开票啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE J",
+      "latestTime": "5小时前"
     },
     {
       "id": "inkode_weibo",
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "🎞[#在tube#][#Jaetube#] 休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG 中",
-      "latestTime": "7-18 11:02"
+      "hasNew": true,
+      "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] in ",
+      "latestTime": "5小时前"
     },
     {
       "id": "jj_chaohua",
