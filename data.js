@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-19T10:05:58.342Z",
+  "checkedAt": "2026-07-20T04:06:06.433Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 金在中【梦路中字】260703 The Scout 油管： [HIDDEN SCOUT] 记录下最耀眼的决",
-      "latestTime": "6小时前"
+      "latest": "金在中 💚 #金在中# 【梦路中字】260704 Tzuyang几顿 EP.6 @金在中_Official @JJ86",
+      "latestTime": "7-19 11:56"
     },
     {
       "id": "yinfu_weibo",
@@ -54,7 +54,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "23:48 【金在中】休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG #金在中 #KIMJAEJ",
-      "latestTime": "昨天 11:00 · 投稿了视频"
+      "latestTime": "2天前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -88,10 +88,9 @@ window.YT_DATA = {
       "id": "jj_japan",
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
-      "status": "pending",
-      "note": "打开页面出错：page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jaefans.com/information/news\nCall log:\n  - navigating to \"https://jaefans.com/information/news\", waiting until \"domcontentloaded\"\n",
+      "status": "ok",
       "hasNew": false,
-      "latest": "打开页面出错：page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://jaefans.com/information/news\nCall log:\n  - navigating to \"https://jaefans.com/information/news\", waiting until \"domcontentloaded\"\n",
+      "latest": "2026.07.15MEDIA テレビ出演情報⇒フジテレビ『真剣遊戯！THEバトルSHOW』に出演決定！",
       "latestTime": null
     }
   ]
