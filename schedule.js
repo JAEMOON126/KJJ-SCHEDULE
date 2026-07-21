@@ -37,13 +37,6 @@ window.JJ_SCHEDULE = [
     "note": "Arena @ EXPO 19:30"
   },
   {
-    "date": "2026-04-25",
-    "type": "concert",
-    "title": "CS放送「衛星劇場」「2025 JAEJOONG JAPAN ARENA TOUR \"RE:VERIE\"」",
-    "region": "日本",
-    "note": ""
-  },
-  {
     "date": "2026-04-26",
     "type": "broadcast",
     "title": "Mnet「魔法のランプ―イケメン旅行記 in France―」",
@@ -243,6 +236,13 @@ window.JJ_SCHEDULE = [
     "date": "2026-07-26",
     "type": "concert",
     "title": "2026 JAEJOONG ZEPP & HALL LIVE TOUR – 86% –",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-07-27",
+    "type": "broadcast",
+    "title": "日本テレビ『しゃべくり007』",
     "region": "日本",
     "note": ""
   },
