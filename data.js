@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-21T10:06:10.542Z",
+  "checkedAt": "2026-07-22T04:06:08.491Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,15 +16,15 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260721 #金在中# ins & ins story③： 🤟🤟🤟🤟🤟🤟 @金在中_Offi",
-      "latestTime": "3小时前"
+      "latest": "金在中 💚 260720 #金在中# 2026 JAEJOONG ZEPP & HALL LIVE TOUR 名古屋Z",
+      "latestTime": "7-21 00:11"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 明晚开票啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE J",
       "latestTime": "7-20 13:27"
     },
@@ -33,7 +33,7 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] in ",
       "latestTime": "7-20 13:00"
     },
@@ -54,7 +54,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "23:48 【金在中】休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG #金在中 #KIMJAEJ",
-      "latestTime": "3天前 · 投稿了视频"
+      "latestTime": "07月18日 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -70,7 +70,7 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 DbC3fSSBkeh",
       "latestTime": null
     },
