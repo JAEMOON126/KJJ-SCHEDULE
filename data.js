@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-22T04:06:08.491Z",
+  "checkedAt": "2026-07-22T10:06:09.841Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260720 #金在中# 2026 JAEJOONG ZEPP & HALL LIVE TOUR 名古屋Z",
-      "latestTime": "7-21 00:11"
+      "latest": "金在中 💚 260721 #金在中# ins & ins story③： 🤟🤟🤟🤟🤟🤟 ins回复金希澈：",
+      "latestTime": "7-21 14:38"
     },
     {
       "id": "yinfu_weibo",
