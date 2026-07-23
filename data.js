@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-22T10:06:09.841Z",
+  "checkedAt": "2026-07-23T04:06:04.161Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260721 #金在中# ins & ins story③： 🤟🤟🤟🤟🤟🤟 ins回复金希澈：",
-      "latestTime": "7-21 14:38"
+      "latest": "金在中 💚 260723 #金在中# X更新： 再见福冈🙌 @金在中_Official @JJ860126JJ",
+      "latestTime": "18分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -70,8 +70,8 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": false,
-      "latest": "最新帖 DbC3fSSBkeh",
+      "hasNew": true,
+      "latest": "最新帖 DbHkv0VEyZr",
       "latestTime": null
     },
     {

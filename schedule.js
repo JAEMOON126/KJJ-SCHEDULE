@@ -319,7 +319,7 @@ window.JJ_SCHEDULE = [
   {
     "date": "2026-09-13",
     "type": "concert",
-    "title": "2026 KIM JAE JOONG CONCERT THE WAVE",
+    "title": "2026 KIM JAE JOONG CONCERT [THE WAVE] in Japan",
     "region": "日本",
     "note": ""
   },
