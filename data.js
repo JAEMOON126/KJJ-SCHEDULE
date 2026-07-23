@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-23T04:06:04.161Z",
+  "checkedAt": "2026-07-23T10:06:08.270Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260723 #金在中# X更新： 再见福冈🙌 @金在中_Official @JJ860126JJ",
-      "latestTime": "18分钟前"
+      "latest": "金在中 💚 260723 #金在中# ins： 忍耐的男人🍚 @金在中_Official @JJ860126JJ 金",
+      "latestTime": "13分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -71,7 +71,7 @@ window.YT_DATA = {
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
       "hasNew": true,
-      "latest": "最新帖 DbHkv0VEyZr",
+      "latest": "最新帖 DbIXa-7PlYW",
       "latestTime": null
     },
     {
