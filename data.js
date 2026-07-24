@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-24T04:06:08.246Z",
+  "checkedAt": "2026-07-24T10:06:11.500Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,26 +16,26 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 260724 iNKODE JAPAN Official X： 【2026 KIM JAE JO",
-      "latestTime": "53分钟前"
+      "latest": "金在中美味 @iNKODEofficial: 📸[#幕后花絮照#][#BehindCut#] 吃饭了吗? | 金在中 ",
+      "latestTime": "6分钟前"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 明晚开票啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE J",
-      "latestTime": "7-20 13:27"
+      "hasNew": true,
+      "latest": "金在中 概念照来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE J",
+      "latestTime": "5小时前"
     },
     {
       "id": "inkode_weibo",
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] in ",
-      "latestTime": "7-20 13:00"
+      "hasNew": true,
+      "latest": "📸[#幕后花絮照#][#BehindCut#] 吃饭了吗? | 金在中 - OASIS | LIVE @金在中_Off",
+      "latestTime": "35分钟前"
     },
     {
       "id": "jj_chaohua",
@@ -52,9 +52,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "23:48 【金在中】休假、行程全都给你看💚｜旅行和工作都安排得满满当当💪｜在中VLOG #金在中 #KIMJAEJ",
-      "latestTime": "07月18日 · 投稿了视频"
+      "hasNew": true,
+      "latest": "04:09 【金在中】吃饭了吗? | 金在中 - OASIS | LIVE #金在中 #KIMJAEJOONG Copy",
+      "latestTime": "1小时前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -70,7 +70,7 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 DbHkv0VEyZr",
       "latestTime": null
     },
@@ -90,7 +90,7 @@ window.YT_DATA = {
       "url": "https://jaefans.com/",
       "status": "ok",
       "hasNew": true,
-      "latest": "2026.07.24LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "latest": "2026.07.24TOPICS ねこり公式サイトにてムービーが公開！",
       "latestTime": null
     }
   ]
