@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-23T10:06:08.270Z",
+  "checkedAt": "2026-07-24T04:06:08.246Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260723 #金在中# ins： 忍耐的男人🍚 @金在中_Official @JJ860126JJ 金",
-      "latestTime": "13分钟前"
+      "latest": "金在中 💚#金在中# 260724 iNKODE JAPAN Official X： 【2026 KIM JAE JO",
+      "latestTime": "53分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -71,7 +71,7 @@ window.YT_DATA = {
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
       "hasNew": true,
-      "latest": "最新帖 DbIXa-7PlYW",
+      "latest": "最新帖 DbHkv0VEyZr",
       "latestTime": null
     },
     {
@@ -89,8 +89,8 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.07.20MEDIA テレビ出演情報⇒日本テレビ『しゃべくり007』",
+      "hasNew": true,
+      "latest": "2026.07.24LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null
     }
   ]
