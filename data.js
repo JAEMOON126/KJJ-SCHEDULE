@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-25T04:06:08.970Z",
+  "checkedAt": "2026-07-25T10:06:08.239Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 260724 iNKODE JAPAN Official X： 【2026 KIM JAE JO",
-      "latestTime": "7-24 11:12"
+      "latest": "金在中 💚 【梦路中字】260724 neco-ri代言访谈 @金在中_Official @JJ860126JJ 金在",
+      "latestTime": "16分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -25,8 +25,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 明晚开票啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE J",
-      "latestTime": "7-20 13:27"
+      "latest": "金在中 概念照2 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE JO",
+      "latestTime": "4小时前"
     },
     {
       "id": "inkode_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] in ",
-      "latestTime": "7-20 13:00"
+      "latestTime": "5小时前"
     },
     {
       "id": "jj_chaohua",
