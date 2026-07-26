@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-26T04:06:20.991Z",
+  "checkedAt": "2026-07-26T10:06:42.902Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,26 +16,26 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260726 しゃべくり007 X： 明晚晚上9点播出的 《闲聊007》 是： ✨美体特辑✨ WEST.的",
-      "latestTime": "23分钟前"
+      "latest": "金在中 ins直播中！！！",
+      "latestTime": "10分钟前"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 宣传视频来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE ",
-      "latestTime": "29分钟前"
+      "latestTime": "6小时前"
     },
     {
       "id": "inkode_weibo",
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] in ",
-      "latestTime": "1小时前"
+      "latestTime": "7小时前"
     },
     {
       "id": "jj_chaohua",
@@ -54,16 +54,17 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "00:34 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Seoul SP",
-      "latestTime": "1小时前 · 投稿了视频"
+      "latestTime": "7小时前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
-      "status": "ok",
+      "status": "pending",
+      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
       "hasNew": false,
-      "latest": "💚梦路招新💚 欢迎大家加入我们哟～！！！",
-      "latestTime": "2025年12月28日"
+      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
+      "latestTime": null
     },
     {
       "id": "jj_instagram",
