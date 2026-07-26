@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-25T10:06:08.239Z",
+  "checkedAt": "2026-07-26T04:06:20.991Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 【梦路中字】260724 neco-ri代言访谈 @金在中_Official @JJ860126JJ 金在",
-      "latestTime": "16分钟前"
+      "latest": "金在中 💚 260726 しゃべくり007 X： 明晚晚上9点播出的 《闲聊007》 是： ✨美体特辑✨ WEST.的",
+      "latestTime": "23分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -25,8 +25,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 概念照2 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE JO",
-      "latestTime": "4小时前"
+      "latest": "金在中 宣传视频来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE ",
+      "latestTime": "29分钟前"
     },
     {
       "id": "inkode_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] in ",
-      "latestTime": "5小时前"
+      "latestTime": "1小时前"
     },
     {
       "id": "jj_chaohua",
@@ -52,9 +52,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "04:09 【金在中】吃饭了吗? | 金在中 - OASIS | LIVE #金在中 #KIMJAEJOONG Copy",
-      "latestTime": "昨天 17:00 · 投稿了视频"
+      "hasNew": true,
+      "latest": "00:34 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Seoul SP",
+      "latestTime": "1小时前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
