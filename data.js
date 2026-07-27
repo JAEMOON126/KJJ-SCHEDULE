@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-27T04:06:09.111Z",
+  "checkedAt": "2026-07-27T06:56:28.159Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,26 +16,26 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260727 #金在中# 韩网新闻： 【BS议题】「顶级明星」不安于现状，音乐节目夺冠的「制作人」、金在中",
-      "latestTime": "25分钟前"
+      "latest": "金在中 💚 260727 #金在中# Weverse： KIM JAE JOONG 官方粉丝俱乐部「BOSS BABI",
+      "latestTime": "1小时前"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 宣传视频来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE ",
-      "latestTime": "7-26 11:36"
+      "hasNew": true,
+      "latest": "金在中 三期会员来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG",
+      "latestTime": "3小时前"
     },
     {
       "id": "inkode_weibo",
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "1小时前"
+      "latestTime": "2小时前"
     },
     {
       "id": "jj_chaohua",
@@ -69,9 +69,10 @@ window.YT_DATA = {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "ok",
-      "hasNew": true,
-      "latest": "最新帖 DbQrJNEIAmV",
+      "status": "pending",
+      "note": "没读到帖子（可能被风控）",
+      "hasNew": false,
+      "latest": "没读到帖子（可能被风控）",
       "latestTime": null
     },
     {
@@ -89,7 +90,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.07.27RELEASE 日本デジタルシングル『道標』本日7月27日(月)デジタル配信スタート！",
       "latestTime": null
     }
