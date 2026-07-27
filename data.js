@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-27T06:56:28.159Z",
+  "checkedAt": "2026-07-27T06:58:15.092Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,7 +15,7 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 260727 #金在中# Weverse： KIM JAE JOONG 官方粉丝俱乐部「BOSS BABI",
       "latestTime": "1小时前"
     },
@@ -24,7 +24,7 @@ window.YT_DATA = {
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 三期会员来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG",
       "latestTime": "3小时前"
     },
@@ -52,7 +52,7 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:34 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Seoul SP",
       "latestTime": "昨天 11:00 · 投稿了视频"
     },
