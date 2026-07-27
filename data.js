@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-27T06:58:15.092Z",
+  "checkedAt": "2026-07-27T10:06:10.651Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -15,9 +15,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 260727 #金在中# Weverse： KIM JAE JOONG 官方粉丝俱乐部「BOSS BABI",
-      "latestTime": "1小时前"
+      "hasNew": true,
+      "latest": "金在中 💚 #金在中# 260727 _yusukeyamazaki ins： （摄影师neco-ri相关） @金在中",
+      "latestTime": "15分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -26,7 +26,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "金在中 三期会员来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG",
-      "latestTime": "3小时前"
+      "latestTime": "6小时前"
     },
     {
       "id": "inkode_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "2小时前"
+      "latestTime": "5小时前"
     },
     {
       "id": "jj_chaohua",
@@ -52,7 +52,7 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
+      "hasNew": true,
       "latest": "00:34 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Seoul SP",
       "latestTime": "昨天 11:00 · 投稿了视频"
     },
@@ -69,10 +69,9 @@ window.YT_DATA = {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "pending",
-      "note": "没读到帖子（可能被风控）",
+      "status": "ok",
       "hasNew": false,
-      "latest": "没读到帖子（可能被风控）",
+      "latest": "最新帖 DbQrJNEIAmV",
       "latestTime": null
     },
     {
@@ -90,8 +89,8 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.07.27RELEASE 日本デジタルシングル『道標』本日7月27日(月)デジタル配信スタート！",
+      "hasNew": true,
+      "latest": "2026.07.27TOPICS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 86% ",
       "latestTime": null
     }
   ]
