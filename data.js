@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-27T10:06:10.651Z",
+  "checkedAt": "2026-07-28T04:06:08.119Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,17 +16,17 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260727 _yusukeyamazaki ins： （摄影师neco-ri相关） @金在中",
-      "latestTime": "15分钟前"
+      "latest": "金在中 💚 #金在中# 【梦路中字】260727 『道標(路标 Michishirube)』 中日双语歌词 翻译：金金",
+      "latestTime": "51分钟前"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 三期会员来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG",
-      "latestTime": "6小时前"
+      "hasNew": true,
+      "latest": "金在中 宣传视频来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE ",
+      "latestTime": "7-26 11:36"
     },
     {
       "id": "inkode_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "5小时前"
+      "latestTime": "7-27 11:00"
     },
     {
       "id": "jj_chaohua",
@@ -54,7 +54,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "00:34 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Seoul SP",
-      "latestTime": "昨天 11:00 · 投稿了视频"
+      "latestTime": "2天前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -89,7 +89,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.07.27TOPICS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 86% ",
       "latestTime": null
     }
