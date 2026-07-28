@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-28T04:06:08.119Z",
+  "checkedAt": "2026-07-28T10:06:12.876Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 【梦路中字】260727 『道標(路标 Michishirube)』 中日双语歌词 翻译：金金",
-      "latestTime": "51分钟前"
+      "latest": "金在中 💚 #金在中# 260728 yudai_tatsumi_1125（辰巳雄大） ins： 【真剑游戏！THE ",
+      "latestTime": "2小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -25,8 +25,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 宣传视频来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE ",
-      "latestTime": "7-26 11:36"
+      "latest": "金在中 三期会员来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG",
+      "latestTime": "7-27 12:12"
     },
     {
       "id": "inkode_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "7-27 11:00"
+      "latestTime": "7-27 13:00"
     },
     {
       "id": "jj_chaohua",
@@ -89,8 +89,8 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.07.27TOPICS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 86% ",
+      "hasNew": true,
+      "latest": "2026.07.28LIVE 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% –】オ",
       "latestTime": null
     }
   ]
