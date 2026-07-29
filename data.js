@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-28T10:06:12.876Z",
+  "checkedAt": "2026-07-29T04:06:08.134Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260728 yudai_tatsumi_1125（辰巳雄大） ins： 【真剑游戏！THE ",
-      "latestTime": "2小时前"
+      "latest": "金在中 💚 260729 #金在中# Weverse： KIM JAE JOONG 官方粉丝俱乐部「BOSS BABI",
+      "latestTime": "46分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -25,8 +25,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 三期会员来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG",
-      "latestTime": "7-27 12:12"
+      "latest": "金在中 中国时间下午一点可以购买三期会员啦 @iNKODEofficial: 📢[#公告#][#Notice#] KI",
+      "latestTime": "11分钟前"
     },
     {
       "id": "inkode_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "7-27 13:00"
+      "latestTime": "1小时前"
     },
     {
       "id": "jj_chaohua",
@@ -54,7 +54,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "00:34 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Seoul SP",
-      "latestTime": "2天前 · 投稿了视频"
+      "latestTime": "3天前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -70,8 +70,8 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": false,
-      "latest": "最新帖 DbQrJNEIAmV",
+      "hasNew": true,
+      "latest": "最新帖 DbVhBbpxXdl",
       "latestTime": null
     },
     {
@@ -90,7 +90,7 @@ window.YT_DATA = {
       "url": "https://jaefans.com/",
       "status": "ok",
       "hasNew": true,
-      "latest": "2026.07.28LIVE 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% –】オ",
+      "latest": "2026.07.28LIVE 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% –】M",
       "latestTime": null
     }
   ]
