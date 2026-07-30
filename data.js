@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-29T10:06:13.435Z",
+  "checkedAt": "2026-07-30T04:06:06.360Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG OFFICI",
-      "latestTime": "60分钟前"
+      "latest": "金在中 💚260730 #金在中# 韩网新闻： 金在中公开东京住宅模样……日本顶级明星好友也将现身（《新品上市 便利餐",
+      "latestTime": "2小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -25,8 +25,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG OFFICI",
-      "latestTime": "2分钟前"
+      "latest": "金在中 中国时间下午一点可以购买三期会员啦 @iNKODEofficial: 📢[#公告#][#Notice#] KI",
+      "latestTime": "7-29 11:54"
     },
     {
       "id": "inkode_weibo",
@@ -34,8 +34,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "[📷] 2026 JAEJOONG ZEPP & HALL LIVE TOUR -4%- CONCEPT PHOTO ",
-      "latestTime": "6分钟前"
+      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
+      "latestTime": "7-29 11:00"
     },
     {
       "id": "jj_chaohua",
@@ -52,9 +52,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "01:01 【金在中】KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABIES KODE-",
-      "latestTime": "1小时前 · 投稿了视频"
+      "latestTime": "昨天 17:00 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
