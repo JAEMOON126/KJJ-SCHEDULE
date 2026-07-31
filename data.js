@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-30T10:06:13.847Z",
+  "checkedAt": "2026-07-31T04:06:07.817Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,17 +16,17 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中三期会员预告片 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG",
-      "latestTime": "1小时前"
+      "latest": "金在中 💚 #金在中# 260730 편스토랑X FUNSTAURANT-X 油管更新： [Coming Soon抢先",
+      "latestTime": "2小时前"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG OFFICI",
-      "latestTime": "2分钟前"
+      "latestTime": "7-29 18:03"
     },
     {
       "id": "inkode_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "[📷] 2026 JAEJOONG ZEPP & HALL LIVE TOUR -4%- CONCEPT PHOTO ",
-      "latestTime": "6分钟前"
+      "latestTime": "7-29 18:00"
     },
     {
       "id": "jj_chaohua",
@@ -54,7 +54,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "00:34 【金在中】OFFICIAL FANCLUB ‘BOSS BABIES KODE-3’ MEMBERSHIP ",
-      "latestTime": "1小时前 · 投稿了视频"
+      "latestTime": "昨天 17:00 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -89,7 +89,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.07.30LIVE 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% – 】",
       "latestTime": null
     }
