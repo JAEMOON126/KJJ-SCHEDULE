@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-01T04:06:08.660Z",
+  "checkedAt": "2026-08-01T10:06:43.118Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中三期会员概念照① @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOON",
-      "latestTime": "10分钟前"
+      "latest": "金在中 💚 260801 #金在中# ins & ins story② 天气真的太热了 要好好照顾身体健康喔！ BGM",
+      "latestTime": "1小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -33,9 +33,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "25分钟前"
+      "latestTime": "6小时前"
     },
     {
       "id": "jj_chaohua",
@@ -60,10 +60,11 @@ window.YT_DATA = {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
-      "status": "ok",
+      "status": "pending",
+      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
       "hasNew": false,
-      "latest": "💚梦路招新💚 欢迎大家加入我们哟～！！！",
-      "latestTime": "2025年12月28日"
+      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
+      "latestTime": null
     },
     {
       "id": "jj_instagram",
@@ -71,7 +72,7 @@ window.YT_DATA = {
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
       "hasNew": true,
-      "latest": "最新帖 DbdrHROoCWY",
+      "latest": "最新帖 DbfcpJgoBdl",
       "latestTime": null
     },
     {
