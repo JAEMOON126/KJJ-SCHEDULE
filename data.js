@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-07-31T10:06:08.061Z",
+  "checkedAt": "2026-08-01T04:06:08.660Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260731 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "17分钟前"
+      "latest": "金在中三期会员概念照① @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOON",
+      "latestTime": "10分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -34,8 +34,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "[📷] 2026 JAEJOONG ZEPP & HALL LIVE TOUR -4%- CONCEPT PHOTO ",
-      "latestTime": "6分钟前"
+      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
+      "latestTime": "25分钟前"
     },
     {
       "id": "jj_chaohua",
@@ -52,9 +52,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "07:19 【金在中】炙热夏日的开始🌿❤️‍🔥 | 金在中（KIM JAE JOONG）2026 Weverse C",
-      "latestTime": "1小时前 · 投稿了视频"
+      "latestTime": "昨天 17:01 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -71,7 +71,7 @@ window.YT_DATA = {
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
       "hasNew": true,
-      "latest": "最新帖 Dbc5RdEoI5M",
+      "latest": "最新帖 DbdrHROoCWY",
       "latestTime": null
     },
     {
