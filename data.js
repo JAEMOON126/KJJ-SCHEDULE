@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-02T04:06:09.245Z",
+  "checkedAt": "2026-08-02T10:06:05.215Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260802 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "42分钟前"
+      "latest": "金在中 💚 #金在中# 【梦路中字】 260727 日综 闲聊007 | 夏日理想身材军团！偶像·艺人·模特公开完美体",
+      "latestTime": "1小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "1小时前"
+      "latestTime": "7小时前"
     },
     {
       "id": "jj_chaohua",
@@ -89,8 +89,8 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.07.30LIVE 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% – 】",
+      "hasNew": true,
+      "latest": "2026.08.02MEDIA 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% –】",
       "latestTime": null
     }
   ]

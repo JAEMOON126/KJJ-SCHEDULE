@@ -37,20 +37,6 @@ window.JJ_SCHEDULE = [
     "note": "Arena @ EXPO 19:30"
   },
   {
-    "date": "2026-04-26",
-    "type": "broadcast",
-    "title": "Mnet「魔法のランプ―イケメン旅行記 in France―」",
-    "region": "日本",
-    "note": ""
-  },
-  {
-    "date": "2026-04-27",
-    "type": "broadcast",
-    "title": "KBS World「スパイ～愛を守るもの～」",
-    "region": "日本",
-    "note": ""
-  },
-  {
     "date": "2026-04-28",
     "type": "broadcast",
     "title": "KBS World「スパイ～愛を守るもの～」",
@@ -334,6 +320,20 @@ window.JJ_SCHEDULE = [
     "date": "2026-09-22",
     "type": "rerun",
     "title": "CS衛星劇場「ジェチング シーズン5 ～Jae friends Village～」",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-09-27",
+    "type": "concert",
+    "title": "CS衛星劇場「2026 JAEJOONG ZEPP & HALL LIVE TOUR – 10% –」",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-10-31",
+    "type": "concert",
+    "title": "CS衛星劇場「2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% –」",
     "region": "日本",
     "note": ""
   }
