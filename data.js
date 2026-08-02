@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-01T10:06:43.118Z",
+  "checkedAt": "2026-08-02T04:06:09.245Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260801 #金在中# ins & ins story② 天气真的太热了 要好好照顾身体健康喔！ BGM",
-      "latestTime": "1小时前"
+      "latest": "金在中 💚 260802 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "42分钟前"
     },
     {
       "id": "yinfu_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "6小时前"
+      "latestTime": "1小时前"
     },
     {
       "id": "jj_chaohua",
@@ -54,24 +54,23 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "07:19 【金在中】炙热夏日的开始🌿❤️‍🔥 | 金在中（KIM JAE JOONG）2026 Weverse C",
-      "latestTime": "昨天 17:01 · 投稿了视频"
+      "latestTime": "2天前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
-      "status": "pending",
-      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
+      "status": "ok",
       "hasNew": false,
-      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
-      "latestTime": null
+      "latest": "💚梦路招新💚 欢迎大家加入我们哟～！！！",
+      "latestTime": "2025年12月28日"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 DbfcpJgoBdl",
       "latestTime": null
     },
