@@ -37,13 +37,6 @@ window.JJ_SCHEDULE = [
     "note": "Arena @ EXPO 19:30"
   },
   {
-    "date": "2026-04-28",
-    "type": "broadcast",
-    "title": "KBS World「スパイ～愛を守るもの～」",
-    "region": "日本",
-    "note": ""
-  },
-  {
     "date": "2026-05-03",
     "type": "broadcast",
     "title": "Mnet「魔法のランプ―イケメン旅行記 in France―」",
@@ -320,6 +313,13 @@ window.JJ_SCHEDULE = [
     "date": "2026-09-22",
     "type": "rerun",
     "title": "CS衛星劇場「ジェチング シーズン5 ～Jae friends Village～」",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-09-26",
+    "type": "event",
+    "title": "SBI MUSIC CIRCUS HOKKAIDO -DAYBREAK-",
     "region": "日本",
     "note": ""
   },
