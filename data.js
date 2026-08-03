@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-02T10:06:05.215Z",
+  "checkedAt": "2026-08-03T04:06:08.035Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 【梦路中字】 260727 日综 闲聊007 | 夏日理想身材军团！偶像·艺人·模特公开完美体",
-      "latestTime": "1小时前"
+      "latest": "金在中 💚260803 #金在中# 韩网新闻： 金在中，时隔1年3个月回归…8月20日发行全新单曲《THE WAVE》",
+      "latestTime": "3小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -35,7 +35,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "7小时前"
+      "latestTime": "8-2 11:00"
     },
     {
       "id": "jj_chaohua",
@@ -52,9 +52,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "07:19 【金在中】炙热夏日的开始🌿❤️‍🔥 | 金在中（KIM JAE JOONG）2026 Weverse C",
-      "latestTime": "2天前 · 投稿了视频"
+      "hasNew": true,
+      "latest": "00:06 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] BE ONE, BEC",
+      "latestTime": "昨天 23:00 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -89,7 +89,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.08.02MEDIA 【2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% –】",
       "latestTime": null
     }
