@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-04T04:06:06.454Z",
+  "checkedAt": "2026-08-04T10:06:13.395Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 260804 #金在中# ins & ins story： 💚💚💚💚💚💚💚💚💚 BGM/",
-      "latestTime": "12小时前",
-      "updatedAt": "2026-08-04T03:46:25.512Z"
+      "hasNew": true,
+      "latest": "金在中 💚 #金在中# 260804 Hellolive X： [SCREENING] 2026 JAEJOONG Z",
+      "latestTime": "29分钟前",
+      "updatedAt": "2026-08-04T10:05:32.436Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] BE ONE, BECOME THE WAV",
-      "latestTime": "8-2 23:00",
-      "updatedAt": "2026-08-04T03:46:36.339Z"
+      "hasNew": true,
+      "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FAN MEETING 𝓢𝓹𝓮𝓬𝓲𝓪𝓵 𝓛",
+      "latestTime": "6小时前",
+      "updatedAt": "2026-08-04T10:05:44.419Z"
     },
     {
       "id": "jj_chaohua",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.08.03EVENT 『SBI MUSIC CIRCUS HOKKAIDO -DAYBREAK- 』出演決定！",
+      "hasNew": true,
+      "latest": "2026.08.04TOPICS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR 】全公演終了",
       "latestTime": null,
-      "updatedAt": "2026-08-04T03:46:58.569Z"
+      "updatedAt": "2026-08-04T10:06:08.171Z"
     }
   ]
 };
