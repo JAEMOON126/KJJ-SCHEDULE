@@ -13,4 +13,6 @@ export const MANUAL_EVENTS = [
   { date: "2026-08-30", type: "concert", title: "CONCERT [THE WAVE] · 首尔 D2", region: "韩国", note: "KBS Arena 首尔江西区" },
   // 中国场（来自音符/iNKODE官方公告）
   { date: "2026-08-16", type: "fanmeeting", title: "FAN MEETING · 深圳", region: "中国", note: "特别的爱 深情予你 [音符/星羽]" },
+  // 韩国专辑发行（多家韩媒确证）
+  { date: "2026-08-20", type: "release", title: "新单曲《THE WAVE》· 韩国", region: "韩国", note: "18:00 各大音源上线 · 时隔1年3个月韩国新专" },
 ];

@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-03T10:06:10.066Z",
+  "checkedAt": "2026-08-04T03:25:06.545Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,8 +16,8 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260803 iNKODE JAPAN Official X： 《SBI MUSIC CIRC",
-      "latestTime": "2小时前"
+      "latest": "金在中 💚 260804 #金在中# ins & ins story： 💚💚💚💚💚💚💚💚💚 BGM/",
+      "latestTime": "11小时前"
     },
     {
       "id": "yinfu_weibo",
@@ -33,9 +33,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "8-2 11:00"
+      "hasNew": true,
+      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] BE ONE, BECOME THE WAV",
+      "latestTime": "8-2 23:00"
     },
     {
       "id": "jj_chaohua",
@@ -54,7 +54,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:06 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] BE ONE, BEC",
-      "latestTime": "昨天 23:00 · 投稿了视频"
+      "latestTime": "2天前 · 投稿了视频"
     },
     {
       "id": "dreamyroad_bili",
@@ -70,8 +70,8 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": false,
-      "latest": "最新帖 DbfcpJgoBdl",
+      "hasNew": true,
+      "latest": "最新帖 DblW9VQoCUG",
       "latestTime": null
     },
     {
@@ -89,7 +89,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.08.03EVENT 『SBI MUSIC CIRCUS HOKKAIDO -DAYBREAK- 』出演決定！",
       "latestTime": null
     }

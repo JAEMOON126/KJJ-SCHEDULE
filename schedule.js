@@ -254,6 +254,13 @@ window.JJ_SCHEDULE = [
     "note": ""
   },
   {
+    "date": "2026-08-20",
+    "type": "release",
+    "title": "新单曲《THE WAVE》· 韩国",
+    "region": "韩国",
+    "note": "18:00 各大音源上线 · 时隔1年3个月韩国新专"
+  },
+  {
     "date": "2026-08-23",
     "type": "concert",
     "title": "CS放送「衛星劇場」「2025 JAEJOONG JAPAN ARENA TOUR \"RE:VERIE\"」",
