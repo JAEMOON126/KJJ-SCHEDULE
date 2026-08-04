@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-04T03:25:06.545Z",
+  "checkedAt": "2026-08-04T03:47:08.622Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -8,16 +8,18 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "［图片 1 张］",
-      "latestTime": "1-26 00:01"
+      "latestTime": "1-26 00:01",
+      "updatedAt": "2026-08-04T03:46:22.476Z"
     },
     {
       "id": "dreamyroad_weibo",
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 260804 #金在中# ins & ins story： 💚💚💚💚💚💚💚💚💚 BGM/",
-      "latestTime": "11小时前"
+      "latestTime": "12小时前",
+      "updatedAt": "2026-08-04T03:46:25.512Z"
     },
     {
       "id": "yinfu_weibo",
@@ -26,16 +28,18 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "金在中 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG OFFICI",
-      "latestTime": "7-30 18:03"
+      "latestTime": "7-30 18:03",
+      "updatedAt": "2026-08-04T03:46:33.332Z"
     },
     {
       "id": "inkode_weibo",
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] BE ONE, BECOME THE WAV",
-      "latestTime": "8-2 23:00"
+      "latestTime": "8-2 23:00",
+      "updatedAt": "2026-08-04T03:46:36.339Z"
     },
     {
       "id": "jj_chaohua",
@@ -54,7 +58,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:06 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] BE ONE, BEC",
-      "latestTime": "2天前 · 投稿了视频"
+      "latestTime": "2天前 · 投稿了视频",
+      "updatedAt": "2026-08-04T03:46:41.036Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -63,16 +68,18 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "💚梦路招新💚 欢迎大家加入我们哟～！！！",
-      "latestTime": "2025年12月28日"
+      "latestTime": "2025年12月28日",
+      "updatedAt": "2026-08-04T03:46:44.901Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 DblW9VQoCUG",
-      "latestTime": null
+      "latestTime": null,
+      "updatedAt": "2026-08-04T03:46:51.716Z"
     },
     {
       "id": "jj_weverse",
@@ -91,7 +98,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "2026.08.03EVENT 『SBI MUSIC CIRCUS HOKKAIDO -DAYBREAK- 』出演決定！",
-      "latestTime": null
+      "latestTime": null,
+      "updatedAt": "2026-08-04T03:46:58.569Z"
     }
   ]
 };

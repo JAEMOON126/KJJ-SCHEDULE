@@ -255,14 +255,18 @@
     const data = window.YT_DATA || { monitored: [] };
     // 顶部状态条
     document.getElementById("statusbar").innerHTML =
-      `<b>NEW</b> 角标 = 有新动态` + (data.checkedAt ? ` · 上次检查 ${fmt(data.checkedAt)}` : " · 尚未检查");
+      `<b>NEW</b> = 24 小时内有更新` + (data.checkedAt ? ` · 上次检查 ${fmt(data.checkedAt)}` : " · 尚未检查");
     // 把监测状态标到对应链接上
+    const DAY = 24 * 60 * 60 * 1000;
+    const now = Date.now();
     const byId = {};
     for (const s of (data.monitored||[])) byId[s.id] = s;
     document.querySelectorAll(".chip[data-id]").forEach(chip => {
       const s = byId[chip.dataset.id];
       if (!s || s.status === "pending") return;      // 未接入的：普通链接，不标
-      if (s.hasNew) chip.classList.add("new");        // 有新动态才显示 NEW 角标 + 描边
+      // NEW 只在最近 24 小时内有更新时亮（过后自动灭）
+      const fresh = s.updatedAt && (now - new Date(s.updatedAt).getTime()) < DAY;
+      if (fresh) chip.classList.add("new");
       if (s.latest) chip.title = s.latest + (s.latestTime ? "  ·  "+fmt(s.latestTime) : "");
     });
 
