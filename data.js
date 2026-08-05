@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-05T04:06:07.718Z",
+  "checkedAt": "2026-08-05T10:06:07.146Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260805 #金在中# 연합뉴스TV 油管新闻频： 金在中将以歌手身份回归，发行新歌《THE WAVE》",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-08-05T04:05:32.027Z"
+      "latest": "金在中 💚 #金在中# 260805 k_culture_expo ins： <天安 K-Culture Expo> ",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-08-05T10:05:27.368Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] SCHEDULER 2026.08.20 5",
-      "latestTime": "8-3 23:00",
-      "updatedAt": "2026-08-05T04:05:43.096Z"
+      "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FAN MEETING 𝓢𝓹𝓮𝓬𝓲𝓪𝓵 𝓛",
+      "latestTime": "8-4 12:19",
+      "updatedAt": "2026-08-05T10:05:38.589Z"
     },
     {
       "id": "jj_chaohua",
