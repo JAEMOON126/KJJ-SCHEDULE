@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-04T10:06:13.395Z",
+  "checkedAt": "2026-08-05T04:06:07.718Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260804 Hellolive X： [SCREENING] 2026 JAEJOONG Z",
-      "latestTime": "29分钟前",
-      "updatedAt": "2026-08-04T10:05:32.436Z"
+      "latest": "金在中 💚 260805 #金在中# 연합뉴스TV 油管新闻频： 金在中将以歌手身份回归，发行新歌《THE WAVE》",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-08-05T04:05:32.027Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FAN MEETING 𝓢𝓹𝓮𝓬𝓲𝓪𝓵 𝓛",
-      "latestTime": "6小时前",
-      "updatedAt": "2026-08-04T10:05:44.419Z"
+      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] SCHEDULER 2026.08.20 5",
+      "latestTime": "8-3 23:00",
+      "updatedAt": "2026-08-05T04:05:43.096Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:06 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] BE ONE, BEC",
-      "latestTime": "2天前 · 投稿了视频",
+      "latestTime": "3天前 · 投稿了视频",
       "updatedAt": "2026-08-04T03:46:41.036Z"
     },
     {
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.08.04TOPICS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR 】全公演終了",
       "latestTime": null,
       "updatedAt": "2026-08-04T10:06:08.171Z"
