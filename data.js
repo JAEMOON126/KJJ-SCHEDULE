@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-05T10:06:07.146Z",
+  "checkedAt": "2026-08-06T04:06:07.084Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260805 k_culture_expo ins： <天安 K-Culture Expo> ",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-08-05T10:05:27.368Z"
+      "latest": "金在中 💚 260805 #金在中# 연합뉴스TV 油管新闻频： 金在中将以歌手身份回归，发行新歌《THE WAVE》",
+      "latestTime": "8-5 09:54",
+      "updatedAt": "2026-08-06T04:05:30.954Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FAN MEETING 𝓢𝓹𝓮𝓬𝓲𝓪𝓵 𝓛",
-      "latestTime": "8-4 12:19",
-      "updatedAt": "2026-08-05T10:05:38.589Z"
+      "latest": "🎂 HAPPY BIRTHDAY SENA 祝KEYVITUP成员SENA生日快乐！🎉 希望大家多多为他送上爱与生日",
+      "latestTime": "8-4 23:00",
+      "updatedAt": "2026-08-06T04:05:42.056Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:06 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] BE ONE, BEC",
-      "latestTime": "3天前 · 投稿了视频",
+      "latestTime": "08月02日 · 投稿了视频",
       "updatedAt": "2026-08-04T03:46:41.036Z"
     },
     {
