@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-07T04:06:11.422Z",
+  "checkedAt": "2026-08-07T10:06:08.861Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中新歌预告片① @iNKODEofficial: KIM JAE JOONG SINGLE ALBUM [THE W",
-      "latestTime": "12小时前",
-      "updatedAt": "2026-08-07T04:05:32.087Z"
+      "latest": "金在中260807 ins留言：什么？终究还是金在中啊💚 查看图片 @金在中_DreamyRoad: 金在中 💚 #",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-08-07T10:05:30.568Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,18 +27,18 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG OFFICI",
-      "latestTime": "7-30 18:03",
-      "updatedAt": "2026-08-07T04:05:40.033Z"
+      "latest": "金在中 会员专属 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG O",
+      "latestTime": "5小时前",
+      "updatedAt": "2026-08-07T10:05:38.405Z"
     },
     {
       "id": "inkode_weibo",
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "1小时前",
+      "latestTime": "7小时前",
       "updatedAt": "2026-08-07T04:05:43.091Z"
     },
     {
@@ -56,7 +56,7 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:21 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] MOOD FILM #",
       "latestTime": "昨天 23:00 · 投稿了视频",
       "updatedAt": "2026-08-07T04:05:47.932Z"
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.08.04TOPICS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR 】全公演終了",
+      "hasNew": true,
+      "latest": "2026.08.07LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-08-04T10:06:08.171Z"
+      "updatedAt": "2026-08-07T10:06:03.382Z"
     }
   ]
 };
