@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-06T10:06:09.408Z",
+  "checkedAt": "2026-08-07T04:06:11.422Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中神社舞台问候花絮🎞️ @iNKODEofficial: 🎞[#在tube#][#Jaetube#] 明镇前辈毕",
-      "latestTime": "55分钟前",
-      "updatedAt": "2026-08-06T10:05:30.704Z"
+      "latest": "金在中新歌预告片① @iNKODEofficial: KIM JAE JOONG SINGLE ALBUM [THE W",
+      "latestTime": "12小时前",
+      "updatedAt": "2026-08-07T04:05:32.087Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,9 +27,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 会员礼来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG ",
-      "latestTime": "4小时前",
-      "updatedAt": "2026-08-06T10:05:38.607Z"
+      "latest": "金在中 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG OFFICI",
+      "latestTime": "7-30 18:03",
+      "updatedAt": "2026-08-07T04:05:40.033Z"
     },
     {
       "id": "inkode_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "🎞[#在tube#][#Jaetube#] 明镇前辈毕业啦🎓｜金在中 电影《神社：恶鬼的低语》舞台问候幕后花絮 中文",
+      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
       "latestTime": "1小时前",
-      "updatedAt": "2026-08-06T10:05:41.816Z"
+      "updatedAt": "2026-08-07T04:05:43.091Z"
     },
     {
       "id": "jj_chaohua",
@@ -57,9 +57,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
       "hasNew": true,
-      "latest": "16:04 【金在中】明镇前辈毕业啦🎓｜金在中 电影《神社：恶鬼的低语》舞台问候幕后花絮 #金在中 #KIMJAEJO",
-      "latestTime": "1小时前 · 投稿了视频",
-      "updatedAt": "2026-08-06T10:05:46.608Z"
+      "latest": "00:21 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] MOOD FILM #",
+      "latestTime": "昨天 23:00 · 投稿了视频",
+      "updatedAt": "2026-08-07T04:05:47.932Z"
     },
     {
       "id": "dreamyroad_bili",
