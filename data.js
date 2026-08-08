@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-08T04:06:09.836Z",
+  "checkedAt": "2026-08-08T10:06:03.464Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中新歌预告片① @iNKODEofficial: KIM JAE JOONG SINGLE ALBUM [THE W",
-      "latestTime": "8-7 00:15",
-      "updatedAt": "2026-08-08T04:05:30.915Z"
+      "latest": "金在中260807 ins留言：什么？终究还是金在中啊💚 查看图片 @金在中_DreamyRoad: 金在中 💚 #",
+      "latestTime": "8-7 16:58",
+      "updatedAt": "2026-08-08T10:05:28.082Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,9 +27,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 会员礼来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG ",
-      "latestTime": "8-6 13:42",
-      "updatedAt": "2026-08-08T04:05:38.743Z"
+      "latest": "金在中 会员专属 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG O",
+      "latestTime": "8-7 12:55",
+      "updatedAt": "2026-08-08T10:05:35.931Z"
     },
     {
       "id": "inkode_weibo",
