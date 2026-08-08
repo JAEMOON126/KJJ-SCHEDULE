@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-07T10:06:08.861Z",
+  "checkedAt": "2026-08-08T04:06:09.836Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中260807 ins留言：什么？终究还是金在中啊💚 查看图片 @金在中_DreamyRoad: 金在中 💚 #",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-08-07T10:05:30.568Z"
+      "latest": "金在中新歌预告片① @iNKODEofficial: KIM JAE JOONG SINGLE ALBUM [THE W",
+      "latestTime": "8-7 00:15",
+      "updatedAt": "2026-08-08T04:05:30.915Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,9 +27,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 会员专属 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG O",
-      "latestTime": "5小时前",
-      "updatedAt": "2026-08-07T10:05:38.405Z"
+      "latest": "金在中 会员礼来啦 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG ",
+      "latestTime": "8-6 13:42",
+      "updatedAt": "2026-08-08T04:05:38.743Z"
     },
     {
       "id": "inkode_weibo",
@@ -38,7 +38,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "7小时前",
+      "latestTime": "8-7 11:00",
       "updatedAt": "2026-08-07T04:05:43.091Z"
     },
     {
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:21 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] MOOD FILM #",
-      "latestTime": "昨天 23:00 · 投稿了视频",
+      "latestTime": "2天前 · 投稿了视频",
       "updatedAt": "2026-08-07T04:05:47.932Z"
     },
     {
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.08.07LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
       "updatedAt": "2026-08-07T10:06:03.382Z"
