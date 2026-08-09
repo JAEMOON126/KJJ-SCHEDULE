@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-09T04:06:04.937Z",
+  "checkedAt": "2026-08-09T10:06:08.079Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,7 +16,7 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 #金在中# 260807 ローチケチャンネル油管及X： 2026 金在中演唱会 [THE WAVE] 日本",
       "latestTime": "8-7 19:13",
       "updatedAt": "2026-08-09T04:05:29.853Z"
