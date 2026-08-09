@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-08T10:06:03.464Z",
+  "checkedAt": "2026-08-09T04:06:04.937Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,16 +17,16 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中260807 ins留言：什么？终究还是金在中啊💚 查看图片 @金在中_DreamyRoad: 金在中 💚 #",
-      "latestTime": "8-7 16:58",
-      "updatedAt": "2026-08-08T10:05:28.082Z"
+      "latest": "金在中 💚 #金在中# 260807 ローチケチャンネル油管及X： 2026 金在中演唱会 [THE WAVE] 日本",
+      "latestTime": "8-7 19:13",
+      "updatedAt": "2026-08-09T04:05:29.853Z"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 会员专属 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG O",
       "latestTime": "8-7 12:55",
       "updatedAt": "2026-08-08T10:05:35.931Z"
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:21 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] MOOD FILM #",
-      "latestTime": "2天前 · 投稿了视频",
+      "latestTime": "3天前 · 投稿了视频",
       "updatedAt": "2026-08-07T04:05:47.932Z"
     },
     {
