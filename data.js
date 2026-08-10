@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-09T10:06:08.079Z",
+  "checkedAt": "2026-08-10T04:06:11.175Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 #金在中# 260807 ローチケチャンネル油管及X： 2026 金在中演唱会 [THE WAVE] 日本",
-      "latestTime": "8-7 19:13",
-      "updatedAt": "2026-08-09T04:05:29.853Z"
+      "hasNew": true,
+      "latest": "金在中 💚 260810 #金在中# ins story② @金在中_Official @JJ860126JJ",
+      "latestTime": "43分钟前",
+      "updatedAt": "2026-08-10T04:05:31.380Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "8-7 11:00",
-      "updatedAt": "2026-08-07T04:05:43.091Z"
+      "hasNew": true,
+      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] ALBUM DETAILS 🗓️ PRE-",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-08-10T04:05:42.401Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:21 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] MOOD FILM #",
-      "latestTime": "3天前 · 投稿了视频",
+      "latestTime": "08月06日 · 投稿了视频",
       "updatedAt": "2026-08-07T04:05:47.932Z"
     },
     {
