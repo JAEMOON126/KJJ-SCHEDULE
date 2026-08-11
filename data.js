@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-11T04:06:08.560Z",
+  "checkedAt": "2026-08-11T10:06:07.345Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260811#金在中# 韩网新闻： 金在中的「iNKODE Entertainment」……时隔1年推进追",
-      "latestTime": "6分钟前",
-      "updatedAt": "2026-08-11T04:05:29.930Z"
+      "latest": "金在中 💚 #金在中# 260811 Hellolive X： 🌊 2026 KIM JAE JOONG CONCE",
+      "latestTime": "53分钟前",
+      "updatedAt": "2026-08-11T10:05:28.090Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,9 +27,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 📢🎶深圳见面会｜音符站活动公告✨ 站子争取到VIP前排＆A区前排原价票名额！ 直接走官方小程序下单即可✅ 为",
-      "latestTime": "8-9 18:16",
-      "updatedAt": "2026-08-11T04:05:37.893Z"
+      "latest": "福利升级 HI TOUCH惊喜返场 评论配图 金在中 @INFJ_JAEJOONG金在中: 金在中 📢🎶深圳见面会｜",
+      "latestTime": "8-10 17:46",
+      "updatedAt": "2026-08-11T10:05:36.083Z"
     },
     {
       "id": "inkode_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] ALBUM DETAILS 🗓️ PRE-",
-      "latestTime": "8-10 11:00",
-      "updatedAt": "2026-08-11T04:05:41.054Z"
+      "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] in ",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-08-11T10:05:39.116Z"
     },
     {
       "id": "jj_chaohua",
