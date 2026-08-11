@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-10T10:06:07.924Z",
+  "checkedAt": "2026-08-11T04:06:08.560Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# KIM JAE JOONG SINGLE ALBUM 金在中新单曲 [THE WAVE] 🛒",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-08-10T10:05:29.853Z"
+      "latest": "金在中 💚 260811#金在中# 韩网新闻： 金在中的「iNKODE Entertainment」……时隔1年推进追",
+      "latestTime": "6分钟前",
+      "updatedAt": "2026-08-11T04:05:29.930Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,9 +27,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "福利升级 惊喜返场 评论配图 @INFJ_JAEJOONG金在中: 金在中 📢🎶深圳见面会｜音符站活动公告✨ 站子争",
-      "latestTime": "19分钟前",
-      "updatedAt": "2026-08-10T10:05:37.690Z"
+      "latest": "金在中 📢🎶深圳见面会｜音符站活动公告✨ 站子争取到VIP前排＆A区前排原价票名额！ 直接走官方小程序下单即可✅ 为",
+      "latestTime": "8-9 18:16",
+      "updatedAt": "2026-08-11T04:05:37.893Z"
     },
     {
       "id": "inkode_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 《THE WAVE》 熊宝预售特典 @-熊宝也妖娆-: 金在中 金在中《THE WAVE》 熊宝预售特典 KIM",
-      "latestTime": "4小时前",
-      "updatedAt": "2026-08-10T10:05:40.718Z"
+      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] ALBUM DETAILS 🗓️ PRE-",
+      "latestTime": "8-10 11:00",
+      "updatedAt": "2026-08-11T04:05:41.054Z"
     },
     {
       "id": "jj_chaohua",
