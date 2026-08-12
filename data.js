@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-12T04:06:09.738Z",
+  "checkedAt": "2026-08-12T10:06:09.601Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中💚 #金在中# 250203 JAEJOONG MONDAY PARTY with JAEFANS 2025 幕",
-      "latestTime": "56分钟前",
-      "updatedAt": "2026-08-12T04:05:32.675Z"
+      "latest": "金在中 💚 260812 #金在中# Weverse ： KIM JAE JOONG OFFICIAL FANCLUB",
+      "latestTime": "4分钟前",
+      "updatedAt": "2026-08-12T10:05:27.926Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 《THE WAVE》 熊宝预售特典 @-熊宝也妖娆-: 金在中 金在中《THE WAVE》 熊宝预售特典 KIM",
-      "latestTime": "8-10 14:14",
-      "updatedAt": "2026-08-12T04:05:43.544Z"
+      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
+      "latestTime": "23分钟前",
+      "updatedAt": "2026-08-12T10:05:40.037Z"
     },
     {
       "id": "jj_chaohua",
@@ -76,10 +76,10 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": false,
-      "latest": "最新帖 DblW9VQoCUG",
+      "hasNew": true,
+      "latest": "最新帖 Db7WucooNfy",
       "latestTime": null,
-      "updatedAt": "2026-08-04T03:46:51.716Z"
+      "updatedAt": "2026-08-12T10:05:58.345Z"
     },
     {
       "id": "jj_weverse",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.08.07LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "hasNew": true,
+      "latest": "2026.08.12GOODS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR】オフィシャルグ",
       "latestTime": null,
-      "updatedAt": "2026-08-07T10:06:03.382Z"
+      "updatedAt": "2026-08-12T10:06:04.666Z"
     }
   ]
 };
