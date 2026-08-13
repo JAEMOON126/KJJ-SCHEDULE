@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-12T10:06:09.601Z",
+  "checkedAt": "2026-08-13T04:06:08.157Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,19 +17,19 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260812 #金在中# Weverse ： KIM JAE JOONG OFFICIAL FANCLUB",
-      "latestTime": "4分钟前",
-      "updatedAt": "2026-08-12T10:05:27.926Z"
+      "latest": "金在中 💚#金在中# 260812 bjyuka ins (米酒宣传相关） @金在中_Official @JJ8601",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-08-13T04:05:31.643Z"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": false,
-      "latest": "福利升级 HI TOUCH惊喜返场 评论配图 金在中 @INFJ_JAEJOONG金在中: 金在中 📢🎶深圳见面会｜",
-      "latestTime": "8-10 17:46",
-      "updatedAt": "2026-08-11T10:05:36.083Z"
+      "hasNew": true,
+      "latest": "金在中 线上直播来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE ",
+      "latestTime": "8-11 18:53",
+      "updatedAt": "2026-08-13T04:05:39.530Z"
     },
     {
       "id": "inkode_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABI",
-      "latestTime": "23分钟前",
-      "updatedAt": "2026-08-12T10:05:40.037Z"
+      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] CONCEPT PHOTO 2 2026.0",
+      "latestTime": "8-11 23:00",
+      "updatedAt": "2026-08-13T04:05:42.734Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,10 +56,10 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "00:21 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] MOOD FILM #",
-      "latestTime": "08月06日 · 投稿了视频",
-      "updatedAt": "2026-08-07T04:05:47.932Z"
+      "hasNew": true,
+      "latest": "00:23 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] MOOD FILM 2",
+      "latestTime": "昨天 23:00 · 投稿了视频",
+      "updatedAt": "2026-08-13T04:05:47.544Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -76,7 +76,7 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 Db7WucooNfy",
       "latestTime": null,
       "updatedAt": "2026-08-12T10:05:58.345Z"
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.08.12GOODS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR】オフィシャルグ",
       "latestTime": null,
       "updatedAt": "2026-08-12T10:06:04.666Z"
