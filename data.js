@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-13T04:06:08.157Z",
+  "checkedAt": "2026-08-13T10:06:12.024Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 260812 bjyuka ins (米酒宣传相关） @金在中_Official @JJ8601",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-08-13T04:05:31.643Z"
+      "latest": "金在中 @iNKODEofficial: 🎥[#在中来啦#] 削苹果的正确打开方式🍎 KIM JAE JOONG O",
+      "latestTime": "57分钟前",
+      "updatedAt": "2026-08-13T10:05:30.111Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,9 +27,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 线上直播来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE ",
-      "latestTime": "8-11 18:53",
-      "updatedAt": "2026-08-13T04:05:39.530Z"
+      "latest": "金在中 周边来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE JO",
+      "latestTime": "49分钟前",
+      "updatedAt": "2026-08-13T10:05:37.951Z"
     },
     {
       "id": "inkode_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] CONCEPT PHOTO 2 2026.0",
-      "latestTime": "8-11 23:00",
-      "updatedAt": "2026-08-13T04:05:42.734Z"
+      "latest": "🎥[#在中来啦#] 削苹果的正确打开方式🍎 KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-08-13T10:05:40.977Z"
     },
     {
       "id": "jj_chaohua",
@@ -57,9 +57,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
       "hasNew": true,
-      "latest": "00:23 【金在中】KIM JAE JOONG SINGLE ALBUM [THE WAVE] MOOD FILM 2",
-      "latestTime": "昨天 23:00 · 投稿了视频",
-      "updatedAt": "2026-08-13T04:05:47.544Z"
+      "latest": "00:20 【金在中】削苹果的正确打开方式🍎 KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS",
+      "latestTime": "1小时前 · 投稿了视频",
+      "updatedAt": "2026-08-13T10:05:46.262Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.08.12GOODS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR】オフィシャルグ",
+      "hasNew": true,
+      "latest": "2026.08.13TOPICS 【重要なお知らせ】なりすましアカウントによる詐欺行為に関するご注意",
       "latestTime": null,
-      "updatedAt": "2026-08-12T10:06:04.666Z"
+      "updatedAt": "2026-08-13T10:06:05.224Z"
     }
   ]
 };
