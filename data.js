@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-14T04:07:06.619Z",
+  "checkedAt": "2026-08-14T10:06:29.259Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中💚 260814 #金在中# 韩网新闻： 金在中、与李茂珍携手合作……20日回归 歌手兼演员金在中时隔1年3个月",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-08-14T04:05:31.631Z"
+      "latest": "金在中 💚 260814 #金在中# ins story②③ @金在中_Official @JJ860126JJ",
+      "latestTime": "12分钟前",
+      "updatedAt": "2026-08-14T10:05:31.343Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,9 +27,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 线上直播来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE ",
-      "latestTime": "8-11 18:53",
-      "updatedAt": "2026-08-14T04:05:39.532Z"
+      "latest": "金在中 📢𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝒇𝒐𝒓 𝑺𝑯𝑬𝑵𝒁𝑯𝑬𝑵 𝑭𝑨𝑵𝑴𝑬𝑬𝑻\ud835",
+      "latestTime": "56分钟前",
+      "updatedAt": "2026-08-14T10:05:39.273Z"
     },
     {
       "id": "inkode_weibo",
@@ -38,8 +38,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "［图片 1 张］",
-      "latestTime": "10小时前",
-      "updatedAt": "2026-08-14T04:06:01.711Z"
+      "latestTime": "16小时前",
+      "updatedAt": "2026-08-14T10:06:01.457Z"
     },
     {
       "id": "jj_chaohua",
@@ -55,11 +55,11 @@ window.YT_DATA = {
       "id": "jj_bili",
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
-      "status": "pending",
-      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
+      "status": "ok",
       "hasNew": false,
-      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
-      "latestTime": null
+      "latest": "00:20 【金在中】削苹果的正确打开方式🍎 KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS",
+      "latestTime": "昨天 17:00 · 投稿了视频",
+      "updatedAt": "2026-08-13T10:05:46.262Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.08.13TOPICS 【重要なお知らせ】なりすましアカウントによる詐欺行為に関するご注意",
+      "hasNew": true,
+      "latest": "2026.08.14LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-08-13T10:06:05.224Z"
+      "updatedAt": "2026-08-14T10:06:23.693Z"
     }
   ]
 };
