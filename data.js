@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-14T10:06:29.259Z",
+  "checkedAt": "2026-08-15T04:06:07.133Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260814 #金在中# ins story②③ @金在中_Official @JJ860126JJ",
-      "latestTime": "12分钟前",
-      "updatedAt": "2026-08-14T10:05:31.343Z"
+      "latest": "金在中 💚 260813 #金在中# 韩网路透： 昨天，金在中来到了我父母经营的餐厅，还亲自点了牛小肠吃。 在那之前我",
+      "latestTime": "8-14 09:34",
+      "updatedAt": "2026-08-15T04:05:28.606Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,9 +27,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 📢𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝒇𝒐𝒓 𝑺𝑯𝑬𝑵𝒁𝑯𝑬𝑵 𝑭𝑨𝑵𝑴𝑬𝑬𝑻\ud835",
-      "latestTime": "56分钟前",
-      "updatedAt": "2026-08-14T10:05:39.273Z"
+      "latest": "金在中 周边来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE JO",
+      "latestTime": "8-13 17:16",
+      "updatedAt": "2026-08-15T04:05:36.443Z"
     },
     {
       "id": "inkode_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "［图片 1 张］",
-      "latestTime": "16小时前",
-      "updatedAt": "2026-08-14T10:06:01.457Z"
+      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] TRACK LIST 2026.08.20 ",
+      "latestTime": "8-13 23:33",
+      "updatedAt": "2026-08-15T04:05:38.992Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,10 +56,10 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "00:20 【金在中】削苹果的正确打开方式🍎 KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS",
-      "latestTime": "昨天 17:00 · 投稿了视频",
-      "updatedAt": "2026-08-13T10:05:46.262Z"
+      "hasNew": true,
+      "latest": "00:57 【金在中】金在中 OFFICIAL FANCLUB ‘BOSS BABIES KODE-3’ MEMBERS",
+      "latestTime": "昨天 19:09 · 投稿了视频",
+      "updatedAt": "2026-08-15T04:05:43.614Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.08.14LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
       "updatedAt": "2026-08-14T10:06:23.693Z"
