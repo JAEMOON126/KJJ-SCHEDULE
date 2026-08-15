@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-15T04:06:07.133Z",
+  "checkedAt": "2026-08-15T10:06:06.955Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260813 #金在中# 韩网路透： 昨天，金在中来到了我父母经营的餐厅，还亲自点了牛小肠吃。 在那之前我",
-      "latestTime": "8-14 09:34",
-      "updatedAt": "2026-08-15T04:05:28.606Z"
+      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 260815 仁川出发 @金在中_Official @JJ860126JJ",
+      "latestTime": "5小时前",
+      "updatedAt": "2026-08-15T10:05:30.760Z"
     },
     {
       "id": "yinfu_weibo",
@@ -27,16 +27,16 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 周边来啦 @iNKODEofficial: 📢[#公告#][#Notice#] 2026 KIM JAE JO",
-      "latestTime": "8-13 17:16",
-      "updatedAt": "2026-08-15T04:05:36.443Z"
+      "latest": "金在中 📢𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝒇𝒐𝒓 𝑺𝑯𝑬𝑵𝒁𝑯𝑬𝑵 𝑭𝑨𝑵𝑴𝑬𝑬𝑻\ud835",
+      "latestTime": "8-14 17:09",
+      "updatedAt": "2026-08-15T10:05:38.601Z"
     },
     {
       "id": "inkode_weibo",
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] TRACK LIST 2026.08.20 ",
       "latestTime": "8-13 23:33",
       "updatedAt": "2026-08-15T04:05:38.992Z"
@@ -59,7 +59,7 @@ window.YT_DATA = {
       "hasNew": true,
       "latest": "00:57 【金在中】金在中 OFFICIAL FANCLUB ‘BOSS BABIES KODE-3’ MEMBERS",
       "latestTime": "昨天 19:09 · 投稿了视频",
-      "updatedAt": "2026-08-15T04:05:43.614Z"
+      "updatedAt": "2026-08-15T10:05:46.203Z"
     },
     {
       "id": "dreamyroad_bili",
