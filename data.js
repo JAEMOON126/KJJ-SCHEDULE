@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-16T04:06:07.338Z",
+  "checkedAt": "2026-08-16T10:06:05.728Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,26 +17,26 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260816 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "12小时前",
-      "updatedAt": "2026-08-16T04:05:29.923Z"
+      "latest": "金在中 💚 260816 #金在中# SBS人气歌谣下周预告 @金在中_Official @JJ860126JJ 金在",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-08-16T10:05:30.154Z"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": false,
+      "hasNew": true,
       "latest": "金在中 📢𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝒇𝒐𝒓 𝑺𝑯𝑬𝑵𝒁𝑯𝑬𝑵 𝑭𝑨𝑵𝑴𝑬𝑬𝑻\ud835",
-      "latestTime": "8-14 17:09",
-      "updatedAt": "2026-08-15T10:05:38.601Z"
+      "latestTime": "5小时前",
+      "updatedAt": "2026-08-16T10:05:37.994Z"
     },
     {
       "id": "inkode_weibo",
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "🎥[#在中来啦#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABIES KODE-",
       "latestTime": "8-14 19:07",
       "updatedAt": "2026-08-16T04:05:40.793Z"
@@ -59,7 +59,7 @@ window.YT_DATA = {
       "hasNew": true,
       "latest": "00:57 【金在中】金在中 OFFICIAL FANCLUB ‘BOSS BABIES KODE-3’ MEMBERS",
       "latestTime": "2天前 · 投稿了视频",
-      "updatedAt": "2026-08-16T04:05:45.484Z"
+      "updatedAt": "2026-08-16T10:05:45.707Z"
     },
     {
       "id": "dreamyroad_bili",
