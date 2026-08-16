@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-15T10:06:06.955Z",
+  "checkedAt": "2026-08-16T04:06:07.338Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,16 +17,16 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 260815 仁川出发 @金在中_Official @JJ860126JJ",
-      "latestTime": "5小时前",
-      "updatedAt": "2026-08-15T10:05:30.760Z"
+      "latest": "金在中 💚 260816 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "12小时前",
+      "updatedAt": "2026-08-16T04:05:29.923Z"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 📢𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝒇𝒐𝒓 𝑺𝑯𝑬𝑵𝒁𝑯𝑬𝑵 𝑭𝑨𝑵𝑴𝑬𝑬𝑻\ud835",
       "latestTime": "8-14 17:09",
       "updatedAt": "2026-08-15T10:05:38.601Z"
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "KIM JAE JOONG SINGLE ALBUM [THE WAVE] TRACK LIST 2026.08.20 ",
-      "latestTime": "8-13 23:33",
-      "updatedAt": "2026-08-15T04:05:38.992Z"
+      "hasNew": true,
+      "latest": "🎥[#在中来啦#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABIES KODE-",
+      "latestTime": "8-14 19:07",
+      "updatedAt": "2026-08-16T04:05:40.793Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,8 +58,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "00:57 【金在中】金在中 OFFICIAL FANCLUB ‘BOSS BABIES KODE-3’ MEMBERS",
-      "latestTime": "昨天 19:09 · 投稿了视频",
-      "updatedAt": "2026-08-15T10:05:46.203Z"
+      "latestTime": "2天前 · 投稿了视频",
+      "updatedAt": "2026-08-16T04:05:45.484Z"
     },
     {
       "id": "dreamyroad_bili",
