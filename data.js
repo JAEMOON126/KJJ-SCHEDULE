@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-17T04:06:27.447Z",
+  "checkedAt": "2026-08-17T10:06:31.203Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260816 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "8-16 00:16",
-      "updatedAt": "2026-08-17T04:05:29.551Z"
+      "latest": "金在中 💚#金在中# 260817 melon_music ins： 𝐂𝐎𝐌𝐈𝐍𝐆 𝐒𝐎𝐎𝐍👑 ",
+      "latestTime": "3小时前",
+      "updatedAt": "2026-08-17T10:05:31.036Z"
     },
     {
       "id": "yinfu_weibo",
@@ -59,7 +59,7 @@ window.YT_DATA = {
       "hasNew": true,
       "latest": "00:57 【金在中】金在中 OFFICIAL FANCLUB ‘BOSS BABIES KODE-3’ MEMBERS",
       "latestTime": "3天前 · 投稿了视频",
-      "updatedAt": "2026-08-17T04:06:04.657Z"
+      "updatedAt": "2026-08-17T10:06:07.554Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -76,10 +76,10 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": false,
-      "latest": "最新帖 Db7WucooNfy",
+      "hasNew": true,
+      "latest": "最新帖 DcIWMJDoBvt",
       "latestTime": null,
-      "updatedAt": "2026-08-12T10:05:58.345Z"
+      "updatedAt": "2026-08-17T10:06:19.652Z"
     },
     {
       "id": "jj_weverse",
