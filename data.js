@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-16T10:06:05.728Z",
+  "checkedAt": "2026-08-17T04:06:27.447Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,19 +17,19 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260816 #金在中# SBS人气歌谣下周预告 @金在中_Official @JJ860126JJ 金在",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-08-16T10:05:30.154Z"
+      "latest": "金在中 💚 260816 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "8-16 00:16",
+      "updatedAt": "2026-08-17T04:05:29.551Z"
     },
     {
       "id": "yinfu_weibo",
       "name": "音符 · 官方公告",
       "url": "https://weibo.com/u/7740641098",
-      "status": "ok",
-      "hasNew": true,
-      "latest": "金在中 📢𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝒇𝒐𝒓 𝑺𝑯𝑬𝑵𝒁𝑯𝑬𝑵 𝑭𝑨𝑵𝑴𝑬𝑬𝑻\ud835",
-      "latestTime": "5小时前",
-      "updatedAt": "2026-08-16T10:05:37.994Z"
+      "status": "pending",
+      "note": "没读到微博（选择器可能要调）",
+      "hasNew": false,
+      "latest": "没读到微博（选择器可能要调）",
+      "latestTime": null
     },
     {
       "id": "inkode_weibo",
@@ -58,8 +58,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "00:57 【金在中】金在中 OFFICIAL FANCLUB ‘BOSS BABIES KODE-3’ MEMBERS",
-      "latestTime": "2天前 · 投稿了视频",
-      "updatedAt": "2026-08-16T10:05:45.707Z"
+      "latestTime": "3天前 · 投稿了视频",
+      "updatedAt": "2026-08-17T04:06:04.657Z"
     },
     {
       "id": "dreamyroad_bili",
