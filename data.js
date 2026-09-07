@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-08-17T10:06:31.203Z",
+  "checkedAt": "2026-09-07T09:23:25.354Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 260817 melon_music ins： 𝐂𝐎𝐌𝐈𝐍𝐆 𝐒𝐎𝐎𝐍👑 ",
+      "latest": "金在中👻 @iNKODEofficial: 🎥[#在中来啦#] 👻 x8 @金在中_Official 金在中 #K",
       "latestTime": "3小时前",
-      "updatedAt": "2026-08-17T10:05:31.036Z"
+      "updatedAt": "2026-09-07T09:22:23.855Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "🎥[#在中来啦#] KIM JAE JOONG OFFICIAL FANCLUB ‘BOSS BABIES KODE-",
-      "latestTime": "8-14 19:07",
-      "updatedAt": "2026-08-16T04:05:40.793Z"
+      "hasNew": true,
+      "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] MD ",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-07T09:22:53.874Z"
     },
     {
       "id": "jj_chaohua",
@@ -57,19 +57,19 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
       "hasNew": true,
-      "latest": "00:57 【金在中】金在中 OFFICIAL FANCLUB ‘BOSS BABIES KODE-3’ MEMBERS",
-      "latestTime": "3天前 · 投稿了视频",
-      "updatedAt": "2026-08-17T10:06:07.554Z"
+      "latest": "00:13 【金在中】👻 x8 #金在中 #KIMJAEJOONG Copyrights 2026 ⓒ iNKODE ",
+      "latestTime": "3小时前 · 投稿了视频",
+      "updatedAt": "2026-09-07T09:22:59.581Z"
     },
     {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": false,
-      "latest": "💚梦路招新💚 欢迎大家加入我们哟～！！！",
-      "latestTime": "2025年12月28日",
-      "updatedAt": "2026-08-04T03:46:44.901Z"
+      "hasNew": true,
+      "latest": "with you we shine✨查看图片 金在中_Official 投稿了视频 14:00 【金在中】 KIM JA",
+      "latestTime": "2天前",
+      "updatedAt": "2026-09-07T09:23:04.028Z"
     },
     {
       "id": "jj_instagram",
@@ -77,9 +77,9 @@ window.YT_DATA = {
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
       "hasNew": true,
-      "latest": "最新帖 DcIWMJDoBvt",
+      "latest": "最新帖 Dc0O2LKPkbT",
       "latestTime": null,
-      "updatedAt": "2026-08-17T10:06:19.652Z"
+      "updatedAt": "2026-09-07T09:23:12.451Z"
     },
     {
       "id": "jj_weverse",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.08.14LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "hasNew": true,
+      "latest": "2026.09.02LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-08-14T10:06:23.693Z"
+      "updatedAt": "2026-09-07T09:23:19.521Z"
     }
   ]
 };

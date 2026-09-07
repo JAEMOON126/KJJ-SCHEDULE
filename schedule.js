@@ -37,55 +37,6 @@ window.JJ_SCHEDULE = [
     "note": "Arena @ EXPO 19:30"
   },
   {
-    "date": "2026-05-03",
-    "type": "broadcast",
-    "title": "Mnet「魔法のランプ―イケメン旅行記 in France―」",
-    "region": "日本",
-    "note": ""
-  },
-  {
-    "date": "2026-05-04",
-    "type": "broadcast",
-    "title": "KBS World「スパイ～愛を守るもの～」",
-    "region": "日本",
-    "note": ""
-  },
-  {
-    "date": "2026-05-05",
-    "type": "broadcast",
-    "title": "KBS World「スパイ～愛を守るもの～」",
-    "region": "日本",
-    "note": ""
-  },
-  {
-    "date": "2026-05-10",
-    "type": "broadcast",
-    "title": "Mnet「魔法のランプ―イケメン旅行記 in France―」",
-    "region": "日本",
-    "note": ""
-  },
-  {
-    "date": "2026-05-11",
-    "type": "broadcast",
-    "title": "KBS World「スパイ～愛を守るもの～」",
-    "region": "日本",
-    "note": ""
-  },
-  {
-    "date": "2026-05-12",
-    "type": "broadcast",
-    "title": "KBS World「スパイ～愛を守るもの～」",
-    "region": "日本",
-    "note": ""
-  },
-  {
-    "date": "2026-05-17",
-    "type": "broadcast",
-    "title": "Mnet「魔法のランプ―イケメン旅行記 in France―」",
-    "region": "日本",
-    "note": ""
-  },
-  {
     "date": "2026-05-23",
     "type": "concert",
     "title": "2026 JAEJOONG ZEPP & HALL LIVE TOUR – 10% –",
@@ -341,6 +292,55 @@ window.JJ_SCHEDULE = [
     "date": "2026-10-31",
     "type": "concert",
     "title": "CS衛星劇場「2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% –」",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-11-03",
+    "type": "concert",
+    "title": "JX 2026 TOUR CONCERT <CORE>",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-11-04",
+    "type": "concert",
+    "title": "JX 2026 TOUR CONCERT <CORE>",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-11-14",
+    "type": "concert",
+    "title": "JX 2026 TOUR CONCERT <CORE>",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-11-15",
+    "type": "concert",
+    "title": "JX 2026 TOUR CONCERT <CORE>",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-12-04",
+    "type": "concert",
+    "title": "JX 2026 TOUR CONCERT <CORE>",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-12-05",
+    "type": "concert",
+    "title": "JX 2026 TOUR CONCERT <CORE>",
+    "region": "日本",
+    "note": ""
+  },
+  {
+    "date": "2026-12-06",
+    "type": "concert",
+    "title": "JX 2026 TOUR CONCERT <CORE>",
     "region": "日本",
     "note": ""
   }
