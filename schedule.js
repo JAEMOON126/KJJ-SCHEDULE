@@ -289,11 +289,39 @@ window.JJ_SCHEDULE = [
     "note": ""
   },
   {
+    "date": "2026-10-09",
+    "type": "concert",
+    "title": "JX〈CORE〉· 仁川 D1",
+    "region": "韩国",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+  },
+  {
+    "date": "2026-10-10",
+    "type": "concert",
+    "title": "JX〈CORE〉· 仁川 D2",
+    "region": "韩国",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+  },
+  {
+    "date": "2026-10-11",
+    "type": "concert",
+    "title": "JX〈CORE〉· 仁川 D3",
+    "region": "韩国",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+  },
+  {
     "date": "2026-10-31",
     "type": "concert",
     "title": "CS衛星劇場「2026 JAEJOONG ZEPP & HALL LIVE TOUR – 4% –」",
     "region": "日本",
     "note": ""
+  },
+  {
+    "date": "2026-11-03",
+    "type": "concert",
+    "title": "JX〈CORE〉· 神户 D1",
+    "region": "日本",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
   },
   {
     "date": "2026-11-03",
@@ -305,9 +333,30 @@ window.JJ_SCHEDULE = [
   {
     "date": "2026-11-04",
     "type": "concert",
+    "title": "JX〈CORE〉· 神户 D2",
+    "region": "日本",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+  },
+  {
+    "date": "2026-11-04",
+    "type": "concert",
     "title": "JX 2026 TOUR CONCERT <CORE>",
     "region": "日本",
     "note": ""
+  },
+  {
+    "date": "2026-11-07",
+    "type": "concert",
+    "title": "JX〈CORE〉· 澳门",
+    "region": "中国",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+  },
+  {
+    "date": "2026-11-14",
+    "type": "concert",
+    "title": "JX〈CORE〉· 大阪 D1",
+    "region": "日本",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
   },
   {
     "date": "2026-11-14",
@@ -319,9 +368,30 @@ window.JJ_SCHEDULE = [
   {
     "date": "2026-11-15",
     "type": "concert",
+    "title": "JX〈CORE〉· 大阪 D2",
+    "region": "日本",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+  },
+  {
+    "date": "2026-11-15",
+    "type": "concert",
     "title": "JX 2026 TOUR CONCERT <CORE>",
     "region": "日本",
     "note": ""
+  },
+  {
+    "date": "2026-11-21",
+    "type": "concert",
+    "title": "JX〈CORE〉· 台北",
+    "region": "台湾",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+  },
+  {
+    "date": "2026-12-04",
+    "type": "concert",
+    "title": "JX〈CORE〉· 横滨 D1",
+    "region": "日本",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
   },
   {
     "date": "2026-12-04",
@@ -333,9 +403,23 @@ window.JJ_SCHEDULE = [
   {
     "date": "2026-12-05",
     "type": "concert",
+    "title": "JX〈CORE〉· 横滨 D2",
+    "region": "日本",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+  },
+  {
+    "date": "2026-12-05",
+    "type": "concert",
     "title": "JX 2026 TOUR CONCERT <CORE>",
     "region": "日本",
     "note": ""
+  },
+  {
+    "date": "2026-12-06",
+    "type": "concert",
+    "title": "JX〈CORE〉· 横滨 D3",
+    "region": "日本",
+    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
   },
   {
     "date": "2026-12-06",

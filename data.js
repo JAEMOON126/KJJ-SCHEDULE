@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-07T11:04:30.368Z",
+  "checkedAt": "2026-09-07T12:00:12.523Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,9 +16,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚#金在中# 260907 iNKODE JAPAN Official X： 【2026 KIM JAE JO",
-      "latestTime": "6分钟前",
+      "latestTime": "1小时前",
       "updatedAt": "2026-09-07T11:03:34.648Z"
     },
     {
@@ -36,9 +36,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "[🎥] Under the stars, with #MJ 🌟 @金在中_Official 金在中 #KIMJAEJ",
-      "latestTime": "3分钟前",
+      "latestTime": "59分钟前",
       "updatedAt": "2026-09-07T11:04:04.609Z"
     },
     {
@@ -56,9 +56,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:43 【金在中】Under the stars, with #MJ 🌟 #金在中 #KIMJAEJOONG Co",
-      "latestTime": "3分钟前 · 投稿了视频",
+      "latestTime": "59分钟前 · 投稿了视频",
       "updatedAt": "2026-09-07T11:04:09.102Z"
     },
     {

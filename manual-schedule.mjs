@@ -15,4 +15,17 @@ export const MANUAL_EVENTS = [
   { date: "2026-08-16", type: "fanmeeting", title: "FAN MEETING · 深圳", region: "中国", note: "特别的爱 深情予你 [音符/星羽]" },
   // 韩国专辑发行（多家韩媒确证）
   { date: "2026-08-20", type: "release", title: "新单曲《THE WAVE》· 韩国", region: "韩国", note: "18:00 各大音源上线 · 时隔1年3个月韩国新专" },
+  // JX（金在中 & 金俊秀）2026 TOUR CONCERT〈CORE〉六城巡演（多家韩媒/allkpop 确证，场馆票务待官方公布）
+  { date: "2026-10-09", type: "concert", title: "JX〈CORE〉· 仁川 D1", region: "韩国", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-10-10", type: "concert", title: "JX〈CORE〉· 仁川 D2", region: "韩国", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-10-11", type: "concert", title: "JX〈CORE〉· 仁川 D3", region: "韩国", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-11-03", type: "concert", title: "JX〈CORE〉· 神户 D1", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-11-04", type: "concert", title: "JX〈CORE〉· 神户 D2", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-11-07", type: "concert", title: "JX〈CORE〉· 澳门", region: "中国", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-11-14", type: "concert", title: "JX〈CORE〉· 大阪 D1", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-11-15", type: "concert", title: "JX〈CORE〉· 大阪 D2", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-11-21", type: "concert", title: "JX〈CORE〉· 台北", region: "台湾", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-12-04", type: "concert", title: "JX〈CORE〉· 横滨 D1", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-12-05", type: "concert", title: "JX〈CORE〉· 横滨 D2", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
+  { date: "2026-12-06", type: "concert", title: "JX〈CORE〉· 横滨 D3", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
 ];
