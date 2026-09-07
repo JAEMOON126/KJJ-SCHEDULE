@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-07T12:00:12.523Z",
+  "checkedAt": "2026-09-07T12:36:54.996Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚#金在中# 260907 iNKODE JAPAN Official X： 【2026 KIM JAE JO",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-09-07T11:03:34.648Z"
+      "hasNew": true,
+      "latest": "金在中 💚#金在中# 260907 ktkim_official ins (时尚摄影师） 首尔时装周相关 @金在中_O",
+      "latestTime": "14分钟前",
+      "updatedAt": "2026-09-07T12:36:00.323Z"
     },
     {
       "id": "yinfu_weibo",
@@ -38,7 +38,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "[🎥] Under the stars, with #MJ 🌟 @金在中_Official 金在中 #KIMJAEJ",
-      "latestTime": "59分钟前",
+      "latestTime": "2小时前",
       "updatedAt": "2026-09-07T11:04:04.609Z"
     },
     {
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:43 【金在中】Under the stars, with #MJ 🌟 #金在中 #KIMJAEJOONG Co",
-      "latestTime": "59分钟前 · 投稿了视频",
+      "latestTime": "1小时前 · 投稿了视频",
       "updatedAt": "2026-09-07T11:04:09.102Z"
     },
     {
@@ -76,10 +76,10 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": false,
-      "latest": "最新帖 Dc0O2LKPkbT",
+      "hasNew": true,
+      "latest": "最新帖 Dc_EsXvE7l3",
       "latestTime": null,
-      "updatedAt": "2026-09-07T09:23:12.451Z"
+      "updatedAt": "2026-09-07T12:36:44.516Z"
     },
     {
       "id": "jj_weverse",

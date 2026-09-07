@@ -293,21 +293,21 @@ window.JJ_SCHEDULE = [
     "type": "concert",
     "title": "JX〈CORE〉· 仁川 D1",
     "region": "韩国",
-    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+    "note": "Inspire Arena 仁川 · 18:00 开演"
   },
   {
     "date": "2026-10-10",
     "type": "concert",
     "title": "JX〈CORE〉· 仁川 D2",
     "region": "韩国",
-    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+    "note": "Inspire Arena 仁川 · 17:00 开演"
   },
   {
     "date": "2026-10-11",
     "type": "concert",
     "title": "JX〈CORE〉· 仁川 D3",
     "region": "韩国",
-    "note": "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布"
+    "note": "Inspire Arena 仁川 · 17:00 开演"
   },
   {
     "date": "2026-10-31",
