@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-07T10:06:27.902Z",
+  "checkedAt": "2026-09-07T11:04:30.368Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260907 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-09-07T10:05:30.180Z"
+      "latest": "金在中 💚#金在中# 260907 iNKODE JAPAN Official X： 【2026 KIM JAE JO",
+      "latestTime": "6分钟前",
+      "updatedAt": "2026-09-07T11:03:34.648Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] MD ",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-09-07T09:22:53.874Z"
+      "hasNew": true,
+      "latest": "[🎥] Under the stars, with #MJ 🌟 @金在中_Official 金在中 #KIMJAEJ",
+      "latestTime": "3分钟前",
+      "updatedAt": "2026-09-07T11:04:04.609Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,10 +56,10 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "00:13 【金在中】👻 x8 #金在中 #KIMJAEJOONG Copyrights 2026 ⓒ iNKODE ",
-      "latestTime": "4小时前 · 投稿了视频",
-      "updatedAt": "2026-09-07T09:22:59.581Z"
+      "hasNew": true,
+      "latest": "00:43 【金在中】Under the stars, with #MJ 🌟 #金在中 #KIMJAEJOONG Co",
+      "latestTime": "3分钟前 · 投稿了视频",
+      "updatedAt": "2026-09-07T11:04:09.102Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.09.07LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
       "updatedAt": "2026-09-07T10:06:22.768Z"
