@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-07T09:23:25.354Z",
+  "checkedAt": "2026-09-07T10:06:27.902Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中👻 @iNKODEofficial: 🎥[#在中来啦#] 👻 x8 @金在中_Official 金在中 #K",
+      "latest": "金在中 💚 260907 #金在中# ins story @金在中_Official @JJ860126JJ",
       "latestTime": "3小时前",
-      "updatedAt": "2026-09-07T09:22:23.855Z"
+      "updatedAt": "2026-09-07T10:05:30.180Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,9 +36,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] MD ",
-      "latestTime": "1小时前",
+      "latestTime": "2小时前",
       "updatedAt": "2026-09-07T09:22:53.874Z"
     },
     {
@@ -56,9 +56,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:13 【金在中】👻 x8 #金在中 #KIMJAEJOONG Copyrights 2026 ⓒ iNKODE ",
-      "latestTime": "3小时前 · 投稿了视频",
+      "latestTime": "4小时前 · 投稿了视频",
       "updatedAt": "2026-09-07T09:22:59.581Z"
     },
     {
@@ -66,7 +66,7 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "with you we shine✨查看图片 金在中_Official 投稿了视频 14:00 【金在中】 KIM JA",
       "latestTime": "2天前",
       "updatedAt": "2026-09-07T09:23:04.028Z"
@@ -76,7 +76,7 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 Dc0O2LKPkbT",
       "latestTime": null,
       "updatedAt": "2026-09-07T09:23:12.451Z"
@@ -97,9 +97,9 @@ window.YT_DATA = {
       "url": "https://jaefans.com/",
       "status": "ok",
       "hasNew": true,
-      "latest": "2026.09.02LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "latest": "2026.09.07LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-09-07T09:23:19.521Z"
+      "updatedAt": "2026-09-07T10:06:22.768Z"
     }
   ]
 };
