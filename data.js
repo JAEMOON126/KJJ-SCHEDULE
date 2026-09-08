@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-07T12:36:54.996Z",
+  "checkedAt": "2026-09-08T02:40:01.122Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 260907 ktkim_official ins (时尚摄影师） 首尔时装周相关 @金在中_O",
-      "latestTime": "14分钟前",
-      "updatedAt": "2026-09-07T12:36:00.323Z"
+      "latest": "金在中 💚 #金在中# 260903 【梦路中字】 KBS 新品上市 便利餐厅 EP.336 金在中 cut @金在中",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-08T02:39:22.077Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "[🎥] Under the stars, with #MJ 🌟 @金在中_Official 金在中 #KIMJAEJ",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-09-07T11:04:04.609Z"
+      "hasNew": true,
+      "latest": "Under the stars, with #SAYMYNAME##DOHEE# 🌟 @SAYMYNAME_SMN @",
+      "latestTime": "9-6 17:41",
+      "updatedAt": "2026-09-08T02:39:33.811Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:43 【金在中】Under the stars, with #MJ 🌟 #金在中 #KIMJAEJOONG Co",
-      "latestTime": "1小时前 · 投稿了视频",
+      "latestTime": "15小时前 · 投稿了视频",
       "updatedAt": "2026-09-07T11:04:09.102Z"
     },
     {
@@ -66,17 +66,17 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": false,
-      "latest": "with you we shine✨查看图片 金在中_Official 投稿了视频 14:00 【金在中】 KIM JA",
-      "latestTime": "2天前",
-      "updatedAt": "2026-09-07T09:23:04.028Z"
+      "hasNew": true,
+      "latest": "🆕中字已更新！～ 🫶🏻 金在中_DreamyRoad 投稿了视频 01:16:42 【金在中】【梦路中字】2609",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-08T02:39:43.422Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 Dc_EsXvE7l3",
       "latestTime": null,
       "updatedAt": "2026-09-07T12:36:44.516Z"
