@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-08T02:40:01.122Z",
+  "checkedAt": "2026-09-08T04:06:05.701Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,9 +16,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 #金在中# 260903 【梦路中字】 KBS 新品上市 便利餐厅 EP.336 金在中 cut @金在中",
-      "latestTime": "1小时前",
+      "latestTime": "3小时前",
       "updatedAt": "2026-09-08T02:39:22.077Z"
     },
     {
@@ -36,7 +36,7 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "Under the stars, with #SAYMYNAME##DOHEE# 🌟 @SAYMYNAME_SMN @",
       "latestTime": "9-6 17:41",
       "updatedAt": "2026-09-08T02:39:33.811Z"
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:43 【金在中】Under the stars, with #MJ 🌟 #金在中 #KIMJAEJOONG Co",
-      "latestTime": "15小时前 · 投稿了视频",
+      "latestTime": "17小时前 · 投稿了视频",
       "updatedAt": "2026-09-07T11:04:09.102Z"
     },
     {
@@ -66,9 +66,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "🆕中字已更新！～ 🫶🏻 金在中_DreamyRoad 投稿了视频 01:16:42 【金在中】【梦路中字】2609",
-      "latestTime": "1小时前",
+      "latestTime": "2小时前",
       "updatedAt": "2026-09-08T02:39:43.422Z"
     },
     {
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.09.07LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "hasNew": true,
+      "latest": "2026.09.08LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-09-07T10:06:22.768Z"
+      "updatedAt": "2026-09-08T04:06:00.099Z"
     }
   ]
 };
