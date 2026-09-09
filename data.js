@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-08T10:06:11.308Z",
+  "checkedAt": "2026-09-09T04:06:07.192Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 是谁呢？ @GXGfashion: GXG明星限时营业局邀请到了一位特别好友 他一一韩国初代顶",
-      "latestTime": "5小时前",
-      "updatedAt": "2026-09-08T10:05:32.279Z"
+      "latest": "金在中//@金在中_Official:在成都见面吧！ @星羽娱乐: 2026 KIM JAE JOONG FANMEET",
+      "latestTime": "50分钟前",
+      "updatedAt": "2026-09-09T04:05:29.526Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📢[#公告#][#Notice#] 2026 KIM JAE JOONG CONCERT [THE WAVE] MD ",
-      "latestTime": "9-7 16:00",
-      "updatedAt": "2026-09-08T10:05:43.260Z"
+      "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FANMEETING ✨ 𝓞𝓷𝓵𝔂 𝓯𝓸𝓻 ",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-09T04:05:40.398Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,10 +56,10 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "00:43 【金在中】Under the stars, with #MJ 🌟 #金在中 #KIMJAEJOONG Co",
-      "latestTime": "23小时前 · 投稿了视频",
-      "updatedAt": "2026-09-07T11:04:09.102Z"
+      "hasNew": true,
+      "latest": "00:42 【金在中】Under the stars, with #tripleS #Kaede 🌟 #金在中 #KI",
+      "latestTime": "17小时前 · 投稿了视频",
+      "updatedAt": "2026-09-09T04:05:45.068Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -68,7 +68,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "🆕中字已更新！～ 🫶🏻 金在中_DreamyRoad 投稿了视频 01:16:42 【金在中】【梦路中字】2609",
-      "latestTime": "8小时前",
+      "latestTime": "昨天 09:11",
       "updatedAt": "2026-09-08T02:39:43.422Z"
     },
     {
