@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-09T04:06:07.192Z",
+  "checkedAt": "2026-09-09T10:06:13.385Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中//@金在中_Official:在成都见面吧！ @星羽娱乐: 2026 KIM JAE JOONG FANMEET",
-      "latestTime": "50分钟前",
-      "updatedAt": "2026-09-09T04:05:29.526Z"
+      "latest": "金在中 💚 260909 #金在中# ins story② @金在中_Official @JJ860126JJ",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-09T10:05:31.421Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FANMEETING ✨ 𝓞𝓷𝓵𝔂 𝓯𝓸𝓻 ",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-09-09T04:05:40.398Z"
+      "latest": "🎞[#在tube#][#Jaetube#] JAEJOONG 'OASIS / 道標' Recording Behin",
+      "latestTime": "5分钟前",
+      "updatedAt": "2026-09-09T10:05:42.318Z"
     },
     {
       "id": "jj_chaohua",
@@ -57,29 +57,29 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
       "hasNew": true,
-      "latest": "00:42 【金在中】Under the stars, with #tripleS #Kaede 🌟 #金在中 #KI",
-      "latestTime": "17小时前 · 投稿了视频",
-      "updatedAt": "2026-09-09T04:05:45.068Z"
+      "latest": "09:10 【金在中】JAEJOONG 'OASIS / 道標' Recording Behind #金在中 #KIMJ",
+      "latestTime": "5分钟前 · 投稿了视频",
+      "updatedAt": "2026-09-09T10:05:47.594Z"
     },
     {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": false,
-      "latest": "🆕中字已更新！～ 🫶🏻 金在中_DreamyRoad 投稿了视频 01:16:42 【金在中】【梦路中字】2609",
-      "latestTime": "昨天 09:11",
-      "updatedAt": "2026-09-08T02:39:43.422Z"
+      "hasNew": true,
+      "latest": "花絮来啦！～ 查看图片 金在中_Official 投稿了视频 09:10 【金在中】JAEJOONG 'OASIS / ",
+      "latestTime": "2分钟前",
+      "updatedAt": "2026-09-09T10:05:52.023Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "ok",
+      "status": "pending",
+      "note": "没读到帖子（可能被风控）",
       "hasNew": false,
-      "latest": "最新帖 Dc_EsXvE7l3",
-      "latestTime": null,
-      "updatedAt": "2026-09-07T12:36:44.516Z"
+      "latest": "没读到帖子（可能被风控）",
+      "latestTime": null
     },
     {
       "id": "jj_weverse",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.09.08LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "hasNew": true,
+      "latest": "2026.09.09RELEASE 日本デジタルシングル『OASIS / 道標』レコーディングビハインド映像が公開！",
       "latestTime": null,
-      "updatedAt": "2026-09-08T04:06:00.099Z"
+      "updatedAt": "2026-09-09T10:06:07.587Z"
     }
   ]
 };
