@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-10T04:06:08.116Z",
+  "checkedAt": "2026-09-10T10:06:11.797Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中//@金在中_Official:在成都见面吧！ @星羽娱乐: 2026 KIM JAE JOONG FANMEET",
-      "latestTime": "9-9 11:15",
-      "updatedAt": "2026-09-10T04:05:31.243Z"
+      "latest": "金在中 💚 #金在中# 260910 JX_official X： [📢] 公告：JX 2026 仁川演唱会 <CO",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-10T10:05:31.433Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,9 +36,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FANMEETING 「只蜀于你」 来自在中的问候视频 \ud83d",
-      "latestTime": "56分钟前",
+      "latestTime": "7小时前",
       "updatedAt": "2026-09-10T04:05:42.231Z"
     },
     {
@@ -56,9 +56,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:39 【金在中】只有前1%的人才能找到 🦎🎨 #金在中 #KIMJAEJOONG Copyrights 202",
-      "latestTime": "15小时前 · 投稿了视频",
+      "latestTime": "21小时前 · 投稿了视频",
       "updatedAt": "2026-09-10T04:05:46.865Z"
     },
     {
@@ -66,20 +66,20 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": false,
-      "latest": "花絮来啦！～ 查看图片 金在中_Official 投稿了视频 09:10 【金在中】JAEJOONG 'OASIS / ",
-      "latestTime": "18小时前",
-      "updatedAt": "2026-09-09T10:05:52.023Z"
+      "hasNew": true,
+      "latest": "00:57 【金在中】260910 GXG更新金在中相关：9月30日宁波衫井奥莱GXG品牌活动视频信 - 308 1",
+      "latestTime": "3小时前 · 投稿了视频",
+      "updatedAt": "2026-09-10T10:05:51.830Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "ok",
+      "status": "pending",
+      "note": "没读到帖子（可能被风控）",
       "hasNew": false,
-      "latest": "最新帖 Dc_EsXvE7l3",
-      "latestTime": null,
-      "updatedAt": "2026-09-07T12:36:44.516Z"
+      "latest": "没读到帖子（可能被风控）",
+      "latestTime": null
     },
     {
       "id": "jj_weverse",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.09.09RELEASE 日本デジタルシングル『OASIS / 道標』レコーディングビハインド映像が公開！",
+      "hasNew": true,
+      "latest": "2026.09.10LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-09-09T10:06:07.587Z"
+      "updatedAt": "2026-09-10T10:06:05.514Z"
     }
   ]
 };
