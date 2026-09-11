@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-11T04:06:24.746Z",
+  "checkedAt": "2026-09-11T10:06:31.868Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,9 +16,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 260911 #金在中# ins story 音乐银行 FAN'S Stage Pick - Tonigh",
-      "latestTime": "24分钟前",
+      "latestTime": "6小时前",
       "updatedAt": "2026-09-11T04:05:28.762Z"
     },
     {
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "00:48 【金在中】【梦路中字】260911 JX official更新金在中相关：是要怎样才能不喜欢JX - 207",
-      "latestTime": "1小时前 · 投稿了视频",
-      "updatedAt": "2026-09-11T04:06:07.512Z"
+      "latest": "00:48 【金在中】【梦路中字】260911 JX official更新金在中相关：是要怎样才能不喜欢JX - 761",
+      "latestTime": "7小时前 · 投稿了视频",
+      "updatedAt": "2026-09-11T10:06:10.282Z"
     },
     {
       "id": "jj_instagram",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.09.10LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "hasNew": true,
+      "latest": "2026.09.11LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-09-10T10:06:05.514Z"
+      "updatedAt": "2026-09-11T10:06:26.629Z"
     }
   ]
 };
