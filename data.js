@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-11T10:06:31.868Z",
+  "checkedAt": "2026-09-12T04:06:26.944Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 260911 #金在中# ins story 音乐银行 FAN'S Stage Pick - Tonigh",
-      "latestTime": "6小时前",
-      "updatedAt": "2026-09-11T04:05:28.762Z"
+      "hasNew": true,
+      "latest": "金在中 💚 #金在中# 260912 韩网新闻： 金在中·金俊秀 JX演唱会全席售罄 金在中和金俊秀通过JX单独演唱会",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-09-12T04:05:28.682Z"
     },
     {
       "id": "yinfu_weibo",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:39 【金在中】只有前1%的人才能找到 🦎🎨 #金在中 #KIMJAEJOONG Copyrights 202",
-      "latestTime": "2天前 · 投稿了视频",
+      "latestTime": "3天前 · 投稿了视频",
       "updatedAt": "2026-09-10T04:05:46.865Z"
     },
     {
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "00:48 【金在中】【梦路中字】260911 JX official更新金在中相关：是要怎样才能不喜欢JX - 761",
-      "latestTime": "7小时前 · 投稿了视频",
-      "updatedAt": "2026-09-11T10:06:10.282Z"
+      "latest": "00:48 【金在中】【梦路中字】260911 JX official更新金在中相关：是要怎样才能不喜欢JX - 128",
+      "latestTime": "昨天 10:50 · 投稿了视频",
+      "updatedAt": "2026-09-12T04:06:07.296Z"
     },
     {
       "id": "jj_instagram",
@@ -97,9 +97,9 @@ window.YT_DATA = {
       "url": "https://jaefans.com/",
       "status": "ok",
       "hasNew": true,
-      "latest": "2026.09.11LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "latest": "2026.09.12LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-09-11T10:06:26.629Z"
+      "updatedAt": "2026-09-12T04:06:20.754Z"
     }
   ]
 };
