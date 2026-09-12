@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-12T04:06:26.944Z",
+  "checkedAt": "2026-09-12T10:06:23.276Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260912 韩网新闻： 金在中·金俊秀 JX演唱会全席售罄 金在中和金俊秀通过JX单独演唱会",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-09-12T04:05:28.682Z"
+      "latest": "金在中 💚 260912 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "7分钟前",
+      "updatedAt": "2026-09-12T10:05:28.834Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FANMEETING 「只蜀于你」 来自在中的问候视频 \ud83d",
-      "latestTime": "9-10 11:09",
-      "updatedAt": "2026-09-10T04:05:42.231Z"
+      "hasNew": true,
+      "latest": "[🎥] Under the stars, with #JUNGDAEHYUN 🌟 @金在中_Official 金在中",
+      "latestTime": "5分钟前",
+      "updatedAt": "2026-09-12T10:05:58.853Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,10 +56,10 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "00:39 【金在中】只有前1%的人才能找到 🦎🎨 #金在中 #KIMJAEJOONG Copyrights 202",
-      "latestTime": "3天前 · 投稿了视频",
-      "updatedAt": "2026-09-10T04:05:46.865Z"
+      "hasNew": true,
+      "latest": "00:41 【金在中】Under the stars, with #JUNGDAEHYUN 🌟 #金在中 #KIMJA",
+      "latestTime": "5分钟前 · 投稿了视频",
+      "updatedAt": "2026-09-12T10:06:03.539Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "00:48 【金在中】【梦路中字】260911 JX official更新金在中相关：是要怎样才能不喜欢JX - 128",
-      "latestTime": "昨天 10:50 · 投稿了视频",
-      "updatedAt": "2026-09-12T04:06:07.296Z"
+      "latest": "02:33:36 【金在中】（中字将尽快更新）260830 2026 金在中演唱会 [THE WAVE] 首尔场 DAY",
+      "latestTime": "2小时前 · 投稿了视频",
+      "updatedAt": "2026-09-12T10:06:07.497Z"
     },
     {
       "id": "jj_instagram",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.09.12LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
       "updatedAt": "2026-09-12T04:06:20.754Z"
