@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-13T04:06:23.229Z",
+  "checkedAt": "2026-09-13T10:06:33.297Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260912 mango_the_photo ins：（天安 K-Culture 博览会相关）",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-09-13T04:05:27.311Z"
+      "latest": "金在中 💚 #金在中# 260913 iNKODE JAPAN Official X： 【2026 KIM JAE J",
+      "latestTime": "3小时前",
+      "updatedAt": "2026-09-13T10:05:30.405Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "转发微博 @星羽娱乐: 2026 KIM JAE JOONG FANMEETING 「只蜀于你」 来自在中的问候视频 \ud83d",
-      "latestTime": "9-10 11:09",
-      "updatedAt": "2026-09-13T04:05:57.292Z"
+      "latest": "[🎥] Under the stars, with #JUNGDAEHYUN# 🌟 @金在中_Official 金在",
+      "latestTime": "9-12 18:00",
+      "updatedAt": "2026-09-13T10:06:00.395Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:41 【金在中】Under the stars, with #JUNGDAEHYUN 🌟 #金在中 #KIMJA",
-      "latestTime": "18小时前 · 投稿了视频",
+      "latestTime": "昨天 18:00 · 投稿了视频",
       "updatedAt": "2026-09-12T10:06:03.539Z"
     },
     {
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "01:27:43 【金在中】（中字将尽快更新）260912 Weverse语音直播：come on！ - 647 0",
-      "latestTime": "13小时前 · 投稿了视频",
-      "updatedAt": "2026-09-13T04:06:06.319Z"
+      "latest": "01:27:43 【金在中】（中字将尽快更新）260912 Weverse语音直播：come on！ - 788 1",
+      "latestTime": "19小时前 · 投稿了视频",
+      "updatedAt": "2026-09-13T10:06:08.832Z"
     },
     {
       "id": "jj_instagram",
@@ -99,7 +99,7 @@ window.YT_DATA = {
       "hasNew": true,
       "latest": "2026.09.13LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
-      "updatedAt": "2026-09-13T04:06:18.360Z"
+      "updatedAt": "2026-09-13T10:06:27.323Z"
     }
   ]
 };
