@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-14T04:06:04.663Z",
+  "checkedAt": "2026-09-14T10:06:08.672Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260914 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "27分钟前",
-      "updatedAt": "2026-09-14T04:05:26.708Z"
+      "latest": "金在中 💚 #金在中# 260914 JAEJOONG JAPAN OFFICIAL SITE (Jaefans)官网",
+      "latestTime": "11分钟前",
+      "updatedAt": "2026-09-14T10:05:31.196Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "01:27:43 【金在中】（中字将尽快更新）260912 Weverse语音直播：come on！ - 980 4",
-      "latestTime": "2天前 · 投稿了视频",
-      "updatedAt": "2026-09-14T04:05:47.417Z"
+      "latest": "21:12 【金在中】（中字将尽快更新）260914 金在中的韩电宣传组长挑战记：韩电难道不是一家只销售电力的公司吗？ ",
+      "latestTime": "3小时前 · 投稿了视频",
+      "updatedAt": "2026-09-14T10:05:51.635Z"
     },
     {
       "id": "jj_instagram",
@@ -77,9 +77,9 @@ window.YT_DATA = {
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
       "hasNew": true,
-      "latest": "最新帖 DdOkTBaHy7Q",
+      "latest": "最新帖 DdQsbaXoOrX",
       "latestTime": null,
-      "updatedAt": "2026-09-14T04:05:54.175Z"
+      "updatedAt": "2026-09-14T10:05:58.278Z"
     },
     {
       "id": "jj_weverse",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.09.13LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "hasNew": true,
+      "latest": "2026.09.14LIVE 【JX 2026 TOUR CONCERT <CORE>】チケット販売のご案内",
       "latestTime": null,
-      "updatedAt": "2026-09-13T10:06:27.323Z"
+      "updatedAt": "2026-09-14T10:06:03.630Z"
     }
   ]
 };
