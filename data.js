@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-13T10:06:33.297Z",
+  "checkedAt": "2026-09-14T04:06:04.663Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260913 iNKODE JAPAN Official X： 【2026 KIM JAE J",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-09-13T10:05:30.405Z"
+      "latest": "金在中 💚 260914 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "27分钟前",
+      "updatedAt": "2026-09-14T04:05:26.708Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,7 +36,7 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "[🎥] Under the stars, with #JUNGDAEHYUN# 🌟 @金在中_Official 金在",
       "latestTime": "9-12 18:00",
       "updatedAt": "2026-09-13T10:06:00.395Z"
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:41 【金在中】Under the stars, with #JUNGDAEHYUN 🌟 #金在中 #KIMJA",
-      "latestTime": "昨天 18:00 · 投稿了视频",
+      "latestTime": "2天前 · 投稿了视频",
       "updatedAt": "2026-09-12T10:06:03.539Z"
     },
     {
@@ -67,19 +67,19 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "01:27:43 【金在中】（中字将尽快更新）260912 Weverse语音直播：come on！ - 788 1",
-      "latestTime": "19小时前 · 投稿了视频",
-      "updatedAt": "2026-09-13T10:06:08.832Z"
+      "latest": "01:27:43 【金在中】（中字将尽快更新）260912 Weverse语音直播：come on！ - 980 4",
+      "latestTime": "2天前 · 投稿了视频",
+      "updatedAt": "2026-09-14T04:05:47.417Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": false,
-      "latest": "最新帖 Dc_EsXvE7l3",
+      "hasNew": true,
+      "latest": "最新帖 DdOkTBaHy7Q",
       "latestTime": null,
-      "updatedAt": "2026-09-07T12:36:44.516Z"
+      "updatedAt": "2026-09-14T04:05:54.175Z"
     },
     {
       "id": "jj_weverse",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.09.13LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
       "latestTime": null,
       "updatedAt": "2026-09-13T10:06:27.323Z"
