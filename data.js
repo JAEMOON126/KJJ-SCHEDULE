@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-14T10:06:08.672Z",
+  "checkedAt": "2026-09-15T04:06:12.086Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260914 JAEJOONG JAPAN OFFICIAL SITE (Jaefans)官网",
-      "latestTime": "11分钟前",
-      "updatedAt": "2026-09-14T10:05:31.196Z"
+      "latest": "金在中 💚 26091500PR TIMES エンタメ X： CS卫星剧场将于9月、10月连续两个月，电视首播・独家播",
+      "latestTime": "1分钟前",
+      "updatedAt": "2026-09-15T04:05:26.676Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "[🎥] Under the stars, with #JUNGDAEHYUN# 🌟 @金在中_Official 金在",
-      "latestTime": "9-12 18:00",
-      "updatedAt": "2026-09-13T10:06:00.395Z"
+      "hasNew": true,
+      "latest": "【2026 KIM JAE JOONG CONCERT [THE WAVE] in Japan】 横滨BUNTAI公演圆",
+      "latestTime": "9-13 22:27",
+      "updatedAt": "2026-09-15T04:05:37.503Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:41 【金在中】Under the stars, with #JUNGDAEHYUN 🌟 #金在中 #KIMJA",
-      "latestTime": "2天前 · 投稿了视频",
+      "latestTime": "3天前 · 投稿了视频",
       "updatedAt": "2026-09-12T10:06:03.539Z"
     },
     {
@@ -67,19 +67,19 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "21:12 【金在中】（中字将尽快更新）260914 金在中的韩电宣传组长挑战记：韩电难道不是一家只销售电力的公司吗？ ",
-      "latestTime": "3小时前 · 投稿了视频",
-      "updatedAt": "2026-09-14T10:05:51.635Z"
+      "latest": "🆕Weverse梦路中字已更新 金在中_DreamyRoad 投稿了视频 01:27:43 【金在中】【梦路中字】26",
+      "latestTime": "12小时前",
+      "updatedAt": "2026-09-15T04:05:47.379Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "ok",
-      "hasNew": true,
-      "latest": "最新帖 DdQsbaXoOrX",
-      "latestTime": null,
-      "updatedAt": "2026-09-14T10:05:58.278Z"
+      "status": "pending",
+      "note": "没读到帖子（可能被风控）",
+      "hasNew": false,
+      "latest": "没读到帖子（可能被风控）",
+      "latestTime": null
     },
     {
       "id": "jj_weverse",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.09.14LIVE 【JX 2026 TOUR CONCERT <CORE>】チケット販売のご案内",
       "latestTime": null,
       "updatedAt": "2026-09-14T10:06:03.630Z"
