@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-15T04:06:12.086Z",
+  "checkedAt": "2026-09-15T10:07:22.522Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 26091500PR TIMES エンタメ X： CS卫星剧场将于9月、10月连续两个月，电视首播・独家播",
-      "latestTime": "1分钟前",
-      "updatedAt": "2026-09-15T04:05:26.676Z"
+      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 260915 金浦到达 @金在中_Official @JJ860126JJ",
+      "latestTime": "3小时前",
+      "updatedAt": "2026-09-15T10:05:30.531Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "【2026 KIM JAE JOONG CONCERT [THE WAVE] in Japan】 横滨BUNTAI公演圆",
-      "latestTime": "9-13 22:27",
-      "updatedAt": "2026-09-15T04:05:37.503Z"
+      "latest": "[🎥] Under the stars, with #DAY6##YoungK# 🌟 @金在中_Official 金",
+      "latestTime": "30分钟前",
+      "updatedAt": "2026-09-15T10:05:41.507Z"
     },
     {
       "id": "jj_chaohua",
@@ -55,20 +55,20 @@ window.YT_DATA = {
       "id": "jj_bili",
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
-      "status": "ok",
+      "status": "pending",
+      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
       "hasNew": false,
-      "latest": "00:41 【金在中】Under the stars, with #JUNGDAEHYUN 🌟 #金在中 #KIMJA",
-      "latestTime": "3天前 · 投稿了视频",
-      "updatedAt": "2026-09-12T10:06:03.539Z"
+      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
+      "latestTime": null
     },
     {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "🆕Weverse梦路中字已更新 金在中_DreamyRoad 投稿了视频 01:27:43 【金在中】【梦路中字】26",
-      "latestTime": "12小时前",
+      "latestTime": "18小时前",
       "updatedAt": "2026-09-15T04:05:47.379Z"
     },
     {
