@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-16T04:06:09.504Z",
+  "checkedAt": "2026-09-16T10:06:19.069Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 260916 iNKODE JAPAN Official X： 『OASIS / Michish",
-      "latestTime": "45分钟前",
-      "updatedAt": "2026-09-16T04:05:26.448Z"
+      "latest": "金在中 手腕灯长期销售通知 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JO",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-09-16T10:05:30.850Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "【2026 KIM JAE JOONG CONCERT [THE WAVE] in Japan】 横滨BUNTAI公演圆",
-      "latestTime": "9-13 22:27",
-      "updatedAt": "2026-09-16T04:05:37.437Z"
+      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL LIGHT WRISTBAND 常规",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-09-16T10:05:41.705Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,9 +56,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:40 【金在中】Under the stars, with #DAY6 #YoungK 🌟 #金在中 #KIMJ",
-      "latestTime": "18小时前 · 投稿了视频",
+      "latestTime": "昨天 17:35 · 投稿了视频",
       "updatedAt": "2026-09-16T04:05:42.284Z"
     },
     {
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.09.16RELEASE JAEJOONG ニューシングル『OASIS / Michishirube JAEF",
       "latestTime": null,
       "updatedAt": "2026-09-16T04:06:04.312Z"
