@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-15T10:07:22.522Z",
+  "checkedAt": "2026-09-16T04:06:09.504Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 260915 金浦到达 @金在中_Official @JJ860126JJ",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-09-15T10:05:30.531Z"
+      "latest": "金在中 💚#金在中# 260916 iNKODE JAPAN Official X： 『OASIS / Michish",
+      "latestTime": "45分钟前",
+      "updatedAt": "2026-09-16T04:05:26.448Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "[🎥] Under the stars, with #DAY6##YoungK# 🌟 @金在中_Official 金",
-      "latestTime": "30分钟前",
-      "updatedAt": "2026-09-15T10:05:41.507Z"
+      "latest": "【2026 KIM JAE JOONG CONCERT [THE WAVE] in Japan】 横滨BUNTAI公演圆",
+      "latestTime": "9-13 22:27",
+      "updatedAt": "2026-09-16T04:05:37.437Z"
     },
     {
       "id": "jj_chaohua",
@@ -55,11 +55,11 @@ window.YT_DATA = {
       "id": "jj_bili",
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
-      "status": "pending",
-      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
-      "hasNew": false,
-      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
-      "latestTime": null
+      "status": "ok",
+      "hasNew": true,
+      "latest": "00:40 【金在中】Under the stars, with #DAY6 #YoungK 🌟 #金在中 #KIMJ",
+      "latestTime": "18小时前 · 投稿了视频",
+      "updatedAt": "2026-09-16T04:05:42.284Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -68,7 +68,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "🆕Weverse梦路中字已更新 金在中_DreamyRoad 投稿了视频 01:27:43 【金在中】【梦路中字】26",
-      "latestTime": "18小时前",
+      "latestTime": "2天前",
       "updatedAt": "2026-09-15T04:05:47.379Z"
     },
     {
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.09.14LIVE 【JX 2026 TOUR CONCERT <CORE>】チケット販売のご案内",
+      "hasNew": true,
+      "latest": "2026.09.16RELEASE JAEJOONG ニューシングル『OASIS / Michishirube JAEF",
       "latestTime": null,
-      "updatedAt": "2026-09-14T10:06:03.630Z"
+      "updatedAt": "2026-09-16T04:06:04.312Z"
     }
   ]
 };
