@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-17T04:06:15.680Z",
+  "checkedAt": "2026-09-17T10:06:16.276Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260917 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "2分钟前",
-      "updatedAt": "2026-09-17T04:05:31.204Z"
+      "latest": "金在中 💚#金在中# 260917 HIGHER X： 👕 「随性风打扮（꾸안꾸）」的典范！ 最适合穿连帽卫衣的偶像",
+      "latestTime": "16分钟前",
+      "updatedAt": "2026-09-17T10:05:30.486Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,9 +36,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "转发微博 @星羽娱乐: 【照片征集】参与方法： 转发这条微博，并在评论区留下属于你的照片和回忆。最终入选的照片将于10月",
-      "latestTime": "33分钟前",
+      "latestTime": "7小时前",
       "updatedAt": "2026-09-17T04:05:42.307Z"
     },
     {
@@ -66,9 +66,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:24 【金在中】【梦路中字】260916 MUXINSA TV更新：<무싱사 MUXINGSA> EP.05 金在",
-      "latestTime": "14小时前 · 投稿了视频",
+      "latestTime": "20小时前 · 投稿了视频",
       "updatedAt": "2026-09-17T04:05:51.628Z"
     },
     {
