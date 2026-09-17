@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-16T10:06:19.069Z",
+  "checkedAt": "2026-09-17T04:06:15.680Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 手腕灯长期销售通知 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JO",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-09-16T10:05:30.850Z"
+      "latest": "金在中 💚 260917 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "2分钟前",
+      "updatedAt": "2026-09-17T04:05:31.204Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG OFFICIAL LIGHT WRISTBAND 常规",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-09-16T10:05:41.705Z"
+      "latest": "转发微博 @星羽娱乐: 【照片征集】参与方法： 转发这条微博，并在评论区留下属于你的照片和回忆。最终入选的照片将于10月",
+      "latestTime": "33分钟前",
+      "updatedAt": "2026-09-17T04:05:42.307Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:40 【金在中】Under the stars, with #DAY6 #YoungK 🌟 #金在中 #KIMJ",
-      "latestTime": "昨天 17:35 · 投稿了视频",
+      "latestTime": "2天前 · 投稿了视频",
       "updatedAt": "2026-09-16T04:05:42.284Z"
     },
     {
@@ -66,10 +66,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": false,
-      "latest": "🆕Weverse梦路中字已更新 金在中_DreamyRoad 投稿了视频 01:27:43 【金在中】【梦路中字】26",
-      "latestTime": "2天前",
-      "updatedAt": "2026-09-15T04:05:47.379Z"
+      "hasNew": true,
+      "latest": "00:24 【金在中】【梦路中字】260916 MUXINSA TV更新：<무싱사 MUXINGSA> EP.05 金在",
+      "latestTime": "14小时前 · 投稿了视频",
+      "updatedAt": "2026-09-17T04:05:51.628Z"
     },
     {
       "id": "jj_instagram",
