@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-17T10:06:16.276Z",
+  "checkedAt": "2026-09-18T04:06:17.159Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 260917 HIGHER X： 👕 「随性风打扮（꾸안꾸）」的典范！ 最适合穿连帽卫衣的偶像",
-      "latestTime": "16分钟前",
-      "updatedAt": "2026-09-17T10:05:30.486Z"
+      "latest": "金在中 💚 260917 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "9-17 12:03",
+      "updatedAt": "2026-09-18T04:05:32.584Z"
     },
     {
       "id": "yinfu_weibo",
@@ -38,7 +38,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "转发微博 @星羽娱乐: 【照片征集】参与方法： 转发这条微博，并在评论区留下属于你的照片和回忆。最终入选的照片将于10月",
-      "latestTime": "7小时前",
+      "latestTime": "9-17 11:32",
       "updatedAt": "2026-09-17T04:05:42.307Z"
     },
     {
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:40 【金在中】Under the stars, with #DAY6 #YoungK 🌟 #金在中 #KIMJ",
-      "latestTime": "2天前 · 投稿了视频",
+      "latestTime": "3天前 · 投稿了视频",
       "updatedAt": "2026-09-16T04:05:42.284Z"
     },
     {
@@ -66,10 +66,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": false,
-      "latest": "00:24 【金在中】【梦路中字】260916 MUXINSA TV更新：<무싱사 MUXINGSA> EP.05 金在",
-      "latestTime": "20小时前 · 投稿了视频",
-      "updatedAt": "2026-09-17T04:05:51.628Z"
+      "hasNew": true,
+      "latest": "21:18 【金在中】（中字将尽快更新）260917 金在中，摇滚抒情曲第一人的KTV必唱歌曲｜MUSINGSA EP.",
+      "latestTime": "17小时前 · 投稿了视频",
+      "updatedAt": "2026-09-18T04:05:53.036Z"
     },
     {
       "id": "jj_instagram",
