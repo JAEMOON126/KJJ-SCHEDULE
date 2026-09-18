@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-18T04:06:17.159Z",
+  "checkedAt": "2026-09-18T10:06:45.389Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 260917 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "9-17 12:03",
-      "updatedAt": "2026-09-18T04:05:32.584Z"
+      "latest": "金在中 💚 #金在中# 260918 JX_official X： [📢] JX 2026 TOUR CONCERT",
+      "latestTime": "23分钟前",
+      "updatedAt": "2026-09-18T10:05:32.611Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "21:18 【金在中】（中字将尽快更新）260917 金在中，摇滚抒情曲第一人的KTV必唱歌曲｜MUSINGSA EP.",
-      "latestTime": "17小时前 · 投稿了视频",
-      "updatedAt": "2026-09-18T04:05:53.036Z"
+      "latest": "原弹幕已恢复🫶🏻（以后有什么问题欢迎大家随时私信我们喔 金在中_DreamyRoad 投稿了视频 17:46 【金在",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-18T10:05:53.476Z"
     },
     {
       "id": "jj_instagram",
