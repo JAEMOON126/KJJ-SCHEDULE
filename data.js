@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-19T04:06:07.865Z",
+  "checkedAt": "2026-09-19T10:06:07.966Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 @iNKODEofficial: 📸[#幕后花絮照#][#BehindCut#] SINGLE ALBUM [",
-      "latestTime": "5分钟前",
-      "updatedAt": "2026-09-19T04:05:29.779Z"
+      "latest": "金在中💚 @iNKODEofficial: 🎥[#在中来啦#] ??? 💚 在中呀 @金在中_Official 金",
+      "latestTime": "57分钟前",
+      "updatedAt": "2026-09-19T10:05:31.157Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📸[#幕后花絮照#][#BehindCut#] SINGLE ALBUM [THE WAVE] Recording B",
-      "latestTime": "5分钟前",
-      "updatedAt": "2026-09-19T04:05:40.192Z"
+      "latest": "🎥[#在中来啦#] ??? 💚 在中呀 @金在中_Official 金在中 #KIMJAEJOONG# #金在中# ",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-19T10:05:42.017Z"
     },
     {
       "id": "jj_chaohua",
@@ -57,9 +57,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
       "hasNew": true,
-      "latest": "12:21 【金在中】KIM JAE JOONG’Tonight’音乐节目幕后花絮 #金在中 #KIMJAEJOONG ",
-      "latestTime": "12小时前 · 投稿了视频",
-      "updatedAt": "2026-09-19T04:05:45.041Z"
+      "latest": "00:13 【金在中】??? 💚 在中呀 #金在中 #KIMJAEJOONG Copyrights 2026 ⓒ iN",
+      "latestTime": "1小时前 · 投稿了视频",
+      "updatedAt": "2026-09-19T10:05:46.995Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "花絮来啦查看图片 金在中_Official 投稿了视频 12:21 【金在中】KIM JAE JOONG’Tonight",
-      "latestTime": "12小时前",
-      "updatedAt": "2026-09-19T04:05:49.604Z"
+      "latest": "查看图片 金在中_Official 投稿了视频 00:13 【金在中】??? 💚 在中呀 #金在中 #KIMJAEJO",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-19T10:05:51.459Z"
     },
     {
       "id": "jj_instagram",
