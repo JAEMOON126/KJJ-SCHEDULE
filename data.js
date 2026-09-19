@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-18T10:06:45.389Z",
+  "checkedAt": "2026-09-19T04:06:07.865Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 260918 JX_official X： [📢] JX 2026 TOUR CONCERT",
-      "latestTime": "23分钟前",
-      "updatedAt": "2026-09-18T10:05:32.611Z"
+      "latest": "金在中 @iNKODEofficial: 📸[#幕后花絮照#][#BehindCut#] SINGLE ALBUM [",
+      "latestTime": "5分钟前",
+      "updatedAt": "2026-09-19T04:05:29.779Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "转发微博 @星羽娱乐: 【照片征集】参与方法： 转发这条微博，并在评论区留下属于你的照片和回忆。最终入选的照片将于10月",
-      "latestTime": "9-17 11:32",
-      "updatedAt": "2026-09-17T04:05:42.307Z"
+      "hasNew": true,
+      "latest": "📸[#幕后花絮照#][#BehindCut#] SINGLE ALBUM [THE WAVE] Recording B",
+      "latestTime": "5分钟前",
+      "updatedAt": "2026-09-19T04:05:40.192Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,10 +56,10 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "00:40 【金在中】Under the stars, with #DAY6 #YoungK 🌟 #金在中 #KIMJ",
-      "latestTime": "3天前 · 投稿了视频",
-      "updatedAt": "2026-09-16T04:05:42.284Z"
+      "hasNew": true,
+      "latest": "12:21 【金在中】KIM JAE JOONG’Tonight’音乐节目幕后花絮 #金在中 #KIMJAEJOONG ",
+      "latestTime": "12小时前 · 投稿了视频",
+      "updatedAt": "2026-09-19T04:05:45.041Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -67,19 +67,19 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "原弹幕已恢复🫶🏻（以后有什么问题欢迎大家随时私信我们喔 金在中_DreamyRoad 投稿了视频 17:46 【金在",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-09-18T10:05:53.476Z"
+      "latest": "花絮来啦查看图片 金在中_Official 投稿了视频 12:21 【金在中】KIM JAE JOONG’Tonight",
+      "latestTime": "12小时前",
+      "updatedAt": "2026-09-19T04:05:49.604Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "pending",
-      "note": "没读到帖子（可能被风控）",
+      "status": "ok",
       "hasNew": false,
-      "latest": "没读到帖子（可能被风控）",
-      "latestTime": null
+      "latest": "最新帖 DdQsbaXoOrX",
+      "latestTime": null,
+      "updatedAt": "2026-09-14T10:05:58.278Z"
     },
     {
       "id": "jj_weverse",
