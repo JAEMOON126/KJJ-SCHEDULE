@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-19T10:06:07.966Z",
+  "checkedAt": "2026-09-20T04:06:12.647Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中💚 @iNKODEofficial: 🎥[#在中来啦#] ??? 💚 在中呀 @金在中_Official 金",
-      "latestTime": "57分钟前",
-      "updatedAt": "2026-09-19T10:05:31.157Z"
+      "latest": "金在中 💚【梦路中字】 260918 Umaizing 엄정화TV （严正花) 油管： 「我来办派对，谁要喝葡萄酒？」",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-09-20T04:05:31.039Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "🎥[#在中来啦#] ??? 💚 在中呀 @金在中_Official 金在中 #KIMJAEJOONG# #金在中# ",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-09-19T10:05:42.017Z"
+      "latest": "📸[#幕后花絮照#][#BehindCut#] SINGLE ALBUM [THE WAVE] Recording B",
+      "latestTime": "9-19 12:00",
+      "updatedAt": "2026-09-20T04:05:42.296Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,9 +56,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:13 【金在中】??? 💚 在中呀 #金在中 #KIMJAEJOONG Copyrights 2026 ⓒ iN",
-      "latestTime": "1小时前 · 投稿了视频",
+      "latestTime": "19小时前 · 投稿了视频",
       "updatedAt": "2026-09-19T10:05:46.995Z"
     },
     {
@@ -67,19 +67,19 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "查看图片 金在中_Official 投稿了视频 00:13 【金在中】??? 💚 在中呀 #金在中 #KIMJAEJO",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-09-19T10:05:51.459Z"
+      "latest": "久等啦～ 中字已更新🫶🏻 金在中_DreamyRoad 投稿了视频 21:12 【金在中】【梦路中字】260914 ",
+      "latestTime": "13小时前",
+      "updatedAt": "2026-09-20T04:05:52.104Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "ok",
+      "status": "pending",
+      "note": "没读到帖子（可能被风控）",
       "hasNew": false,
-      "latest": "最新帖 DdQsbaXoOrX",
-      "latestTime": null,
-      "updatedAt": "2026-09-14T10:05:58.278Z"
+      "latest": "没读到帖子（可能被风控）",
+      "latestTime": null
     },
     {
       "id": "jj_weverse",
