@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-10-27T10:06:22.371Z",
+  "checkedAt": "2026-10-28T04:06:23.489Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚#金在中# 261027 JX 2026 TOUR CONCERT CORE in KOBE相关共享 🚍有",
-      "latestTime": "7小时前",
-      "updatedAt": "2026-10-27T04:05:31.901Z"
+      "hasNew": true,
+      "latest": "金在中 💚✊ @JX_SupportUnion: JX 2026 TOUR CONCERT 〈CORE〉in MACA",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-10-28T04:05:31.842Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "01:31:35 【金在中】【梦路中字】[补档] 261025 LIVE TOUR 2023 with Love Cov",
-      "latestTime": "2天前 · 投稿了视频",
-      "updatedAt": "2026-10-27T10:05:52.189Z"
+      "latest": "02:26 【金在中】【梦路饭拍】261011 彩排 「找到了」直拍 JX CORE 演唱会（首尔场）DAY 3 - 6",
+      "latestTime": "35分钟前 · 投稿了视频",
+      "updatedAt": "2026-10-28T04:05:51.883Z"
     },
     {
       "id": "jj_instagram",
