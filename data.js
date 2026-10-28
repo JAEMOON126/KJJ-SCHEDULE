@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-09-20T04:06:12.647Z",
+  "checkedAt": "2026-10-27T10:06:22.371Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
-      "latest": "金在中 💚【梦路中字】 260918 Umaizing 엄정화TV （严正花) 油管： 「我来办派对，谁要喝葡萄酒？」",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-09-20T04:05:31.039Z"
+      "hasNew": false,
+      "latest": "金在中 💚#金在中# 261027 JX 2026 TOUR CONCERT CORE in KOBE相关共享 🚍有",
+      "latestTime": "7小时前",
+      "updatedAt": "2026-10-27T04:05:31.901Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
-      "latest": "📸[#幕后花絮照#][#BehindCut#] SINGLE ALBUM [THE WAVE] Recording B",
-      "latestTime": "9-19 12:00",
-      "updatedAt": "2026-09-20T04:05:42.296Z"
+      "hasNew": false,
+      "latest": "🎞[#在tube#][#Jaetube#] 2026 KIM JAE JOONG CONCERT [THE WAVE]",
+      "latestTime": "10-23 18:00",
+      "updatedAt": "2026-10-24T10:05:41.331Z"
     },
     {
       "id": "jj_chaohua",
@@ -57,9 +57,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
       "hasNew": false,
-      "latest": "00:13 【金在中】??? 💚 在中呀 #金在中 #KIMJAEJOONG Copyrights 2026 ⓒ iN",
-      "latestTime": "19小时前 · 投稿了视频",
-      "updatedAt": "2026-09-19T10:05:46.995Z"
+      "latest": "01:51 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] ENCORE VCR ",
+      "latestTime": "10月23日 · 投稿了视频",
+      "updatedAt": "2026-10-23T10:05:48.017Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "久等啦～ 中字已更新🫶🏻 金在中_DreamyRoad 投稿了视频 21:12 【金在中】【梦路中字】260914 ",
-      "latestTime": "13小时前",
-      "updatedAt": "2026-09-20T04:05:52.104Z"
+      "latest": "01:31:35 【金在中】【梦路中字】[补档] 261025 LIVE TOUR 2023 with Love Cov",
+      "latestTime": "2天前 · 投稿了视频",
+      "updatedAt": "2026-10-27T10:05:52.189Z"
     },
     {
       "id": "jj_instagram",
@@ -97,9 +97,9 @@ window.YT_DATA = {
       "url": "https://jaefans.com/",
       "status": "ok",
       "hasNew": false,
-      "latest": "2026.09.16RELEASE JAEJOONG ニューシングル『OASIS / Michishirube JAEF",
+      "latest": "2026.10.22TOPICS 【重要】システムのセキュリティ対策について",
       "latestTime": null,
-      "updatedAt": "2026-09-16T04:06:04.312Z"
+      "updatedAt": "2026-10-23T04:06:11.829Z"
     }
   ]
 };
