@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-10-28T10:06:29.674Z",
+  "checkedAt": "2026-10-29T04:06:22.206Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚#金在中# 261028 iNKODE JAPAN Official X： 🌊2026 KIM JAE J",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-10-28T10:05:29.869Z"
+      "latest": "金在中 💚✊ @JX_SupportUnion: JX 2026 TOUR CONCERT 〈CORE〉in MACA",
+      "latestTime": "10-28 10:02",
+      "updatedAt": "2026-10-29T04:05:29.777Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📢[#公告#][#Notice#] 关于2026 KIM JAE JOONG FANMEETING in CHENGD",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-10-28T10:05:40.768Z"
+      "latest": "🎞[#在tube#][#Jaetube#] 2026 KIM JAE JOONG CONCERT [THE WAVE]",
+      "latestTime": "10-23 18:00",
+      "updatedAt": "2026-10-29T04:05:40.665Z"
     },
     {
       "id": "jj_chaohua",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "02:26 【金在中】【梦路饭拍】261011 彩排 「找到了」直拍 JX CORE 演唱会（首尔场）DAY 3 - 3",
-      "latestTime": "6小时前 · 投稿了视频",
-      "updatedAt": "2026-10-28T10:05:49.419Z"
+      "latest": "02:26 【金在中】【梦路饭拍】261011 彩排 「找到了」直拍 JX CORE 演唱会（首尔场）DAY 3 - 7",
+      "latestTime": "昨天 11:30 · 投稿了视频",
+      "updatedAt": "2026-10-29T04:05:49.271Z"
     },
     {
       "id": "jj_instagram",
@@ -97,9 +97,9 @@ window.YT_DATA = {
       "url": "https://jaefans.com/",
       "status": "ok",
       "hasNew": true,
-      "latest": "2026.10.28LIVE 【2026 KIM JAE JOONG CONCERT [THE WAVE] in Jap",
+      "latest": "2026.10.28TOPICS 【重要】セキュリティ対策に伴うメンテナンス完了のお知らせ",
       "latestTime": null,
-      "updatedAt": "2026-10-28T10:06:24.136Z"
+      "updatedAt": "2026-10-29T04:06:15.740Z"
     }
   ]
 };
