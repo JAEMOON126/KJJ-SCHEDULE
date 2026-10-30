@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-10-30T04:06:17.821Z",
+  "checkedAt": "2026-10-30T10:06:12.192Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,9 +16,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 #金在中# 261030 CS衛星劇場公式アカウント X： ＼ 明日播出💚 ／ 来自在中的留言已送达✨ ",
-      "latestTime": "37分钟前",
+      "latestTime": "7小时前",
       "updatedAt": "2026-10-30T04:05:30.430Z"
     },
     {
@@ -69,7 +69,7 @@ window.YT_DATA = {
       "hasNew": true,
       "latest": "02:26 【金在中】【梦路饭拍】261011 彩排 「找到了」直拍 JX CORE 演唱会（首尔场）DAY 3 - 9",
       "latestTime": "2天前 · 投稿了视频",
-      "updatedAt": "2026-10-30T04:05:52.231Z"
+      "updatedAt": "2026-10-30T10:05:50.349Z"
     },
     {
       "id": "jj_instagram",
