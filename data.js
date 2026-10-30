@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-10-29T10:06:21.789Z",
+  "checkedAt": "2026-10-30T04:06:17.821Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 261029 Hellolive X： 🌊 2026 KIM JAE JOONG CONCE",
-      "latestTime": "48分钟前",
-      "updatedAt": "2026-10-29T10:05:31.636Z"
+      "latest": "金在中 💚 #金在中# 261030 CS衛星劇場公式アカウント X： ＼ 明日播出💚 ／ 来自在中的留言已送达✨ ",
+      "latestTime": "37分钟前",
+      "updatedAt": "2026-10-30T04:05:30.430Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,7 +36,7 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "📢[#公告#][#Notice#] 关于2026 KIM JAE JOONG FANMEETING in CHENGD",
       "latestTime": "10-28 15:40",
       "updatedAt": "2026-10-29T10:05:42.552Z"
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "02:26 【金在中】【梦路饭拍】261011 彩排 「找到了」直拍 JX CORE 演唱会（首尔场）DAY 3 - 8",
-      "latestTime": "昨天 11:30 · 投稿了视频",
-      "updatedAt": "2026-10-29T10:05:51.144Z"
+      "latest": "02:26 【金在中】【梦路饭拍】261011 彩排 「找到了」直拍 JX CORE 演唱会（首尔场）DAY 3 - 9",
+      "latestTime": "2天前 · 投稿了视频",
+      "updatedAt": "2026-10-30T04:05:52.231Z"
     },
     {
       "id": "jj_instagram",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.10.29GOODS 『JX 2026 TOUR CONCERT 「CORE」IN KOBE/OSAKA/YO",
       "latestTime": null,
       "updatedAt": "2026-10-29T10:06:15.662Z"
