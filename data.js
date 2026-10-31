@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-10-31T04:06:08.281Z",
+  "checkedAt": "2026-10-31T10:06:06.667Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 #金在中# 261030 CS衛星劇場公式アカウント X： ＼ 明日播出💚 ／ 来自在中的留言已送达✨ ",
-      "latestTime": "10-30 11:28",
-      "updatedAt": "2026-10-30T04:05:30.430Z"
+      "hasNew": true,
+      "latest": "金在中💚#金在中# 261031『梦路扫图』 Photoism Snapism贴纸 2026 KIM JAE JOON",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-10-31T10:05:30.164Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "THE WAVE日本场中字已更新~~! 金在中_DreamyRoad 投稿了视频 02:32:18 【金在中】【梦路中字",
-      "latestTime": "13小时前",
-      "updatedAt": "2026-10-31T04:05:51.899Z"
+      "latest": "22:23 【金在中】【梦路中字】[补档] 261031 音乐人金在中的 K-POP 音乐艺术课程 Chapter.01",
+      "latestTime": "5小时前 · 投稿了视频",
+      "updatedAt": "2026-10-31T10:05:50.404Z"
     },
     {
       "id": "jj_instagram",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.10.31LIVE JX 2026 TOUR CONCERT 「CORE」 IN KOBE VIPアップグレー",
       "latestTime": null,
       "updatedAt": "2026-10-31T04:06:03.480Z"
