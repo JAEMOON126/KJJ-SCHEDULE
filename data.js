@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-10-30T10:06:12.192Z",
+  "checkedAt": "2026-10-31T04:06:08.281Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -18,7 +18,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "金在中 💚 #金在中# 261030 CS衛星劇場公式アカウント X： ＼ 明日播出💚 ／ 来自在中的留言已送达✨ ",
-      "latestTime": "7小时前",
+      "latestTime": "10-30 11:28",
       "updatedAt": "2026-10-30T04:05:30.430Z"
     },
     {
@@ -67,19 +67,19 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "02:26 【金在中】【梦路饭拍】261011 彩排 「找到了」直拍 JX CORE 演唱会（首尔场）DAY 3 - 9",
-      "latestTime": "2天前 · 投稿了视频",
-      "updatedAt": "2026-10-30T10:05:50.349Z"
+      "latest": "THE WAVE日本场中字已更新~~! 金在中_DreamyRoad 投稿了视频 02:32:18 【金在中】【梦路中字",
+      "latestTime": "13小时前",
+      "updatedAt": "2026-10-31T04:05:51.899Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "pending",
-      "note": "没读到帖子（可能被风控）",
+      "status": "ok",
       "hasNew": false,
-      "latest": "没读到帖子（可能被风控）",
-      "latestTime": null
+      "latest": "最新帖 DewYFPPIOcI",
+      "latestTime": null,
+      "updatedAt": "2026-10-24T04:05:55.791Z"
     },
     {
       "id": "jj_weverse",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.10.29GOODS 『JX 2026 TOUR CONCERT 「CORE」IN KOBE/OSAKA/YO",
+      "hasNew": true,
+      "latest": "2026.10.31LIVE JX 2026 TOUR CONCERT 「CORE」 IN KOBE VIPアップグレー",
       "latestTime": null,
-      "updatedAt": "2026-10-29T10:06:15.662Z"
+      "updatedAt": "2026-10-31T04:06:03.480Z"
     }
   ]
 };
