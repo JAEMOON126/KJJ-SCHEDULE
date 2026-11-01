@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-10-31T10:06:06.667Z",
+  "checkedAt": "2026-11-01T04:06:10.575Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中💚#金在中# 261031『梦路扫图』 Photoism Snapism贴纸 2026 KIM JAE JOON",
+      "latest": "金在中 💚 #金在中# JX 2026 TOUR CONCERT <CORE> in MACAU 2026 JX演唱会",
       "latestTime": "2小时前",
-      "updatedAt": "2026-10-31T10:05:30.164Z"
+      "updatedAt": "2026-11-01T04:05:31.282Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "22:23 【金在中】【梦路中字】[补档] 261031 音乐人金在中的 K-POP 音乐艺术课程 Chapter.01",
-      "latestTime": "5小时前 · 投稿了视频",
-      "updatedAt": "2026-10-31T10:05:50.404Z"
+      "latest": "03:35 【金在中】【梦路饭拍】[4K] 三日多机位混剪直拍「咒文 (MIROTIC)」｜2026 JX CORE演唱",
+      "latestTime": "14小时前 · 投稿了视频",
+      "updatedAt": "2026-11-01T04:05:51.492Z"
     },
     {
       "id": "jj_instagram",
