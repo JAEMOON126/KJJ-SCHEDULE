@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-01T10:06:07.672Z",
+  "checkedAt": "2026-11-02T04:06:14.248Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 #金在中# JX 2026 TOUR CONCERT <CORE> in MACAU 2026 JX演唱会",
-      "latestTime": "8小时前",
-      "updatedAt": "2026-11-01T04:05:31.282Z"
+      "hasNew": true,
+      "latest": "金在中 💚 #金在中# 261102 JX official更新相关： 𝗝𝗫 𝟮𝟬𝟮𝟲 𝗧𝗢𝗨𝗥 ",
+      "latestTime": "50分钟前",
+      "updatedAt": "2026-11-02T04:05:29.671Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,19 +67,19 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "03:35 【金在中】【梦路饭拍】[4K] 三日多机位混剪直拍「咒文 (MIROTIC)」｜2026 JX CORE演唱",
-      "latestTime": "20小时前 · 投稿了视频",
-      "updatedAt": "2026-11-01T10:05:49.347Z"
+      "latest": "00:23 【金在中】261102 JX official更新相关｜JX 2026 TOUR CONCERT 𝗝𝗫 ",
+      "latestTime": "51分钟前 · 投稿了视频",
+      "updatedAt": "2026-11-02T04:05:50.322Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "ok",
+      "status": "pending",
+      "note": "没读到帖子（可能被风控）",
       "hasNew": false,
-      "latest": "最新帖 DewYFPPIOcI",
-      "latestTime": null,
-      "updatedAt": "2026-10-24T04:05:55.791Z"
+      "latest": "没读到帖子（可能被风控）",
+      "latestTime": null
     },
     {
       "id": "jj_weverse",
