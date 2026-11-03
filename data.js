@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-02T10:06:16.545Z",
+  "checkedAt": "2026-11-03T04:06:14.347Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 261102 金浦机场出发媒体新闻频 WowKorea FAN 油管 @金在中_Officia",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-11-02T10:05:31.582Z"
+      "latest": "金在中 💚 #金在中# 261102 JX official更新相关： 𝗝𝗫 𝟮𝟬𝟮𝟲 𝗧𝗢𝗨𝗥 ",
+      "latestTime": "11-2 11:15",
+      "updatedAt": "2026-11-03T04:05:30.251Z"
     },
     {
       "id": "yinfu_weibo",
@@ -68,8 +68,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "01:14 【金在中】[4K]261102 机场出发新闻频：金在中，一登场便引人瞩目……“今天帅气值又双叒叕突破上限了！",
-      "latestTime": "2小时前 · 投稿了视频",
-      "updatedAt": "2026-11-02T10:05:51.243Z"
+      "latestTime": "20小时前 · 投稿了视频",
+      "updatedAt": "2026-11-03T04:05:50.250Z"
     },
     {
       "id": "jj_instagram",
