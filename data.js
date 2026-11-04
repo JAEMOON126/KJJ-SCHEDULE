@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-03T10:06:12.288Z",
+  "checkedAt": "2026-11-04T04:06:18.737Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚联合应援1️⃣&2️⃣ @JX_SupportUnion: JX 2026 TOUR CONCERT 〈CO",
-      "latestTime": "5小时前",
-      "updatedAt": "2026-11-03T10:05:30.040Z"
+      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261103 JX演唱会（神户场） DAY 1 JX 2026 TOUR ",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-11-04T04:05:31.768Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "01:14 【金在中】[4K]261102 机场出发新闻频：金在中，一登场便引人瞩目……“今天帅气值又双叒叕突破上限了！",
-      "latestTime": "昨天 15:49 · 投稿了视频",
-      "updatedAt": "2026-11-03T10:05:49.891Z"
+      "latest": "02:54 【金在中】【梦路饭拍】261103 彩排 「We Are! + Share the World」直拍 JX ",
+      "latestTime": "12小时前 · 投稿了视频",
+      "updatedAt": "2026-11-04T04:05:52.082Z"
     },
     {
       "id": "jj_instagram",
