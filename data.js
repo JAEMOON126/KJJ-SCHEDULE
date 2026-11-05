@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-04T04:06:18.737Z",
+  "checkedAt": "2026-11-05T04:06:09.644Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261103 JX演唱会（神户场） DAY 1 JX 2026 TOUR ",
+      "latest": "金在中 💚 #金在中# 261105 JX_official X： 𝗝𝗫 𝟮𝟬𝟮𝟲 𝗧𝗢𝗨𝗥 𝗖",
       "latestTime": "2小时前",
-      "updatedAt": "2026-11-04T04:05:31.768Z"
+      "updatedAt": "2026-11-05T04:05:30.537Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,19 +67,19 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "02:54 【金在中】【梦路饭拍】261103 彩排 「We Are! + Share the World」直拍 JX ",
-      "latestTime": "12小时前 · 投稿了视频",
-      "updatedAt": "2026-11-04T04:05:52.082Z"
+      "latest": "04:48 【金在中】【梦路饭拍】[4K] 261104 彩排 「In Heaven」直拍 JX CORE 演唱会（神户",
+      "latestTime": "6分钟前 · 投稿了视频",
+      "updatedAt": "2026-11-05T04:05:50.630Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "pending",
-      "note": "没读到帖子（可能被风控）",
+      "status": "ok",
       "hasNew": false,
-      "latest": "没读到帖子（可能被风控）",
-      "latestTime": null
+      "latest": "最新帖 DewYFPPIOcI",
+      "latestTime": null,
+      "updatedAt": "2026-10-24T04:05:55.791Z"
     },
     {
       "id": "jj_weverse",
