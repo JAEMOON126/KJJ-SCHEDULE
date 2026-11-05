@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-05T04:06:09.644Z",
+  "checkedAt": "2026-11-05T10:06:16.994Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 261105 JX_official X： 𝗝𝗫 𝟮𝟬𝟮𝟲 𝗧𝗢𝗨𝗥 𝗖",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-11-05T04:05:30.537Z"
+      "latest": "金在中 💚 261105 #金在中# ins story② @金在中_Official @JJ860126JJ",
+      "latestTime": "7分钟前",
+      "updatedAt": "2026-11-05T10:05:29.498Z"
     },
     {
       "id": "yinfu_weibo",
@@ -68,18 +68,18 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "04:48 【金在中】【梦路饭拍】[4K] 261104 彩排 「In Heaven」直拍 JX CORE 演唱会（神户",
-      "latestTime": "6分钟前 · 投稿了视频",
-      "updatedAt": "2026-11-05T04:05:50.630Z"
+      "latestTime": "6小时前 · 投稿了视频",
+      "updatedAt": "2026-11-05T10:05:49.529Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "ok",
+      "status": "pending",
+      "note": "没读到帖子（可能被风控）",
       "hasNew": false,
-      "latest": "最新帖 DewYFPPIOcI",
-      "latestTime": null,
-      "updatedAt": "2026-10-24T04:05:55.791Z"
+      "latest": "没读到帖子（可能被风控）",
+      "latestTime": null
     },
     {
       "id": "jj_weverse",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.10.31LIVE JX 2026 TOUR CONCERT 「CORE」 IN KOBE VIPアップグレー",
+      "hasNew": true,
+      "latest": "2026.11.05TOPICS JX 2026 TOUR CONCERT 「CORE」 IN KOBE 終了！☆MES",
       "latestTime": null,
-      "updatedAt": "2026-10-31T04:06:03.480Z"
+      "updatedAt": "2026-11-05T10:06:10.685Z"
     }
   ]
 };
