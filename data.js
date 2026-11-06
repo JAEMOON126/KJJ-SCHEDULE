@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-06T04:07:34.074Z",
+  "checkedAt": "2026-11-06T10:06:13.212Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中💚 #金在中# 261106【梦路中字】[4K补档] 音乐人金在中的 K-POP 音乐艺术课程 / JJ's C",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-11-06T04:05:30.832Z"
+      "latest": "金在中 @名格Mingle: 金在中 Mingle × 金在中｜雪的思绪 直到飘雪落上肩头， 斑斓渐次归于静谧。 雪中静",
+      "latestTime": "9分钟前",
+      "updatedAt": "2026-11-06T10:05:29.489Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "📢[#公告#][#Notice#] 关于2026 KIM JAE JOONG FANMEETING in CHENGD",
-      "latestTime": "10-28 15:40",
-      "updatedAt": "2026-10-29T10:05:42.552Z"
+      "hasNew": true,
+      "latest": "Mingle × 金在中 封面预告 @名格Mingle: 金在中 Mingle × 金在中封面预告｜梦境初启 将心底的疑",
+      "latestTime": "6小时前",
+      "updatedAt": "2026-11-06T10:05:40.496Z"
     },
     {
       "id": "jj_chaohua",
@@ -55,20 +55,20 @@ window.YT_DATA = {
       "id": "jj_bili",
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
-      "status": "pending",
-      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
+      "status": "ok",
       "hasNew": false,
-      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
-      "latestTime": null
+      "latest": "01:51 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] ENCORE VCR ",
+      "latestTime": "10月23日 · 投稿了视频",
+      "updatedAt": "2026-10-23T10:05:48.017Z"
     },
     {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "25:35 【金在中】【梦路中字】[补档] 261106 音乐人金在中的 K-POP 音乐艺术课程 Chapter.03",
-      "latestTime": "2小时前 · 投稿了视频",
+      "latestTime": "8小时前 · 投稿了视频",
       "updatedAt": "2026-11-06T04:07:00.578Z"
     },
     {
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.11.05TOPICS JX 2026 TOUR CONCERT 「CORE」 IN KOBE 終了！☆MES",
+      "hasNew": true,
+      "latest": "2026.11.06TOPICS 『SBI MUSIC CIRCUS HOKKAIDO -DAYBREAK- 』 ビハイ",
       "latestTime": null,
-      "updatedAt": "2026-11-05T10:06:10.685Z"
+      "updatedAt": "2026-11-06T10:06:08.103Z"
     }
   ]
 };
