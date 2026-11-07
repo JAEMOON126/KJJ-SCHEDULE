@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-07T04:06:09.392Z",
+  "checkedAt": "2026-11-07T10:06:06.457Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 @JX_SupportUnion: JX 2026 TOUR CONCERT 〈CORE〉in MACAU",
-      "latestTime": "4分钟前",
-      "updatedAt": "2026-11-07T04:05:31.086Z"
+      "latest": "今日份物料已发放完毕//@金在中_DreamyRoad:金在中 💚 #金在中# 261107 物料领取安排如下⬇️ \ud83d",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-11-07T10:05:31.019Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📢[#公告#][#Notice#] 关于2026 KIM JAE JOONG FANMEETING in CHENGD",
-      "latestTime": "10-28 15:40",
-      "updatedAt": "2026-11-07T04:05:42.004Z"
+      "latest": "Mingle × 金在中 封面预告 @名格Mingle: 金在中 Mingle × 金在中封面预告｜梦境初启 将心底的疑",
+      "latestTime": "11-6 12:32",
+      "updatedAt": "2026-11-07T10:05:41.921Z"
     },
     {
       "id": "jj_chaohua",
@@ -68,15 +68,15 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "04:27 【金在中】【梦路饭拍】[4K] 两日多机位混剪直拍「MAZE」｜2026 JX CORE演唱会（神户场） -",
-      "latestTime": "12小时前 · 投稿了视频",
-      "updatedAt": "2026-11-07T04:05:51.137Z"
+      "latestTime": "18小时前 · 投稿了视频",
+      "updatedAt": "2026-11-07T10:05:50.738Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 DfWr5fToA-S",
       "latestTime": null,
       "updatedAt": "2026-11-07T04:05:57.926Z"
