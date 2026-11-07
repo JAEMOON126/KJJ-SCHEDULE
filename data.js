@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-06T10:06:13.212Z",
+  "checkedAt": "2026-11-07T04:06:09.392Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 @名格Mingle: 金在中 Mingle × 金在中｜雪的思绪 直到飘雪落上肩头， 斑斓渐次归于静谧。 雪中静",
-      "latestTime": "9分钟前",
-      "updatedAt": "2026-11-06T10:05:29.489Z"
+      "latest": "金在中 💚 @JX_SupportUnion: JX 2026 TOUR CONCERT 〈CORE〉in MACAU",
+      "latestTime": "4分钟前",
+      "updatedAt": "2026-11-07T04:05:31.086Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "Mingle × 金在中 封面预告 @名格Mingle: 金在中 Mingle × 金在中封面预告｜梦境初启 将心底的疑",
-      "latestTime": "6小时前",
-      "updatedAt": "2026-11-06T10:05:40.496Z"
+      "latest": "📢[#公告#][#Notice#] 关于2026 KIM JAE JOONG FANMEETING in CHENGD",
+      "latestTime": "10-28 15:40",
+      "updatedAt": "2026-11-07T04:05:42.004Z"
     },
     {
       "id": "jj_chaohua",
@@ -66,20 +66,20 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": false,
-      "latest": "25:35 【金在中】【梦路中字】[补档] 261106 音乐人金在中的 K-POP 音乐艺术课程 Chapter.03",
-      "latestTime": "8小时前 · 投稿了视频",
-      "updatedAt": "2026-11-06T04:07:00.578Z"
+      "hasNew": true,
+      "latest": "04:27 【金在中】【梦路饭拍】[4K] 两日多机位混剪直拍「MAZE」｜2026 JX CORE演唱会（神户场） -",
+      "latestTime": "12小时前 · 投稿了视频",
+      "updatedAt": "2026-11-07T04:05:51.137Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "pending",
-      "note": "没读到帖子（可能被风控）",
-      "hasNew": false,
-      "latest": "没读到帖子（可能被风控）",
-      "latestTime": null
+      "status": "ok",
+      "hasNew": true,
+      "latest": "最新帖 DfWr5fToA-S",
+      "latestTime": null,
+      "updatedAt": "2026-11-07T04:05:57.926Z"
     },
     {
       "id": "jj_weverse",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.11.06TOPICS 『SBI MUSIC CIRCUS HOKKAIDO -DAYBREAK- 』 ビハイ",
       "latestTime": null,
       "updatedAt": "2026-11-06T10:06:08.103Z"
