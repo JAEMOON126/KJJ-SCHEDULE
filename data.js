@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-08T04:06:06.861Z",
+  "checkedAt": "2026-11-08T10:06:02.808Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261107 JX演唱会（澳门场） DAY 1 JX 2026 TOUR ",
+      "latest": "金在中 💚 @JX_SupportUnion: JX 2026 TOUR CONCERT 〈CORE〉in MACAU",
       "latestTime": "3小时前",
-      "updatedAt": "2026-11-08T04:05:31.187Z"
+      "updatedAt": "2026-11-08T10:05:27.723Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "03:45 【金在中】【梦路饭拍】[4K] 261107 金在中JX澳门「守护你（中文版）」直拍｜2026 JX COR",
-      "latestTime": "3小时前 · 投稿了视频",
-      "updatedAt": "2026-11-08T04:05:51.156Z"
+      "latest": "04:45 【金在中】【梦路饭拍】[4K] 261107 金在中JX澳门「时间静止（時ヲ止メ）」直拍｜2026 JX C",
+      "latestTime": "5小时前 · 投稿了视频",
+      "updatedAt": "2026-11-08T10:05:47.206Z"
     },
     {
       "id": "jj_instagram",
