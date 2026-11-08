@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-07T10:06:06.457Z",
+  "checkedAt": "2026-11-08T04:06:06.861Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "今日份物料已发放完毕//@金在中_DreamyRoad:金在中 💚 #金在中# 261107 物料领取安排如下⬇️ \ud83d",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-11-07T10:05:31.019Z"
+      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261107 JX演唱会（澳门场） DAY 1 JX 2026 TOUR ",
+      "latestTime": "3小时前",
+      "updatedAt": "2026-11-08T04:05:31.187Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,7 +36,7 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "Mingle × 金在中 封面预告 @名格Mingle: 金在中 Mingle × 金在中封面预告｜梦境初启 将心底的疑",
       "latestTime": "11-6 12:32",
       "updatedAt": "2026-11-07T10:05:41.921Z"
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "04:27 【金在中】【梦路饭拍】[4K] 两日多机位混剪直拍「MAZE」｜2026 JX CORE演唱会（神户场） -",
-      "latestTime": "18小时前 · 投稿了视频",
-      "updatedAt": "2026-11-07T10:05:50.738Z"
+      "latest": "03:45 【金在中】【梦路饭拍】[4K] 261107 金在中JX澳门「守护你（中文版）」直拍｜2026 JX COR",
+      "latestTime": "3小时前 · 投稿了视频",
+      "updatedAt": "2026-11-08T04:05:51.156Z"
     },
     {
       "id": "jj_instagram",
