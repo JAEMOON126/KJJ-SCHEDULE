@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-09T04:06:10.554Z",
+  "checkedAt": "2026-11-09T10:06:11.975Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 261109 #金在中# X： 这难道不就相当于诅咒吗？😂😂😂🐸😂😂😂 图片内容： 长得帅，",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-11-09T04:05:31.303Z"
+      "latest": "金在中问候视频//@iNKODEofficial:转发微博 @名格Mingle: 金在中 Hey! Let's Ming",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-11-09T10:05:31.774Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "Mingle × 金在中 封面预告 @名格Mingle: 金在中 Mingle × 金在中封面预告｜梦境初启 将心底的疑",
-      "latestTime": "11-6 12:32",
-      "updatedAt": "2026-11-07T10:05:41.921Z"
+      "hasNew": true,
+      "latest": "转发微博 @名格Mingle: 金在中 Hey! Let's Mingle！金在中 Mingle的十一月欢迎新朋友@金在",
+      "latestTime": "2小时前",
+      "updatedAt": "2026-11-09T10:05:42.660Z"
     },
     {
       "id": "jj_chaohua",
@@ -68,18 +68,18 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "04:45 【金在中】【梦路饭拍】[4K] 261107 金在中JX澳门「时间静止（時ヲ止メ）」直拍｜2026 JX C",
-      "latestTime": "23小时前 · 投稿了视频",
-      "updatedAt": "2026-11-09T04:05:51.354Z"
+      "latestTime": "昨天 12:47 · 投稿了视频",
+      "updatedAt": "2026-11-09T10:05:51.295Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "pending",
-      "note": "没读到帖子（可能被风控）",
-      "hasNew": false,
-      "latest": "没读到帖子（可能被风控）",
-      "latestTime": null
+      "status": "ok",
+      "hasNew": true,
+      "latest": "最新帖 DfgeGs4IOv1",
+      "latestTime": null,
+      "updatedAt": "2026-11-09T10:06:02.806Z"
     },
     {
       "id": "jj_weverse",
