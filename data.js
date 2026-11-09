@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-08T10:06:02.808Z",
+  "checkedAt": "2026-11-09T04:06:10.554Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 @JX_SupportUnion: JX 2026 TOUR CONCERT 〈CORE〉in MACAU",
+      "latest": "金在中 💚 261109 #金在中# X： 这难道不就相当于诅咒吗？😂😂😂🐸😂😂😂 图片内容： 长得帅，",
       "latestTime": "3小时前",
-      "updatedAt": "2026-11-08T10:05:27.723Z"
+      "updatedAt": "2026-11-09T04:05:31.303Z"
     },
     {
       "id": "yinfu_weibo",
@@ -68,18 +68,18 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "04:45 【金在中】【梦路饭拍】[4K] 261107 金在中JX澳门「时间静止（時ヲ止メ）」直拍｜2026 JX C",
-      "latestTime": "5小时前 · 投稿了视频",
-      "updatedAt": "2026-11-08T10:05:47.206Z"
+      "latestTime": "23小时前 · 投稿了视频",
+      "updatedAt": "2026-11-09T04:05:51.354Z"
     },
     {
       "id": "jj_instagram",
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
-      "status": "ok",
+      "status": "pending",
+      "note": "没读到帖子（可能被风控）",
       "hasNew": false,
-      "latest": "最新帖 DfWr5fToA-S",
-      "latestTime": null,
-      "updatedAt": "2026-11-07T04:05:57.926Z"
+      "latest": "没读到帖子（可能被风控）",
+      "latestTime": null
     },
     {
       "id": "jj_weverse",
