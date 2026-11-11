@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-11T04:06:07.861Z",
+  "checkedAt": "2026-11-11T10:06:09.637Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 名格 Mingle × 金在中 11月封面人物 梦路团购首日销量： D版500套、A版 22本",
-      "latestTime": "58分钟前",
-      "updatedAt": "2026-11-11T04:05:31.478Z"
+      "latest": "金在中 💚 #金在中# 261111【梦路中字】[4K补档] 音乐人金在中的 K-POP 音乐艺术课程 / JJ's ",
+      "latestTime": "5小时前",
+      "updatedAt": "2026-11-11T10:05:31.140Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "转发微博 @名格Mingle: 金在中 Hey! Let's Mingle！金在中 Mingle的十一月欢迎新朋友@金在",
-      "latestTime": "11-9 16:02",
-      "updatedAt": "2026-11-11T04:05:42.365Z"
+      "latest": "#金在中2026中国首封# 金在中 @名格Mingle: 金在中 Mingle × 金在中专访｜他的答案 梦里有奇境，心",
+      "latestTime": "11-10 17:53",
+      "updatedAt": "2026-11-11T10:05:42.022Z"
     },
     {
       "id": "jj_chaohua",
@@ -68,8 +68,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "10:35 【金在中】261110 名格Mingle X 金在中独家专访：他的答案 名格Mingle杂志11月刊封面人物",
-      "latestTime": "16小时前 · 投稿了视频",
-      "updatedAt": "2026-11-11T04:05:51.551Z"
+      "latestTime": "22小时前 · 投稿了视频",
+      "updatedAt": "2026-11-11T10:05:50.671Z"
     },
     {
       "id": "jj_instagram",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.11.11LIVE JX 2026 TOUR CONCERT 「CORE」 IN OSAKA VIPアップグレ",
       "latestTime": null,
       "updatedAt": "2026-11-11T04:06:03.030Z"
