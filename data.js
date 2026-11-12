@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-12T04:06:53.834Z",
+  "checkedAt": "2026-11-12T10:07:00.369Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,9 +16,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261108 JX演唱会（澳门场） DAY 2 JX 2026 TOUR ",
-      "latestTime": "3小时前",
+      "latestTime": "4小时前",
       "updatedAt": "2026-11-12T04:05:30.586Z"
     },
     {
@@ -55,11 +55,11 @@ window.YT_DATA = {
       "id": "jj_bili",
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
-      "status": "ok",
+      "status": "pending",
+      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
       "hasNew": false,
-      "latest": "01:51 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] ENCORE VCR ",
-      "latestTime": "10月23日 · 投稿了视频",
-      "updatedAt": "2026-10-23T10:05:48.017Z"
+      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/693071922/dynamic\", waiting until \"networkidle\"\n",
+      "latestTime": null
     },
     {
       "id": "dreamyroad_bili",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "02:44 【金在中】【梦路中字】261104 2026 JX演唱会 CORE 神户场 Day2 TALK 598 0",
-      "latestTime": "17小时前 · 投稿了视频",
-      "updatedAt": "2026-11-12T04:06:38.148Z"
+      "latest": "02:44 【金在中】【梦路中字】261104 2026 JX演唱会 CORE 神户场 Day2 TALK 669 0",
+      "latestTime": "23小时前 · 投稿了视频",
+      "updatedAt": "2026-11-12T10:06:44.701Z"
     },
     {
       "id": "jj_instagram",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.11.11LIVE JX 2026 TOUR CONCERT 「CORE」 IN OSAKA VIPアップグレ",
+      "hasNew": true,
+      "latest": "2026.11.12TOPICS JX 2026 TOUR CONCERT 「CORE」 IN KOBE ★オフショット",
       "latestTime": null,
-      "updatedAt": "2026-11-11T04:06:03.030Z"
+      "updatedAt": "2026-11-12T10:06:55.875Z"
     }
   ]
 };
