@@ -127,37 +127,6 @@
     .ev .c .nn, .ev .c .meta { font-size: 12px; color: var(--muted); margin-top: 2px; line-height: 1.45; }
     .ev .c .src { display: inline-block; margin-top: 3px; color: var(--accent); font-size: 12px; text-decoration: none; }
     .ev .c .src:hover { text-decoration: underline; }
-    .ev.past { opacity: 0.5; }
-    /* 即将到来 */
-    .upcoming { display: flex; flex-direction: column; gap: 8px; }
-    .up {
-      background: var(--surface); border: 1px solid rgba(52,211,153,0.28);
-      border-left: 3px solid var(--evc, var(--accent)); border-radius: 12px;
-      padding: 12px 13px 10px;
-    }
-    .up.t-concert { --evc: #ff6b9d; } .up.t-release { --evc: #ffd43b; }
-    .up.t-fanmeeting { --evc: #4dabf7; } .up.t-event { --evc: #34d399; }
-    .up.t-birthday { --evc: #f783ac; }
-    .up-jump {
-      width: 100%; display: flex; gap: 12px; align-items: flex-start;
-      background: none; border: 0; padding: 0; color: inherit; font: inherit;
-      text-align: left; cursor: pointer;
-    }
-    .up-when { width: 64px; flex-shrink: 0; }
-    .up-when .md { display: block; font-size: 15px; font-weight: 700; color: var(--evc, var(--accent)); }
-    .up-when .wd { display: block; font-size: 11px; color: var(--faint); margin-top: 2px; }
-    .up-body { flex: 1; min-width: 0; }
-    .up-body .tt { display: block; font-size: 14px; font-weight: 600; line-height: 1.35; }
-    .up-body .meta { display: block; font-size: 12px; color: var(--muted); margin-top: 3px; line-height: 1.45; }
-    .up .src { display: inline-block; margin: 4px 0 0 76px; color: var(--accent); font-size: 12px; text-decoration: none; }
-    .up .src:hover { text-decoration: underline; }
-    .up-empty { color: var(--faint); font-size: 13px; padding: 2px 4px; }
-    /* 已结束的日期和行程减弱 */
-    .cal-cell.past { color: var(--faint); }
-    .cal-cell.past.has { background: transparent; }
-    .cal-cell.past .evdot { opacity: 0.35; box-shadow: none; }
-    .sum-group.past { opacity: 0.5; }
-    .sub-row.past { opacity: 0.5; }
     .ev .tag { font-size: 10px; padding: 2px 8px; border-radius: 999px; margin-left: auto; white-space: nowrap;
       background: color-mix(in srgb, var(--evc) 18%, transparent); color: var(--evc);
       align-self: center; display: flex; gap: 5px; align-items: center; font-weight: 600; }
@@ -224,11 +193,6 @@
     </header>
 
     <div class="statusbar" id="statusbar"><b>NEW</b> 角标 = 有新动态 · 尚未检查</div>
-
-    <section class="section">
-      <span class="label">即将到来</span>
-      <div class="upcoming" id="upcoming"></div>
-    </section>
 
     <!-- 日程日历 -->
     <section class="section">
@@ -348,10 +312,6 @@
     const pad = n => String(n).padStart(2,"0");
     const key = (y,m,d) => `${y}-${pad(m+1)}-${pad(d)}`;
     function todayStamp(){ return dateKeyInZone(new Date()); }
-    function weekdayOf(dateStr){
-      const date = new Date(`${dateStr}T12:00:00Z`);
-      return new Intl.DateTimeFormat("zh-CN", { weekday: "short", timeZone: "UTC" }).format(date);
-    }
     const opening = todayStamp().split("-").map(Number);
     let curY = opening[0], curM = opening[1] - 1;
 
@@ -371,14 +331,13 @@
         const has = !!dayEvents;
         const today = todayStamp();
         const isToday = k === today;
-        const isPast = k < today;
-        // 当天最重要的事件决定圆点颜色
+        // 有日程的日期用原有底色 + 类型色圆点标出，之后的场次也靠这个在月历上看到
         let dot = "";
         if (has) {
           const top = dayEvents.slice().sort((a,b)=>(IMPORTANCE[b.type]||0)-(IMPORTANCE[a.type]||0))[0];
           dot = `<span class="evdot t-${typeOf(top)}"></span>`;
         }
-        html += `<div class="cal-cell ${has?'has':''} ${isToday?'today':''} ${isPast?'past':''}" ${has?`data-date="${escapeHtml(k)}"`:''}>
+        html += `<div class="cal-cell ${has?'has':''} ${isToday?'today':''}" ${has?`data-date="${escapeHtml(k)}"`:''}>
                    ${d}${dot}
                  </div>`;
       }
@@ -394,7 +353,6 @@
       const type = typeOf(e);
       const regionTag = e.region ? `<span class="rg">${escapeHtml(e.region)}</span>` : "";
       const minor = MINOR.has(type) ? " minor" : "";
-      const past = e.date < todayStamp() ? " past" : "";
       const icon = TYPE_ICON[type] || "•";
       const meta = metaLine(e);
       const note = extraNote(e);
@@ -404,7 +362,7 @@
       const sourceHtml = source
         ? `<a class="src" href="${escapeHtml(source)}" target="_blank" rel="noopener noreferrer">官方来源</a>`
         : "";
-      return `<div class="ev t-${type}${minor}${past}">
+      return `<div class="ev t-${type}${minor}">
         <span class="ic">${icon}</span>
         <span class="d">${escapeHtml(m)}.${escapeHtml(d)}</span>
         <span class="c"><div class="tt">${escapeHtml(e.title)}</div>${metaHtml}${noteHtml}${sourceHtml}</span>
@@ -486,8 +444,7 @@
         const groupId = seriesName(g)+g.type;
         const expandedNow = openGroups.has(groupId);
         const single = n===1;
-        const allPast = g.items.every(item => item.date < todayStamp());
-        let h = `<div class="sum-group t-${g.type}${allPast?" past":""}">
+        let h = `<div class="sum-group t-${g.type}">
           <a href="#" class="sum-row t-${g.type}" ${single?`data-date="${escapeHtml(g.items[0].date)}"`:`data-g="${escapeHtml(groupId)}"`}>
             <span class="si">${icon}</span>
             <span class="st">${escapeHtml(seriesName(g))}</span>
@@ -498,11 +455,10 @@
         if (n>1 && expandedNow){
           h += `<div class="sub-list">` + g.items.map(e=>{
             const [,m,d]=e.date.split("-"); const on=(e.date===showKey)?" on":"";
-            const past = e.date < todayStamp() ? " past" : "";
             const city=(e.title.match(/[·・]\s*([^·・]+)$/)||[])[1]||"";
             const subMeta = metaLine(e);
             const subText = city || e.title;
-            return `<a href="#" class="sub-row${on}${past}" data-date="${escapeHtml(e.date)}"><span class="sd">${escapeHtml(m)}.${escapeHtml(d)}</span><span class="st">${escapeHtml(subMeta ? `${subText} · ${subMeta}` : subText)}</span></a>`;
+            return `<a href="#" class="sub-row${on}" data-date="${escapeHtml(e.date)}"><span class="sd">${escapeHtml(m)}.${escapeHtml(d)}</span><span class="st">${escapeHtml(subMeta ? `${subText} · ${subMeta}` : subText)}</span></a>`;
           }).join("") + `</div>`;
         }
         h += `</div>`;
@@ -556,43 +512,6 @@
 
     function renderCalWrap(){ renderCal(); }
 
-    function focusDate(dateStr){
-      const [y, m] = dateStr.split("-").map(Number);
-      curY = y; curM = m - 1;
-      selectedDate = dateStr;
-      expanded = false;
-      renderCal();
-      const cal = document.querySelector(".cal");
-      if (cal) cal.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-    function renderUpcoming(){
-      const box = document.getElementById("upcoming");
-      if (!box) return;
-      const today = todayStamp();
-      const list = SCHED.filter(e => e.date >= today && !MINOR.has(typeOf(e))).slice(0, 6);
-      if (!list.length) {
-        box.innerHTML = `<div class="up-empty">暂无即将到来的公开行程</div>`;
-        return;
-      }
-      box.innerHTML = list.map(e => {
-        const [, m, d] = e.date.split("-");
-        const type = typeOf(e);
-        const meta = metaLine(e);
-        const source = eventFields(e).source;
-        const sourceHtml = source
-          ? `<a class="src" href="${escapeHtml(source)}" target="_blank" rel="noopener noreferrer">官方来源</a>`
-          : "";
-        return `<article class="up t-${type}">
-          <button type="button" class="up-jump" data-date="${escapeHtml(e.date)}">
-            <span class="up-when"><span class="md">${escapeHtml(m)}.${escapeHtml(d)}</span><span class="wd">${escapeHtml(weekdayOf(e.date))}</span></span>
-            <span class="up-body"><span class="tt">${escapeHtml(e.title)}</span>${meta?`<span class="meta">${escapeHtml(meta)}</span>`:""}</span>
-          </button>
-          ${sourceHtml}
-        </article>`;
-      }).join("");
-      box.querySelectorAll(".up-jump").forEach(btn => { btn.onclick = () => focusDate(btn.dataset.date); });
-    }
-
     document.getElementById("calPrev").onclick = ()=>{ curM--; if(curM<0){curM=11;curY--;} expanded=false; selectedDate=null; renderCal(); };
     document.getElementById("calNext").onclick = ()=>{ curM++; if(curM>11){curM=0;curY++;} expanded=false; selectedDate=null; renderCal(); };
     document.getElementById("calToday").onclick = ()=>{
@@ -600,7 +519,6 @@
       curY = y; curM = m - 1; expanded=false; selectedDate=null; renderCal();
     };
     renderRegionTabs();
-    renderUpcoming();
     renderCal();
   </script>
 </body>
