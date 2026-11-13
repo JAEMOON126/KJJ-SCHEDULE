@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-13T04:06:24.978Z",
+  "checkedAt": "2026-11-13T10:06:25.555Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261108 JX演唱会（澳门场） DAY 2 JX 2026 TOUR ",
+      "hasNew": true,
+      "latest": "金在中 💚 261113 #金在中# X： 大阪！ 我这就飞过去啦！ @金在中_Official @JJ860126J",
       "latestTime": "2小时前",
-      "updatedAt": "2026-11-12T04:05:30.586Z"
+      "updatedAt": "2026-11-13T10:05:29.101Z"
     },
     {
       "id": "yinfu_weibo",
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "02:44 【金在中】【梦路中字】261104 2026 JX演唱会 CORE 神户场 Day2 TALK 767 0",
-      "latestTime": "2天前 · 投稿了视频",
-      "updatedAt": "2026-11-13T04:06:08.586Z"
+      "latest": "01:40 【金在中】261113 金浦机场出境「帅气魅力中散发着温暖 时尚有型的BOSS」｜Dispatch新闻频 -",
+      "latestTime": "2小时前 · 投稿了视频",
+      "updatedAt": "2026-11-13T10:06:08.028Z"
     },
     {
       "id": "jj_instagram",
