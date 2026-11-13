@@ -1,31 +1,31 @@
-// manual-schedule.js —— 手动维护的日程（韩国/亚洲/中国等，无法自动抓取的部分）
-// monitor.mjs 每次自动更新时，会把这里的条目和"日本官咖自动抓取"的条目合并。
-// 看到新行程时，往下面数组加一条即可，格式和示例一致。
-export const MANUAL_EVENTS = [
-  { date: "2026-01-26", type: "birthday", title: "金在中生日 🎂", region: "", note: "Boss Babies 应援" },
-  // GALAXY 1986 亚洲巡演（媒体确证）
-  { date: "2026-02-08", type: "concert", title: "J-Party GALAXY 1986 · 台北", region: "台湾", note: "TICC 台北国际会议中心 18:00" },
-  { date: "2026-03-15", type: "concert", title: "J-Party GALAXY 1986 · 横滨", region: "日本", note: "Pacifico横滨 国立大厅" },
-  { date: "2026-03-21", type: "concert", title: "J-Party GALAXY 1986 · 曼谷", region: "泰国", note: "" },
-  { date: "2026-03-28", type: "concert", title: "J-Party GALAXY 1986 · 新加坡", region: "新加坡", note: "Arena @ EXPO 19:30" },
-  // THE WAVE 韩国场（多家媒体确证）
-  { date: "2026-08-29", type: "concert", title: "CONCERT [THE WAVE] · 首尔 D1", region: "韩国", note: "KBS Arena 首尔江西区" },
-  { date: "2026-08-30", type: "concert", title: "CONCERT [THE WAVE] · 首尔 D2", region: "韩国", note: "KBS Arena 首尔江西区" },
-  // 中国场（来自音符/iNKODE官方公告）
-  { date: "2026-08-16", type: "fanmeeting", title: "FAN MEETING · 深圳", region: "中国", note: "特别的爱 深情予你 [音符/星羽]" },
-  // 韩国专辑发行（多家韩媒确证）
-  { date: "2026-08-20", type: "release", title: "新单曲《THE WAVE》· 韩国", region: "韩国", note: "18:00 各大音源上线 · 时隔1年3个月韩国新专" },
-  // JX（金在中 & 金俊秀）2026 TOUR CONCERT〈CORE〉六城巡演（多家韩媒/allkpop 确证，场馆票务待官方公布）
-  { date: "2026-10-09", type: "concert", title: "JX〈CORE〉· 仁川 D1", region: "韩国", note: "Inspire Arena 仁川 · 18:00 开演" },
-  { date: "2026-10-10", type: "concert", title: "JX〈CORE〉· 仁川 D2", region: "韩国", note: "Inspire Arena 仁川 · 17:00 开演" },
-  { date: "2026-10-11", type: "concert", title: "JX〈CORE〉· 仁川 D3", region: "韩国", note: "Inspire Arena 仁川 · 17:00 开演" },
-  { date: "2026-11-03", type: "concert", title: "JX〈CORE〉· 神户 D1", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-  { date: "2026-11-04", type: "concert", title: "JX〈CORE〉· 神户 D2", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-  { date: "2026-11-07", type: "concert", title: "JX〈CORE〉· 澳门", region: "中国", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-  { date: "2026-11-14", type: "concert", title: "JX〈CORE〉· 大阪 D1", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-  { date: "2026-11-15", type: "concert", title: "JX〈CORE〉· 大阪 D2", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-  { date: "2026-11-21", type: "concert", title: "JX〈CORE〉· 台北", region: "台湾", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-  { date: "2026-12-04", type: "concert", title: "JX〈CORE〉· 横滨 D1", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-  { date: "2026-12-05", type: "concert", title: "JX〈CORE〉· 横滨 D2", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-  { date: "2026-12-06", type: "concert", title: "JX〈CORE〉· 横滨 D3", region: "日本", note: "JX 2026 TOUR CONCERT〈CORE〉· 场馆待公布" },
-];
+// manual-schedule.mjs —— 手动维护的日程（韩国 / 亚洲 / 中国等抓取覆盖不到的部分）
+// monitor.mjs 每次自动更新时 import { MANUAL_EVENTS }，再和日本官咖抓取结果合并写进 schedule.js。
+//
+// 条目本体在 schedule.json。每日摘要以后可以直接合并进那个数组。
+// 这里仍导出同名 MANUAL_EVENTS，生成器不用改 import。
+// 本文件只用 Node 读取 JSON；页面不 import 它（页面自己 fetch schedule.json），
+// 所以再生后即使 schedule.js 丢掉新字段，页面仍能补上。
+//
+// 单条字段。前 5 个是旧字段，生成器若只会原样抄这几个，note 里也写了场馆和时间。
+// 其余都可选；页面缺了也能显示，并且同时认旧名字：
+//   date      YYYY-MM-DD
+//   type      concert | fanmeeting | release | broadcast | rerun | event | birthday
+//   title     显示标题
+//   region    韩国 | 日本 | 中国 | 台湾 | …，没有就用空字符串
+//   note      自由备注（旧渲染只看这个）
+//   venue     场馆。别名 place / location
+//   open      开场 HH:MM，当地时间。别名 openTime / doors
+//   start     开演 HH:MM，当地时间。别名 startTime / time
+//   end       结束 HH:MM。别名 endTime
+//   tz        IANA 时区，如 Asia/Tokyo。别名 timezone
+//   tzLabel   页面上的简称，如 JST、GMT+8。别名 timezoneLabel / tzName
+//   source    官方来源 https URL。别名 sourceUrl / url / link
+//   status    cancelled / canceled / 已取消 表示未举行。别名 state。
+//             页面会划掉标题、标「已取消」，并且不把这一天画成有演出的日子。
+//
+// schedule.json 可以是数组，也可以是 { "events": [ ... ] }。
+
+import { readFileSync } from "node:fs";
+
+const raw = JSON.parse(readFileSync(new URL("./schedule.json", import.meta.url), "utf8"));
+export const MANUAL_EVENTS = Array.isArray(raw) ? raw : (raw.events || []);
