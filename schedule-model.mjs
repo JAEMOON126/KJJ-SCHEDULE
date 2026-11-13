@@ -3,6 +3,42 @@
 
 const TBA = /待公布|TBA|TBD/i;
 
+// 页面上的“今天 / 上次检查 / NEW”一律按北京时间，不跟浏览器所在时区走。
+export const SITE_TZ = "Asia/Shanghai";
+
+export function zonedParts(input, timeZone = SITE_TZ) {
+  const date = input instanceof Date ? input : new Date(input);
+  const fmt = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  });
+  const out = { year: "0000", month: "01", day: "01", hour: "00", minute: "00" };
+  for (const part of fmt.formatToParts(date)) {
+    if (part.type in out) out[part.type] = part.value;
+  }
+  if (out.hour === "24") out.hour = "00";
+  return out;
+}
+
+export function formatInZone(input, timeZone = SITE_TZ) {
+  const date = input instanceof Date ? input : new Date(input);
+  if (Number.isNaN(date.getTime())) return "";
+  const parts = zonedParts(date, timeZone);
+  return `${parts.year}.${parts.month}.${parts.day} ${parts.hour}:${parts.minute}`;
+}
+
+export function dateKeyInZone(input = new Date(), timeZone = SITE_TZ) {
+  const date = input instanceof Date ? input : new Date(input);
+  if (Number.isNaN(date.getTime())) return "";
+  const parts = zonedParts(date, timeZone);
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
 const TZ_LABELS = {
   "Asia/Tokyo": "JST",
   "Asia/Seoul": "KST",
@@ -45,22 +81,32 @@ function first(obj, keys) {
   return "";
 }
 
-function clock(value) {
-  const match = String(value ?? "").trim().match(/^(\d{1,2}):(\d{2})(?::\d{2})?$/);
-  if (!match) return "";
-  const hour = Number(match[1]);
-  const minute = Number(match[2]);
-  if (hour > 23 || minute > 59) return "";
-  return `${String(hour).padStart(2, "0")}:${match[2]}`;
+function clock(value, timeZone) {
+  const raw = String(value ?? "").trim();
+  const match = raw.match(/^(\d{1,2}):(\d{2})(?::\d{2})?$/);
+  if (match) {
+    const hour = Number(match[1]);
+    const minute = Number(match[2]);
+    if (hour > 23 || minute > 59) return "";
+    return `${String(hour).padStart(2, "0")}:${match[2]}`;
+  }
+  // 完整时间戳按演出当地时区取出钟点，避免被浏览器时区改掉。
+  if (/^\d{4}-\d{2}-\d{2}T/.test(raw)) {
+    const date = new Date(raw);
+    if (Number.isNaN(date.getTime())) return "";
+    const parts = zonedParts(date, timeZone || SITE_TZ);
+    return `${parts.hour}:${parts.minute}`;
+  }
+  return "";
 }
 
 export function eventFields(event) {
   const tz = first(event, ["tz", "timezone"]);
   return {
     venue: first(event, ["venue", "place", "location"]),
-    start: clock(first(event, ["start", "startTime", "time"])),
-    open: clock(first(event, ["open", "openTime", "doors"])),
-    end: clock(first(event, ["end", "endTime"])),
+    start: clock(first(event, ["start", "startTime", "time"]), tz),
+    open: clock(first(event, ["open", "openTime", "doors"]), tz),
+    end: clock(first(event, ["end", "endTime"]), tz),
     tz,
     tzLabel: first(event, ["tzLabel", "timezoneLabel", "tzName"]) || TZ_LABELS[tz] || "",
     source: safeUrl(first(event, ["source", "sourceUrl", "url", "link"])),
