@@ -108,7 +108,7 @@
     .ev-more { margin-top: 4px; background: var(--surface-2); border: 1px solid var(--border); color: var(--muted);
       border-radius: 8px; padding: 8px; cursor: pointer; font-size: 12px; letter-spacing: 1px; transition: all .15s; }
     .ev-more:hover { border-color: var(--accent); color: var(--accent); }
-    .ev { display: flex; gap: 11px; align-items: center; padding: 11px 13px; background: var(--surface-2);
+    .ev { display: flex; gap: 11px; align-items: flex-start; padding: 11px 13px; background: var(--surface-2);
       border-radius: 10px; border-left: 3px solid var(--evc, var(--accent)); }
     /* 每种类型的主题色（用 CSS 变量 --evc 驱动左边框 / 图标 / 标签）*/
     .ev.t-concert    { --evc: #ff6b9d; }   /* 演唱会 · 粉红 */
@@ -121,8 +121,12 @@
     .ev .ic { font-size: 16px; width: 20px; text-align: center; flex-shrink: 0; }
     .ev .d { font-size: 12px; color: var(--evc, var(--accent)); font-weight: 700; white-space: nowrap; min-width: 42px; }
     .ev .c { flex: 1; min-width: 0; }
+    .ev .ic { margin-top: 1px; }
+    .ev .d { margin-top: 2px; }
     .ev .c .tt { font-size: 14px; font-weight: 500; }
-    .ev .c .nn { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .ev .c .nn, .ev .c .meta { font-size: 12px; color: var(--muted); margin-top: 2px; line-height: 1.45; }
+    .ev .c .src { display: inline-block; margin-top: 3px; color: var(--accent); font-size: 12px; text-decoration: none; }
+    .ev .c .src:hover { text-decoration: underline; }
     .ev .tag { font-size: 10px; padding: 2px 8px; border-radius: 999px; margin-left: auto; white-space: nowrap;
       background: color-mix(in srgb, var(--evc) 18%, transparent); color: var(--evc);
       align-self: center; display: flex; gap: 5px; align-items: center; font-weight: 600; }
@@ -159,7 +163,7 @@
     .sub-row:hover { background: var(--surface-2); color: var(--text); }
     .sub-row.on { color: var(--text); background: var(--surface-2); }
     .sub-row .sd { font-size: 12px; font-weight: 600; min-width: 40px; color: var(--accent); }
-    .sub-row .st { font-size: 13px; }
+    .sub-row .st { font-size: 13px; flex: 1; min-width: 0; line-height: 1.4; }
     .ev .tag { font-size: 10px; padding: 2px 7px; border-radius: 999px; margin-left: auto; white-space: nowrap;
       background: var(--accent-dim); color: var(--accent); align-self: center; display: flex; gap: 5px; align-items: center; }
     .ev .tag .rg { color: var(--muted); }
@@ -248,14 +252,21 @@
 
   <script src="data.js"></script>
   <script src="schedule.js"></script>
-  <script>
-    function fmt(iso){ if(!iso) return ""; const d=new Date(iso);
+  <script type="module">
+    import { mergeSchedules, escapeHtml, metaLine, extraNote, eventFields } from "./schedule-model.mjs";
+
+    function fmt(iso){
+      if(!iso || !/^\d{4}-\d{2}-\d{2}/.test(String(iso))) return iso ? String(iso) : "";
+      const d=new Date(iso);
+      if (Number.isNaN(d.getTime())) return String(iso);
       const p=n=>String(n).padStart(2,"0");
-      return `${d.getFullYear()}.${p(d.getMonth()+1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`; }
+      return `${d.getFullYear()}.${p(d.getMonth()+1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+    }
     const data = window.YT_DATA || { monitored: [] };
     // 顶部状态条
+    const checkedText = data.checkedAt ? fmt(data.checkedAt) : "";
     document.getElementById("statusbar").innerHTML =
-      `<b>NEW</b> = 24 小时内有更新` + (data.checkedAt ? ` · 上次检查 ${fmt(data.checkedAt)}` : " · 尚未检查");
+      `<b>NEW</b> = 24 小时内有更新` + (checkedText ? ` · 上次检查 ${escapeHtml(checkedText)}` : " · 尚未检查");
     // 把监测状态标到对应链接上
     const DAY = 24 * 60 * 60 * 1000;
     const now = Date.now();
@@ -264,10 +275,14 @@
     document.querySelectorAll(".chip[data-id]").forEach(chip => {
       const s = byId[chip.dataset.id];
       if (!s || s.status === "pending") return;      // 未接入的：普通链接，不标
-      // NEW 只在最近 24 小时内有更新时亮（过后自动灭）
-      const fresh = s.updatedAt && (now - new Date(s.updatedAt).getTime()) < DAY;
+      // NEW 只在最近 24 小时内有更新时亮（过后自动灭）。比较的是时间戳，和浏览器时区无关。
+      const updated = s.updatedAt ? new Date(s.updatedAt).getTime() : NaN;
+      const fresh = Number.isFinite(updated) && (now - updated) >= 0 && (now - updated) < DAY;
       if (fresh) chip.classList.add("new");
-      if (s.latest) chip.title = s.latest + (s.latestTime ? "  ·  "+fmt(s.latestTime) : "");
+      if (s.latest) {
+        const when = s.latestTime ? fmt(s.latestTime) : "";
+        chip.title = when && when !== s.latestTime ? `${s.latest}  ·  ${when}` : (s.latestTime ? `${s.latest}  ·  ${s.latestTime}` : s.latest);
+      }
     });
 
     // ===== 日历 =====
@@ -275,7 +290,19 @@
     const TYPE_ICON  = { concert:"🎤", fanmeeting:"🤝", release:"💿", broadcast:"📺", rerun:"🔁", event:"✨", birthday:"🎂" };
     const MINOR = new Set(["broadcast","rerun"]);              // 次要类型：弱化显示
     const IMPORTANCE = { concert:5, fanmeeting:4, release:4, birthday:3, event:2, broadcast:1, rerun:0 };
-    const SCHED = (window.JJ_SCHEDULE || []).slice().sort((a,b)=>a.date.localeCompare(b.date));
+    const KNOWN_TYPES = new Set(Object.keys(TYPE_LABEL));
+    function typeOf(e){ return KNOWN_TYPES.has(e.type) ? e.type : "event"; }
+
+    let manualEvents = [];
+    try {
+      const res = await fetch("./schedule.json");
+      if (res.ok) {
+        const body = await res.json();
+        manualEvents = Array.isArray(body) ? body : (body.events || []);
+      }
+    } catch (_) { /* 生成的 schedule.js 仍可单独显示 */ }
+    // 渲染时合并：补上场馆/时间/来源，并去掉同一天的重复场次。schedule.js 每天重写也不影响。
+    const SCHED = mergeSchedules(window.JJ_SCHEDULE || [], manualEvents);
     const byDate = {};
     for (const e of SCHED) (byDate[e.date] = byDate[e.date] || []).push(e);
 
@@ -303,9 +330,9 @@
         let dot = "";
         if (has) {
           const top = dayEvents.slice().sort((a,b)=>(IMPORTANCE[b.type]||0)-(IMPORTANCE[a.type]||0))[0];
-          dot = `<span class="evdot t-${top.type}"></span>`;
+          dot = `<span class="evdot t-${typeOf(top)}"></span>`;
         }
-        html += `<div class="cal-cell ${has?'has':''} ${isToday?'today':''}" ${has?`data-date="${k}"`:''}>
+        html += `<div class="cal-cell ${has?'has':''} ${isToday?'today':''}" ${has?`data-date="${escapeHtml(k)}"`:''}>
                    ${d}${dot}
                  </div>`;
       }
@@ -317,15 +344,24 @@
     }
 
     function evHtml(e){
-      const [y,m,d] = e.date.split("-");
-      const regionTag = e.region ? `<span class="rg">${e.region}</span>` : "";
-      const minor = MINOR.has(e.type) ? " minor" : "";
-      const icon = TYPE_ICON[e.type] || "•";
-      return `<div class="ev t-${e.type}${minor}">
+      const [,m,d] = e.date.split("-");
+      const type = typeOf(e);
+      const regionTag = e.region ? `<span class="rg">${escapeHtml(e.region)}</span>` : "";
+      const minor = MINOR.has(type) ? " minor" : "";
+      const icon = TYPE_ICON[type] || "•";
+      const meta = metaLine(e);
+      const note = extraNote(e);
+      const source = eventFields(e).source;
+      const metaHtml = meta ? `<div class="meta">${escapeHtml(meta)}</div>` : "";
+      const noteHtml = note ? `<div class="nn">${escapeHtml(note)}</div>` : "";
+      const sourceHtml = source
+        ? `<a class="src" href="${escapeHtml(source)}" target="_blank" rel="noopener noreferrer">官方来源</a>`
+        : "";
+      return `<div class="ev t-${type}${minor}">
         <span class="ic">${icon}</span>
-        <span class="d">${m}.${d}</span>
-        <span class="c"><div class="tt">${e.title}</div>${e.note?`<div class="nn">${e.note}</div>`:''}</span>
-        <span class="tag">${regionTag}${TYPE_LABEL[e.type]||"活动"}</span>
+        <span class="d">${escapeHtml(m)}.${escapeHtml(d)}</span>
+        <span class="c"><div class="tt">${escapeHtml(e.title)}</div>${metaHtml}${noteHtml}${sourceHtml}</span>
+        <span class="tag">${regionTag}${TYPE_LABEL[type]||"活动"}</span>
       </div>`;
     }
 
@@ -400,21 +436,24 @@
         const range = n===1 ? dates[0] : `${dates[0]}–${dates[n-1]}`;
         const unit = (g.type==="concert"||g.type==="fanmeeting") ? "场" : (g.type==="broadcast"||g.type==="rerun") ? "次" : "项";
         const regions=[...new Set(g.items.map(e=>e.region).filter(Boolean))].join("/");
-        const expandedNow = openGroups.has(seriesName(g)+g.type);
+        const groupId = seriesName(g)+g.type;
+        const expandedNow = openGroups.has(groupId);
         const single = n===1;
         let h = `<div class="sum-group t-${g.type}">
-          <a href="#" class="sum-row t-${g.type}" ${single?`data-date="${g.items[0].date}"`:`data-g="${seriesName(g)+g.type}"`}>
+          <a href="#" class="sum-row t-${g.type}" ${single?`data-date="${escapeHtml(g.items[0].date)}"`:`data-g="${escapeHtml(groupId)}"`}>
             <span class="si">${icon}</span>
-            <span class="st">${seriesName(g)}</span>
-            ${regions?`<span class="sr">${regions}</span>`:''}
-            <span class="cnt">${n>1?`${n} ${unit}`:range}</span>
+            <span class="st">${escapeHtml(seriesName(g))}</span>
+            ${regions?`<span class="sr">${escapeHtml(regions)}</span>`:''}
+            <span class="cnt">${n>1?`${n} ${escapeHtml(unit)}`:escapeHtml(range)}</span>
             ${n>1?`<span class="exp">${expandedNow?'▲':'▼'}</span>`:''}
           </a>`;
         if (n>1 && expandedNow){
           h += `<div class="sub-list">` + g.items.map(e=>{
-            const [y,m,d]=e.date.split("-"); const on=(e.date===showKey)?" on":"";
+            const [,m,d]=e.date.split("-"); const on=(e.date===showKey)?" on":"";
             const city=(e.title.match(/[·・]\s*([^·・]+)$/)||[])[1]||"";
-            return `<a href="#" class="sub-row${on}" data-date="${e.date}"><span class="sd">${m}.${d}</span><span class="st">${city||e.title}</span></a>`;
+            const subMeta = metaLine(e);
+            const subText = city || e.title;
+            return `<a href="#" class="sub-row${on}" data-date="${escapeHtml(e.date)}"><span class="sd">${escapeHtml(m)}.${escapeHtml(d)}</span><span class="st">${escapeHtml(subMeta ? `${subText} · ${subMeta}` : subText)}</span></a>`;
           }).join("") + `</div>`;
         }
         h += `</div>`;
