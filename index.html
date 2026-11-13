@@ -289,7 +289,7 @@
   <script src="data.js"></script>
   <script src="schedule.js"></script>
   <script type="module">
-    import { mergeSchedules, escapeHtml, metaLine, extraNote, eventFields, formatInZone, dateKeyInZone } from "./schedule-model.mjs";
+    import { mergeSchedules, classifyEvent, escapeHtml, metaLine, extraNote, eventFields, formatInZone, dateKeyInZone } from "./schedule-model.mjs";
 
     function fmt(iso){
       if(!iso || !/^\d{4}-\d{2}-\d{2}/.test(String(iso))) return iso ? String(iso) : "";
@@ -335,7 +335,7 @@
       }
     } catch (_) { /* 生成的 schedule.js 仍可单独显示 */ }
     // 渲染时合并：补上场馆/时间/来源，并去掉同一天的重复场次。schedule.js 每天重写也不影响。
-    const SCHED = mergeSchedules(window.JJ_SCHEDULE || [], manualEvents);
+    const SCHED = mergeSchedules(window.JJ_SCHEDULE || [], manualEvents).map(classifyEvent);
     const byDate = {};
     for (const e of SCHED) (byDate[e.date] = byDate[e.date] || []).push(e);
 

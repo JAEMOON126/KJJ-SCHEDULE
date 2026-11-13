@@ -193,6 +193,19 @@ function mergePair(a, b) {
   return merged;
 }
 
+const RERUN_TITLE = /衛星劇場|卫星剧场|CS放送|CS卫星/;
+
+// 卫星剧场播出的是录播/重播，抓取脚本经常把它标成 concert。按标题改回 rerun，
+// 这样再生之后就算 schedule.js 又写成演唱会，页面也不会把它当成现场。
+export function classifyEvent(event) {
+  if (!event || !RERUN_TITLE.test(event.title || "")) return event;
+  if (event.type === "rerun") return event;
+  if (!event.type || event.type === "concert" || event.type === "broadcast" || event.type === "event") {
+    return { ...event, type: "rerun" };
+  }
+  return event;
+}
+
 export function mergeSchedules(generated, manual) {
   const items = (generated || []).map((event) => ({ ...event }));
   for (const event of manual || []) {
