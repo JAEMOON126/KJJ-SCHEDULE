@@ -135,6 +135,12 @@
     .ev.minor { padding: 7px 13px; opacity: 0.72; background: transparent; border-left-width: 2px; }
     .ev.minor .c .tt { font-size: 13px; font-weight: 400; color: var(--muted); }
     .ev.minor .ic { font-size: 13px; }
+    .ev.cancelled .tt { text-decoration: line-through; color: var(--muted); }
+    .ev .tag.cancel { background: transparent; color: var(--faint); border: 1px solid var(--border); }
+    .sum-row.cancelled { --evc: var(--faint); }
+    .sum-row.cancelled .st { text-decoration: line-through; color: var(--muted); }
+    .cal-cell.quiet { cursor: pointer; }
+    .cal-cell.quiet:hover { border-color: var(--border); }
     /* 当月汇总：紧凑单行 */
     .sum-head { font-size: 11px; letter-spacing: 1px; color: var(--faint); text-transform: uppercase;
       margin: 16px 2px 8px; border-top: 1px solid var(--border); padding-top: 14px; }
@@ -295,6 +301,10 @@
     const IMPORTANCE = { concert:5, fanmeeting:4, release:4, birthday:3, event:2, broadcast:1, rerun:0 };
     const KNOWN_TYPES = new Set(Object.keys(TYPE_LABEL));
     function typeOf(e){ return KNOWN_TYPES.has(e.type) ? e.type : "event"; }
+    function isCancelled(e){
+      const status = String(e.status || e.state || "").trim().toLowerCase();
+      return status === "cancelled" || status === "canceled" || status === "已取消";
+    }
 
     let manualEvents = [];
     try {
@@ -327,22 +337,24 @@
       for (let i=0;i<first;i++) html += `<div class="cal-cell blank"></div>`;
       for (let d=1; d<=days; d++) {
         const k = key(curY,curM,d);
-        const dayEvents = byDate[k];
-        const has = !!dayEvents;
+        const dayEvents = byDate[k] || [];
+        const live = dayEvents.filter(e => !isCancelled(e));
+        const has = live.length > 0;
+        const quiet = !has && dayEvents.length > 0;
         const today = todayStamp();
         const isToday = k === today;
-        // 有日程的日期用原有底色 + 类型色圆点标出，之后的场次也靠这个在月历上看到
+        // 有日程的日期用原有底色 + 类型色圆点标出。已取消的场次不占这个高亮。
         let dot = "";
         if (has) {
-          const top = dayEvents.slice().sort((a,b)=>(IMPORTANCE[b.type]||0)-(IMPORTANCE[a.type]||0))[0];
+          const top = live.slice().sort((a,b)=>(IMPORTANCE[b.type]||0)-(IMPORTANCE[a.type]||0))[0];
           dot = `<span class="evdot t-${typeOf(top)}"></span>`;
         }
-        html += `<div class="cal-cell ${has?'has':''} ${isToday?'today':''}" ${has?`data-date="${escapeHtml(k)}"`:''}>
+        html += `<div class="cal-cell ${has?'has':''} ${quiet?'quiet':''} ${isToday?'today':''}" ${(has||quiet)?`data-date="${escapeHtml(k)}"`:''}>
                    ${d}${dot}
                  </div>`;
       }
       document.getElementById("calBody").innerHTML = html;
-      document.querySelectorAll(".cal-cell.has").forEach(c=>{
+      document.querySelectorAll(".cal-cell.has, .cal-cell.quiet").forEach(c=>{
         c.onclick = ()=>{ selectedDate = c.dataset.date; renderEvents(); };
       });
       renderEvents();
@@ -353,20 +365,23 @@
       const type = typeOf(e);
       const regionTag = e.region ? `<span class="rg">${escapeHtml(e.region)}</span>` : "";
       const minor = MINOR.has(type) ? " minor" : "";
+      const cancelled = isCancelled(e);
       const icon = TYPE_ICON[type] || "•";
       const meta = metaLine(e);
       const note = extraNote(e);
       const source = eventFields(e).source;
       const metaHtml = meta ? `<div class="meta">${escapeHtml(meta)}</div>` : "";
-      const noteHtml = note ? `<div class="nn">${escapeHtml(note)}</div>` : "";
+      const shownNote = cancelled ? note.replace(/已取消/g, "").replace(/[·・\s]+$/g, "").trim() : note;
+      const noteHtml = shownNote ? `<div class="nn">${escapeHtml(shownNote)}</div>` : "";
       const sourceHtml = source
         ? `<a class="src" href="${escapeHtml(source)}" target="_blank" rel="noopener noreferrer">官方来源</a>`
         : "";
-      return `<div class="ev t-${type}${minor}">
+      const cancelTag = cancelled ? `<span class="tag cancel">已取消</span>` : "";
+      return `<div class="ev t-${type}${minor}${cancelled?" cancelled":""}">
         <span class="ic">${icon}</span>
         <span class="d">${escapeHtml(m)}.${escapeHtml(d)}</span>
         <span class="c"><div class="tt">${escapeHtml(e.title)}</div>${metaHtml}${noteHtml}${sourceHtml}</span>
-        <span class="tag">${regionTag}${TYPE_LABEL[type]||"活动"}</span>
+        ${cancelTag}<span class="tag">${regionTag}${TYPE_LABEL[type]||"活动"}</span>
       </div>`;
     }
 
@@ -444,10 +459,12 @@
         const groupId = seriesName(g)+g.type;
         const expandedNow = openGroups.has(groupId);
         const single = n===1;
+        const cancelled = g.items.every(isCancelled);
         let h = `<div class="sum-group t-${g.type}">
-          <a href="#" class="sum-row t-${g.type}" ${single?`data-date="${escapeHtml(g.items[0].date)}"`:`data-g="${escapeHtml(groupId)}"`}>
+          <a href="#" class="sum-row t-${g.type}${cancelled?" cancelled":""}" ${single?`data-date="${escapeHtml(g.items[0].date)}"`:`data-g="${escapeHtml(groupId)}"`}>
             <span class="si">${icon}</span>
             <span class="st">${escapeHtml(seriesName(g))}</span>
+            ${cancelled?`<span class="sr">已取消</span>`:""}
             ${regions?`<span class="sr">${escapeHtml(regions)}</span>`:''}
             <span class="cnt">${n>1?`${n} ${escapeHtml(unit)}`:escapeHtml(range)}</span>
             ${n>1?`<span class="exp">${expandedNow?'▲':'▼'}</span>`:''}

@@ -20,6 +20,8 @@
 //   tz        IANA 时区，如 Asia/Tokyo。别名 timezone
 //   tzLabel   页面上的简称，如 JST、GMT+8。别名 timezoneLabel / tzName
 //   source    官方来源 https URL。别名 sourceUrl / url / link
+//   status    cancelled / canceled / 已取消 表示未举行。别名 state。
+//             页面会划掉标题、标「已取消」，并且不把这一天画成有演出的日子。
 //
 // schedule.json 可以是数组，也可以是 { "events": [ ... ] }。
 
