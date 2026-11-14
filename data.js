@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-13T10:06:25.555Z",
+  "checkedAt": "2026-11-14T04:06:26.371Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 261113 #金在中# X： 大阪！ 我这就飞过去啦！ @金在中_Official @JJ860126J",
-      "latestTime": "2小时前",
-      "updatedAt": "2026-11-13T10:05:29.101Z"
+      "latest": "金在中💚#金在中# 261114 台湾无限娱乐Facebook ： JX 2026 TOUR CONCERT <COR",
+      "latestTime": "54分钟前",
+      "updatedAt": "2026-11-14T04:05:31.924Z"
     },
     {
       "id": "yinfu_weibo",
@@ -68,8 +68,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "01:40 【金在中】261113 金浦机场出境「帅气魅力中散发着温暖 时尚有型的BOSS」｜Dispatch新闻频 -",
-      "latestTime": "2小时前 · 投稿了视频",
-      "updatedAt": "2026-11-13T10:06:08.028Z"
+      "latestTime": "20小时前 · 投稿了视频",
+      "updatedAt": "2026-11-14T04:06:10.546Z"
     },
     {
       "id": "jj_instagram",
