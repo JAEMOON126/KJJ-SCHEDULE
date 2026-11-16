@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-16T04:06:03.844Z",
+  "checkedAt": "2026-11-16T10:06:05.377Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 261116 iNKODE JP更新： 【金在中 20周年】 官方纪念礼盒 将20周年的种种回",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-11-16T04:05:28.476Z"
+      "latest": "金在中 💚 261116 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "6小时前",
+      "updatedAt": "2026-11-16T10:05:29.475Z"
     },
     {
       "id": "yinfu_weibo",
@@ -69,7 +69,7 @@ window.YT_DATA = {
       "hasNew": true,
       "latest": "01:40 【金在中】261113 金浦机场出境「帅气魅力中散发着温暖 时尚有型的BOSS」｜Dispatch新闻频 -",
       "latestTime": "3天前 · 投稿了视频",
-      "updatedAt": "2026-11-16T04:05:48.001Z"
+      "updatedAt": "2026-11-16T10:05:49.135Z"
     },
     {
       "id": "jj_instagram",
