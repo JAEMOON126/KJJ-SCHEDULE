@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-16T10:06:05.377Z",
+  "checkedAt": "2026-11-17T04:06:06.592Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 261116 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "6小时前",
-      "updatedAt": "2026-11-16T10:05:29.475Z"
+      "latest": "金在中 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG [Momen",
+      "latestTime": "26分钟前",
+      "updatedAt": "2026-11-17T04:05:31.075Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "#金在中2026中国首封# 金在中 @名格Mingle: 金在中 Mingle × 金在中专访｜他的答案 梦里有奇境，心",
-      "latestTime": "11-10 17:53",
-      "updatedAt": "2026-11-11T10:05:42.022Z"
+      "hasNew": true,
+      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG [Moments] VR MUSIC EXHIBITI",
+      "latestTime": "37分钟前",
+      "updatedAt": "2026-11-17T04:05:42.007Z"
     },
     {
       "id": "jj_chaohua",
@@ -68,8 +68,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "01:40 【金在中】261113 金浦机场出境「帅气魅力中散发着温暖 时尚有型的BOSS」｜Dispatch新闻频 -",
-      "latestTime": "3天前 · 投稿了视频",
-      "updatedAt": "2026-11-16T10:05:49.135Z"
+      "latestTime": "11月13日 · 投稿了视频",
+      "updatedAt": "2026-11-17T04:05:50.550Z"
     },
     {
       "id": "jj_instagram",
