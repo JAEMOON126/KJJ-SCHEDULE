@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-18T04:06:06.270Z",
+  "checkedAt": "2026-11-18T10:06:08.006Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261114 JX演唱会（大阪场） DAY 2 JX 2026 TOUR ",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-11-18T04:05:30.800Z"
+      "latest": "金在中 💚 #金在中#261118 名格Mingle 图频总汇： 梦路团购🔗网页链接 (11/29截止) 名格Min",
+      "latestTime": "17分钟前",
+      "updatedAt": "2026-11-18T10:05:30.769Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG [Moments] VR MUSIC EXHIBITI",
-      "latestTime": "11-17 11:28",
-      "updatedAt": "2026-11-17T04:05:42.007Z"
+      "hasNew": true,
+      "latest": "来自iNKODE家族的 2027韩国高考应援寄语🍀 中文字幕🔗 来自iNKODE家族的2027韩国高考应援寄语🍀 ",
+      "latestTime": "4小时前",
+      "updatedAt": "2026-11-18T10:05:41.695Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,10 +56,10 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "01:51 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] ENCORE VCR ",
-      "latestTime": "10月23日 · 投稿了视频",
-      "updatedAt": "2026-10-23T10:05:48.017Z"
+      "hasNew": true,
+      "latest": "合作视频 04:14 来自iNKODE家族的2027韩国高考应援寄语🍀 Copyrights 2026 ⓒ iNKOD",
+      "latestTime": "4小时前 · 与他人联合创作",
+      "updatedAt": "2026-11-18T10:05:46.933Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -69,7 +69,7 @@ window.YT_DATA = {
       "hasNew": true,
       "latest": "01:40 【金在中】261113 金浦机场出境「帅气魅力中散发着温暖 时尚有型的BOSS」｜Dispatch新闻频 -",
       "latestTime": "11月13日 · 投稿了视频",
-      "updatedAt": "2026-11-18T04:05:50.227Z"
+      "updatedAt": "2026-11-18T10:05:50.945Z"
     },
     {
       "id": "jj_instagram",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.11.17TOPICS JX 2026 TOUR CONCERT 「CORE」 IN OSAKA 終了！☆ME",
+      "hasNew": true,
+      "latest": "2026.11.18TOPICS 『JAEJOONG TUESDAY PARTY with JAEFANS 2026』映",
       "latestTime": null,
-      "updatedAt": "2026-11-17T10:06:02.532Z"
+      "updatedAt": "2026-11-18T10:06:03.360Z"
     }
   ]
 };
