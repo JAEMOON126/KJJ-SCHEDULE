@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-18T10:06:08.006Z",
+  "checkedAt": "2026-11-19T04:06:40.452Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中#261118 名格Mingle 图频总汇： 梦路团购🔗网页链接 (11/29截止) 名格Min",
-      "latestTime": "17分钟前",
-      "updatedAt": "2026-11-18T10:05:30.769Z"
+      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261115 JX演唱会（大阪场） DAY 2 JX 2026 TOUR ",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-11-19T04:05:28.428Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "来自iNKODE家族的 2027韩国高考应援寄语🍀 中文字幕🔗 来自iNKODE家族的2027韩国高考应援寄语🍀 ",
-      "latestTime": "4小时前",
-      "updatedAt": "2026-11-18T10:05:41.695Z"
+      "latest": "📢[#公告#][#Notice#] 稍后，晚 11:20 (韩国时间) Nicole 将出演 ENA <MYSTIC>",
+      "latestTime": "11-17 20:28",
+      "updatedAt": "2026-11-19T04:05:39.339Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,20 +56,20 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "合作视频 04:14 来自iNKODE家族的2027韩国高考应援寄语🍀 Copyrights 2026 ⓒ iNKOD",
-      "latestTime": "4小时前 · 与他人联合创作",
+      "latestTime": "22小时前 · 与他人联合创作",
       "updatedAt": "2026-11-18T10:05:46.933Z"
     },
     {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
-      "status": "ok",
-      "hasNew": true,
-      "latest": "01:40 【金在中】261113 金浦机场出境「帅气魅力中散发着温暖 时尚有型的BOSS」｜Dispatch新闻频 -",
-      "latestTime": "11月13日 · 投稿了视频",
-      "updatedAt": "2026-11-18T10:05:50.945Z"
+      "status": "pending",
+      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
+      "hasNew": false,
+      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
+      "latestTime": null
     },
     {
       "id": "jj_instagram",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.11.18TOPICS 『JAEJOONG TUESDAY PARTY with JAEFANS 2026』映",
       "latestTime": null,
       "updatedAt": "2026-11-18T10:06:03.360Z"
