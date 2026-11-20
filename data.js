@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-20T04:06:07.856Z",
+  "checkedAt": "2026-11-20T10:06:05.839Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,10 +16,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": false,
-      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261114 JX演唱会（大阪场） DAY 1 JX 2026 TOUR ",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-11-19T10:05:30.465Z"
+      "hasNew": true,
+      "latest": "金在中 💚 261120 #金在中# ins story @金在中_Official @JJ860126JJ",
+      "latestTime": "4分钟前",
+      "updatedAt": "2026-11-20T10:05:30.871Z"
     },
     {
       "id": "yinfu_weibo",
@@ -56,9 +56,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "17:09 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Japan Be",
-      "latestTime": "17小时前 · 投稿了视频",
+      "latestTime": "23小时前 · 投稿了视频",
       "updatedAt": "2026-11-20T04:05:47.083Z"
     },
     {
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "04:44 【金在中】【梦路饭拍】[4K] 261114 彩排 「In Heaven」直拍 JX CORE 演唱会（大阪",
-      "latestTime": "21小时前 · 投稿了视频",
-      "updatedAt": "2026-11-20T04:05:51.060Z"
+      "latest": "01:17 【金在中】【梦路饭拍】[4K] 261115 彩排「Share the World」直拍 JX CORE 演",
+      "latestTime": "1小时前 · 投稿了视频",
+      "updatedAt": "2026-11-20T10:05:49.743Z"
     },
     {
       "id": "jj_instagram",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.11.18TOPICS 『JAEJOONG TUESDAY PARTY with JAEFANS 2026』映",
+      "hasNew": true,
+      "latest": "2026.11.20LIVE JX 2026 TOUR CONCERT 「CORE」 IN YOKOHAMA VIPアッ",
       "latestTime": null,
-      "updatedAt": "2026-11-18T10:06:03.360Z"
+      "updatedAt": "2026-11-20T10:06:00.941Z"
     }
   ]
 };
