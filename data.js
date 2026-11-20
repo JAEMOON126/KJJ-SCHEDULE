@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-19T10:06:05.953Z",
+  "checkedAt": "2026-11-20T04:06:07.856Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,7 +16,7 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261114 JX演唱会（大阪场） DAY 1 JX 2026 TOUR ",
       "latestTime": "3小时前",
       "updatedAt": "2026-11-19T10:05:30.465Z"
@@ -36,7 +36,7 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "来自iNKODE家族的 2027韩国高考应援寄语🍀 中文字幕🔗 来自iNKODE家族的2027韩国高考应援寄语🍀 ",
       "latestTime": "11-18 14:00",
       "updatedAt": "2026-11-19T10:05:41.383Z"
@@ -56,10 +56,10 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": false,
-      "latest": "合作视频 04:14 来自iNKODE家族的2027韩国高考应援寄语🍀 Copyrights 2026 ⓒ iNKOD",
-      "latestTime": "昨天 14:00 · 与他人联合创作",
-      "updatedAt": "2026-11-18T10:05:46.933Z"
+      "hasNew": true,
+      "latest": "17:09 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Japan Be",
+      "latestTime": "17小时前 · 投稿了视频",
+      "updatedAt": "2026-11-20T04:05:47.083Z"
     },
     {
       "id": "dreamyroad_bili",
@@ -68,8 +68,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "04:44 【金在中】【梦路饭拍】[4K] 261114 彩排 「In Heaven」直拍 JX CORE 演唱会（大阪",
-      "latestTime": "3小时前 · 投稿了视频",
-      "updatedAt": "2026-11-19T10:05:49.685Z"
+      "latestTime": "21小时前 · 投稿了视频",
+      "updatedAt": "2026-11-20T04:05:51.060Z"
     },
     {
       "id": "jj_instagram",
