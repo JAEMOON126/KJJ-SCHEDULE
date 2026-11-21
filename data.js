@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-21T04:06:08.308Z",
+  "checkedAt": "2026-11-21T10:06:09.052Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,9 +16,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261115 JX演唱会（大阪场） DAY 2 JX 2026 TOUR ",
-      "latestTime": "3小时前",
+      "latestTime": "9小时前",
       "updatedAt": "2026-11-21T04:05:30.659Z"
     },
     {
@@ -36,7 +36,7 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "🎞[#在tube#][#Jaetube#] 2026 KIM JAE JOONG CONCERT [THE WAVE]",
       "latestTime": "11-19 19:00",
       "updatedAt": "2026-11-21T04:05:41.577Z"
@@ -68,8 +68,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "01:33 【金在中】【梦路饭拍】[4K] 261115 彩排「We Are!」直拍 JX CORE 演唱会（大阪场）D",
-      "latestTime": "2小时前 · 投稿了视频",
-      "updatedAt": "2026-11-21T04:05:50.821Z"
+      "latestTime": "8小时前 · 投稿了视频",
+      "updatedAt": "2026-11-21T10:05:50.386Z"
     },
     {
       "id": "jj_instagram",
