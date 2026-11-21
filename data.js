@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-20T10:06:05.839Z",
+  "checkedAt": "2026-11-21T04:06:08.308Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 261120 #金在中# ins story @金在中_Official @JJ860126JJ",
-      "latestTime": "4分钟前",
-      "updatedAt": "2026-11-20T10:05:30.871Z"
+      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261115 JX演唱会（大阪场） DAY 2 JX 2026 TOUR ",
+      "latestTime": "3小时前",
+      "updatedAt": "2026-11-21T04:05:30.659Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "来自iNKODE家族的 2027韩国高考应援寄语🍀 中文字幕🔗 来自iNKODE家族的2027韩国高考应援寄语🍀 ",
-      "latestTime": "11-18 14:00",
-      "updatedAt": "2026-11-19T10:05:41.383Z"
+      "hasNew": true,
+      "latest": "🎞[#在tube#][#Jaetube#] 2026 KIM JAE JOONG CONCERT [THE WAVE]",
+      "latestTime": "11-19 19:00",
+      "updatedAt": "2026-11-21T04:05:41.577Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "17:09 【金在中】2026 KIM JAE JOONG CONCERT [THE WAVE] in Japan Be",
-      "latestTime": "23小时前 · 投稿了视频",
+      "latestTime": "2天前 · 投稿了视频",
       "updatedAt": "2026-11-20T04:05:47.083Z"
     },
     {
@@ -67,9 +67,9 @@ window.YT_DATA = {
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
       "hasNew": true,
-      "latest": "01:17 【金在中】【梦路饭拍】[4K] 261115 彩排「Share the World」直拍 JX CORE 演",
-      "latestTime": "1小时前 · 投稿了视频",
-      "updatedAt": "2026-11-20T10:05:49.743Z"
+      "latest": "01:33 【金在中】【梦路饭拍】[4K] 261115 彩排「We Are!」直拍 JX CORE 演唱会（大阪场）D",
+      "latestTime": "2小时前 · 投稿了视频",
+      "updatedAt": "2026-11-21T04:05:50.821Z"
     },
     {
       "id": "jj_instagram",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.11.20LIVE JX 2026 TOUR CONCERT 「CORE」 IN YOKOHAMA VIPアッ",
       "latestTime": null,
       "updatedAt": "2026-11-20T10:06:00.941Z"
