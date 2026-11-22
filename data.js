@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-22T04:06:44.585Z",
+  "checkedAt": "2026-11-22T10:06:02.646Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 @iNKODEofficial: 📢[#公告#][#Notice#] KIM JAE JOONG 2027 S",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-11-22T04:05:32.186Z"
+      "latest": "金在中 💚 261122 #金在中# X： 哇 这就是我爱听 Cultwo 的原因 @金在中_Official @JJ",
+      "latestTime": "刚刚",
+      "updatedAt": "2026-11-22T10:05:27.318Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG 2027 SEASON'S GREETINGS : U",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-11-22T04:05:43.029Z"
+      "latest": "转发微博 @ENCOOORE_official: 金在中VR香氛体验场｜让相遇多一重感受 金在中 瞬间不只是看见的、听见",
+      "latestTime": "5小时前",
+      "updatedAt": "2026-11-22T10:05:38.208Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,20 +56,20 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "01:13 【金在中】KIM JAE JOONG 2027 SEASON'S GREETINGS : UNFREEZE ",
-      "latestTime": "1小时前 · 投稿了视频",
+      "latestTime": "7小时前 · 投稿了视频",
       "updatedAt": "2026-11-22T04:05:47.586Z"
     },
     {
       "id": "dreamyroad_bili",
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
-      "status": "pending",
-      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
-      "hasNew": false,
-      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://space.bilibili.com/3493284984916609/dynamic\", waiting until \"networkidle\"\n",
-      "latestTime": null
+      "status": "ok",
+      "hasNew": true,
+      "latest": "01:33 【金在中】【梦路饭拍】[4K] 261115 彩排「We Are!」直拍 JX CORE 演唱会（大阪场）D",
+      "latestTime": "昨天 09:30 · 投稿了视频",
+      "updatedAt": "2026-11-22T10:05:46.622Z"
     },
     {
       "id": "jj_instagram",
