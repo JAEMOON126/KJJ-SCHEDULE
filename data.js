@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-23T04:06:01.055Z",
+  "checkedAt": "2026-11-23T10:06:47.533Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中💚 #金在中# 261123 JX_official更新： 𝗝𝗫 𝟮𝟬𝟮𝟲 𝗧𝗢𝗨𝗥 𝗖\ud835",
+      "latest": "金在中💚 #金在中# 261123 fromm store X： KIM JAE JOONG 2027 SEASON’",
       "latestTime": "3小时前",
-      "updatedAt": "2026-11-23T04:05:26.224Z"
+      "updatedAt": "2026-11-23T10:05:31.106Z"
     },
     {
       "id": "yinfu_weibo",
@@ -38,8 +38,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG 2027 SEASON'S GREETINGS : U",
-      "latestTime": "11-22 11:00",
-      "updatedAt": "2026-11-23T04:05:37.113Z"
+      "latestTime": "4小时前",
+      "updatedAt": "2026-11-23T10:05:42.004Z"
     },
     {
       "id": "jj_chaohua",
@@ -69,7 +69,7 @@ window.YT_DATA = {
       "hasNew": true,
       "latest": "01:33 【金在中】【梦路饭拍】[4K] 261115 彩排「We Are!」直拍 JX CORE 演唱会（大阪场）D",
       "latestTime": "2天前 · 投稿了视频",
-      "updatedAt": "2026-11-23T04:05:45.448Z"
+      "updatedAt": "2026-11-23T10:05:50.614Z"
     },
     {
       "id": "jj_instagram",
@@ -95,11 +95,11 @@ window.YT_DATA = {
       "id": "jj_japan",
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
-      "status": "ok",
+      "status": "pending",
+      "note": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://jaefans.com/information/news\", waiting until \"domcontentloaded\"\n",
       "hasNew": false,
-      "latest": "2026.11.20LIVE JX 2026 TOUR CONCERT 「CORE」 IN YOKOHAMA VIPアッ",
-      "latestTime": null,
-      "updatedAt": "2026-11-20T10:06:00.941Z"
+      "latest": "打开页面出错：page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://jaefans.com/information/news\", waiting until \"domcontentloaded\"\n",
+      "latestTime": null
     }
   ]
 };
