@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-22T10:06:02.646Z",
+  "checkedAt": "2026-11-23T04:06:01.055Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 261122 #金在中# X： 哇 这就是我爱听 Cultwo 的原因 @金在中_Official @JJ",
-      "latestTime": "刚刚",
-      "updatedAt": "2026-11-22T10:05:27.318Z"
+      "latest": "金在中💚 #金在中# 261123 JX_official更新： 𝗝𝗫 𝟮𝟬𝟮𝟲 𝗧𝗢𝗨𝗥 𝗖\ud835",
+      "latestTime": "3小时前",
+      "updatedAt": "2026-11-23T04:05:26.224Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "转发微博 @ENCOOORE_official: 金在中VR香氛体验场｜让相遇多一重感受 金在中 瞬间不只是看见的、听见",
-      "latestTime": "5小时前",
-      "updatedAt": "2026-11-22T10:05:38.208Z"
+      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG 2027 SEASON'S GREETINGS : U",
+      "latestTime": "11-22 11:00",
+      "updatedAt": "2026-11-23T04:05:37.113Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "01:13 【金在中】KIM JAE JOONG 2027 SEASON'S GREETINGS : UNFREEZE ",
-      "latestTime": "7小时前 · 投稿了视频",
+      "latestTime": "昨天 11:00 · 投稿了视频",
       "updatedAt": "2026-11-22T04:05:47.586Z"
     },
     {
@@ -68,8 +68,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "01:33 【金在中】【梦路饭拍】[4K] 261115 彩排「We Are!」直拍 JX CORE 演唱会（大阪场）D",
-      "latestTime": "昨天 09:30 · 投稿了视频",
-      "updatedAt": "2026-11-22T10:05:46.622Z"
+      "latestTime": "2天前 · 投稿了视频",
+      "updatedAt": "2026-11-23T04:05:45.448Z"
     },
     {
       "id": "jj_instagram",
