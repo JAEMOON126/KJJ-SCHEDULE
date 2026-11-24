@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-24T04:06:08.966Z",
+  "checkedAt": "2026-11-24T10:06:02.843Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中💚 261123 #金在中# ins 留言： sunday040728：欧巴真的不老的 金在中回复：因为被爱着才",
-      "latestTime": "12小时前",
-      "updatedAt": "2026-11-24T04:05:30.961Z"
+      "latest": "金在中 💚 #金在中# 261124 JAEJOONG JAPAN OFFICIAL SITE (Jaefans)官网",
+      "latestTime": "20分钟前",
+      "updatedAt": "2026-11-24T10:05:27.164Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "转发微博 @ENCOOORE_official: 金在中VR香氛体验场｜让相遇多一重感受 金在中 瞬间不只是看见的、听见",
-      "latestTime": "11-22 12:45",
-      "updatedAt": "2026-11-24T04:05:41.866Z"
+      "latest": "LIVE Blu-ray 『2026 JAEJOONG ZEPP & HALL LIVE TOUR – 100% –』 ",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-11-24T10:05:38.030Z"
     },
     {
       "id": "jj_chaohua",
@@ -56,9 +56,9 @@ window.YT_DATA = {
       "name": "金在中 本人 · B站",
       "url": "https://space.bilibili.com/693071922",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "00:31 【金在中】恋爱的条件 - 在中 - 听听看吧 #金在中 #KIMJAEJOONG Copyrights 20",
-      "latestTime": "17小时前 · 投稿了视频",
+      "latestTime": "23小时前 · 投稿了视频",
       "updatedAt": "2026-11-24T04:05:46.699Z"
     },
     {
@@ -66,9 +66,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "01:10 【金在中】【官方中字】261123 Studio MNF油管更新金在中相关：Fortune Trip EP.",
-      "latestTime": "13小时前 · 投稿了视频",
+      "latestTime": "19小时前 · 投稿了视频",
       "updatedAt": "2026-11-24T04:05:50.662Z"
     },
     {
@@ -76,7 +76,7 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 DgFQejkSouK",
       "latestTime": null,
       "updatedAt": "2026-11-24T04:05:57.366Z"
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.11.20LIVE JX 2026 TOUR CONCERT 「CORE」 IN YOKOHAMA VIPアッ",
+      "hasNew": true,
+      "latest": "2026.11.24RELEASE JAEJOONG 『2026 JAEJOONG ZEPP & HALL LIVE T",
       "latestTime": null,
-      "updatedAt": "2026-11-20T10:06:00.941Z"
+      "updatedAt": "2026-11-24T10:05:58.291Z"
     }
   ]
 };
