@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-24T10:06:02.843Z",
+  "checkedAt": "2026-11-25T04:06:06.936Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 261124 JAEJOONG JAPAN OFFICIAL SITE (Jaefans)官网",
-      "latestTime": "20分钟前",
-      "updatedAt": "2026-11-24T10:05:27.164Z"
+      "latest": "金在中 💚 261125 #金在中# Weverse ： JX 2027 TOUR ENCORE CONCERT <C",
+      "latestTime": "35分钟前",
+      "updatedAt": "2026-11-25T04:05:31.447Z"
     },
     {
       "id": "yinfu_weibo",
@@ -37,9 +37,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
       "hasNew": true,
-      "latest": "LIVE Blu-ray 『2026 JAEJOONG ZEPP & HALL LIVE TOUR – 100% –』 ",
+      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG 2027 SEASON'S GREETINGS : U",
       "latestTime": "1小时前",
-      "updatedAt": "2026-11-24T10:05:38.030Z"
+      "updatedAt": "2026-11-25T04:05:42.331Z"
     },
     {
       "id": "jj_chaohua",
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:31 【金在中】恋爱的条件 - 在中 - 听听看吧 #金在中 #KIMJAEJOONG Copyrights 20",
-      "latestTime": "23小时前 · 投稿了视频",
+      "latestTime": "2天前 · 投稿了视频",
       "updatedAt": "2026-11-24T04:05:46.699Z"
     },
     {
@@ -68,7 +68,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "01:10 【金在中】【官方中字】261123 Studio MNF油管更新金在中相关：Fortune Trip EP.",
-      "latestTime": "19小时前 · 投稿了视频",
+      "latestTime": "2天前 · 投稿了视频",
       "updatedAt": "2026-11-24T04:05:50.662Z"
     },
     {
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.11.24RELEASE JAEJOONG 『2026 JAEJOONG ZEPP & HALL LIVE T",
       "latestTime": null,
       "updatedAt": "2026-11-24T10:05:58.291Z"
