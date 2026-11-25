@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-25T04:06:06.936Z",
+  "checkedAt": "2026-11-25T10:06:12.000Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 261125 #金在中# Weverse ： JX 2027 TOUR ENCORE CONCERT <C",
-      "latestTime": "35分钟前",
-      "updatedAt": "2026-11-25T04:05:31.447Z"
+      "latest": "金在中 💚 261125 #金在中# ins story②： 这好可爱啊？ @金在中_Official @JJ8601",
+      "latestTime": "1小时前",
+      "updatedAt": "2026-11-25T10:05:31.358Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,9 +36,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG 2027 SEASON'S GREETINGS : U",
-      "latestTime": "1小时前",
+      "latestTime": "7小时前",
       "updatedAt": "2026-11-25T04:05:42.331Z"
     },
     {
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.11.24RELEASE JAEJOONG 『2026 JAEJOONG ZEPP & HALL LIVE T",
+      "hasNew": true,
+      "latest": "2026.11.25TOPICS 『JAEJOONG TUESDAY PARTY with JAEFANS 2026』映",
       "latestTime": null,
-      "updatedAt": "2026-11-24T10:05:58.291Z"
+      "updatedAt": "2026-11-25T10:06:05.178Z"
     }
   ]
 };
