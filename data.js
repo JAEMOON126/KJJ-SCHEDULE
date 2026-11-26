@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-26T04:06:06.432Z",
+  "checkedAt": "2026-11-26T10:06:06.704Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,9 +16,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中 💚 261126 #金在中# ins & ins story①②更新： 今年就快要结束了呢💚 （BGM: S",
-      "latestTime": "39分钟前",
+      "latestTime": "7小时前",
       "updatedAt": "2026-11-26T04:05:28.280Z"
     },
     {
@@ -38,7 +38,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG 2027 SEASON'S GREETINGS : U",
-      "latestTime": "1小时前",
+      "latestTime": "7小时前",
       "updatedAt": "2026-11-25T04:05:42.331Z"
     },
     {
@@ -76,7 +76,7 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "最新帖 DgMG7N3IPf4",
       "latestTime": null,
       "updatedAt": "2026-11-26T04:05:57.123Z"
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.11.25TOPICS 『JAEJOONG TUESDAY PARTY with JAEFANS 2026』映",
+      "hasNew": true,
+      "latest": "2026.11.26TOPICS JX 2026 TOUR CONCERT 「CORE」 IN OSAKA ★オフショッ",
       "latestTime": null,
-      "updatedAt": "2026-11-25T10:06:05.178Z"
+      "updatedAt": "2026-11-26T10:06:01.365Z"
     }
   ]
 };
