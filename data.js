@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-25T10:06:12.000Z",
+  "checkedAt": "2026-11-26T04:06:06.432Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 261125 #金在中# ins story②： 这好可爱啊？ @金在中_Official @JJ8601",
-      "latestTime": "1小时前",
-      "updatedAt": "2026-11-25T10:05:31.358Z"
+      "latest": "金在中 💚 261126 #金在中# ins & ins story①②更新： 今年就快要结束了呢💚 （BGM: S",
+      "latestTime": "39分钟前",
+      "updatedAt": "2026-11-26T04:05:28.280Z"
     },
     {
       "id": "yinfu_weibo",
@@ -38,7 +38,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "📢[#公告#][#Notice#] KIM JAE JOONG 2027 SEASON'S GREETINGS : U",
-      "latestTime": "7小时前",
+      "latestTime": "1小时前",
       "updatedAt": "2026-11-25T04:05:42.331Z"
     },
     {
@@ -58,7 +58,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "00:31 【金在中】恋爱的条件 - 在中 - 听听看吧 #金在中 #KIMJAEJOONG Copyrights 20",
-      "latestTime": "2天前 · 投稿了视频",
+      "latestTime": "3天前 · 投稿了视频",
       "updatedAt": "2026-11-24T04:05:46.699Z"
     },
     {
@@ -68,7 +68,7 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": false,
       "latest": "01:10 【金在中】【官方中字】261123 Studio MNF油管更新金在中相关：Fortune Trip EP.",
-      "latestTime": "2天前 · 投稿了视频",
+      "latestTime": "3天前 · 投稿了视频",
       "updatedAt": "2026-11-24T04:05:50.662Z"
     },
     {
@@ -76,10 +76,10 @@ window.YT_DATA = {
       "name": "金在中 · Instagram",
       "url": "https://www.instagram.com/jj_1986_jj",
       "status": "ok",
-      "hasNew": false,
-      "latest": "最新帖 DgFQejkSouK",
+      "hasNew": true,
+      "latest": "最新帖 DgMG7N3IPf4",
       "latestTime": null,
-      "updatedAt": "2026-11-24T04:05:57.366Z"
+      "updatedAt": "2026-11-26T04:05:57.123Z"
     },
     {
       "id": "jj_weverse",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.11.25TOPICS 『JAEJOONG TUESDAY PARTY with JAEFANS 2026』映",
       "latestTime": null,
       "updatedAt": "2026-11-25T10:06:05.178Z"
