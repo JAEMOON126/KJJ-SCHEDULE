@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-27T04:06:07.224Z",
+  "checkedAt": "2026-11-27T10:06:04.323Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中💚 #金在中# 261127『2026 JAEJOONG ZEPP & HALL LIVE TOUR – 100",
-      "latestTime": "24分钟前",
-      "updatedAt": "2026-11-27T04:05:31.282Z"
+      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261127 金浦出发 🛫 @金在中_Official @JJ86012",
+      "latestTime": "3小时前",
+      "updatedAt": "2026-11-27T10:05:27.123Z"
     },
     {
       "id": "yinfu_weibo",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.11.27LIVE JX 2026 TOUR CONCERT 「CORE」 IN YOKOHAMA VIPアッ",
       "latestTime": null,
       "updatedAt": "2026-11-27T04:06:02.712Z"
