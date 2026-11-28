@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-28T04:06:10.556Z",
+  "checkedAt": "2026-11-28T10:06:08.952Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -16,9 +16,9 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · 微博",
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "金在中💚 #金在中# 【梦路中字】[补档] 261128 JAEFANS Event Bright Starts in",
-      "latestTime": "7分钟前",
+      "latestTime": "6小时前",
       "updatedAt": "2026-11-28T04:05:30.939Z"
     },
     {
@@ -36,9 +36,9 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "LIVE Blu-ray「2026 JAEJOONG ZEPP & HALL LIVE TOUR – 100% –」 2",
-      "latestTime": "59分钟前",
+      "latestTime": "7小时前",
       "updatedAt": "2026-11-28T04:05:41.368Z"
     },
     {
@@ -68,8 +68,8 @@ window.YT_DATA = {
       "status": "ok",
       "hasNew": true,
       "latest": "01:05:55 【金在中】【梦路中字】[补档] JAEFANS Event Bright Starts in Japa",
-      "latestTime": "37分钟前 · 投稿了视频",
-      "updatedAt": "2026-11-28T04:05:50.690Z"
+      "latestTime": "6小时前 · 投稿了视频",
+      "updatedAt": "2026-11-28T10:05:51.724Z"
     },
     {
       "id": "jj_instagram",
@@ -96,7 +96,7 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": true,
+      "hasNew": false,
       "latest": "2026.11.28TOPICS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR】GALLER",
       "latestTime": null,
       "updatedAt": "2026-11-28T04:06:06.064Z"
