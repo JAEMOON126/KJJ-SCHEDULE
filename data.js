@@ -1,5 +1,5 @@
 window.YT_DATA = {
-  "checkedAt": "2026-11-27T10:06:04.323Z",
+  "checkedAt": "2026-11-28T04:06:10.556Z",
   "monitored": [
     {
       "id": "jj_weibo",
@@ -17,9 +17,9 @@ window.YT_DATA = {
       "url": "https://weibo.com/u/7830607498",
       "status": "ok",
       "hasNew": true,
-      "latest": "金在中 💚 #金在中# 📸 #梦路饭拍# 261127 金浦出发 🛫 @金在中_Official @JJ86012",
-      "latestTime": "3小时前",
-      "updatedAt": "2026-11-27T10:05:27.123Z"
+      "latest": "金在中💚 #金在中# 【梦路中字】[补档] 261128 JAEFANS Event Bright Starts in",
+      "latestTime": "7分钟前",
+      "updatedAt": "2026-11-28T04:05:30.939Z"
     },
     {
       "id": "yinfu_weibo",
@@ -36,10 +36,10 @@ window.YT_DATA = {
       "name": "iNKODE · 官方微博",
       "url": "https://weibo.com/u/7836781664",
       "status": "ok",
-      "hasNew": false,
-      "latest": "📢[#公告#][#Notice#] KIM JAE JOONG 2027 SEASON'S GREETINGS : U",
-      "latestTime": "11-26 11:00",
-      "updatedAt": "2026-11-25T04:05:42.331Z"
+      "hasNew": true,
+      "latest": "LIVE Blu-ray「2026 JAEJOONG ZEPP & HALL LIVE TOUR – 100% –」 2",
+      "latestTime": "59分钟前",
+      "updatedAt": "2026-11-28T04:05:41.368Z"
     },
     {
       "id": "jj_chaohua",
@@ -66,10 +66,10 @@ window.YT_DATA = {
       "name": "梦露 DreamyRoad · B站",
       "url": "https://space.bilibili.com/3493284984916609",
       "status": "ok",
-      "hasNew": false,
-      "latest": "01:10 【金在中】【官方中字】261123 Studio MNF油管更新金在中相关：Fortune Trip EP.",
-      "latestTime": "11月23日 · 投稿了视频",
-      "updatedAt": "2026-11-24T04:05:50.662Z"
+      "hasNew": true,
+      "latest": "01:05:55 【金在中】【梦路中字】[补档] JAEFANS Event Bright Starts in Japa",
+      "latestTime": "37分钟前 · 投稿了视频",
+      "updatedAt": "2026-11-28T04:05:50.690Z"
     },
     {
       "id": "jj_instagram",
@@ -96,10 +96,10 @@ window.YT_DATA = {
       "name": "金在中 · 日本官咖",
       "url": "https://jaefans.com/",
       "status": "ok",
-      "hasNew": false,
-      "latest": "2026.11.27LIVE JX 2026 TOUR CONCERT 「CORE」 IN YOKOHAMA VIPアッ",
+      "hasNew": true,
+      "latest": "2026.11.28TOPICS 【2026 JAEJOONG ZEPP & HALL LIVE TOUR】GALLER",
       "latestTime": null,
-      "updatedAt": "2026-11-27T04:06:02.712Z"
+      "updatedAt": "2026-11-28T04:06:06.064Z"
     }
   ]
 };
